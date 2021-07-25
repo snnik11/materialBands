@@ -19,7 +19,7 @@ const WhoWeAre = props => {
           <SectionHeader
             title="Who are we?"
             subtitle="Our executive committee is a team of dedicated students from a variety of different faculties and backgrounds.
-            Over 300+ student members and 40 + industry partners across Australia."
+            Over 200+ student members and 40 + industry partners across Australia."
             //subtitle="Our sign up is dead simple. We only require your basic company information and what type of data storage you want. Our sign up is dead simple. We only require your basic company information and what type of data storage you want."
             disableGutter
             align="left"

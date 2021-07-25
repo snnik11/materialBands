@@ -75,17 +75,18 @@ const TopBar = ({
         <div className={classes.logoContainer}>
           <a href="/" title="thefront">
             <Image
-              className={classes.logoImage}
-              src={
-                'https://i.postimg.cc/yWqsYqKT/logo.png'
-                // themeMode === 'light'
-                //  ? 'https://i.postimg.cc/yWqsYqKT/logo.png'
-                // : 'https://i.postimg.cc/yWqsYqKT/logo.png'
-                //   ? 'https://assets.maccarianagency.com/the-front/logos/logo.svg'
-                //: 'https://assets.maccarianagency.com/the-front/logos/logo-negative.svg'
-              }
+              //  className={classes.logoImage}
+              src=
+              //{logo}
+              'https://i.postimg.cc/yWqsYqKT/logo.png'
+              // themeMode === 'light'
+              //  ? 'https://i.postimg.cc/yWqsYqKT/logo.png'
+              // : 'https://i.postimg.cc/yWqsYqKT/logo.png'
+              //   ? 'https://assets.maccarianagency.com/the-front/logos/logo.svg'
+              //: 'https://assets.maccarianagency.com/the-front/logos/logo-negative.svg'
+
               alt="thefront"
-              lazy={false}
+              //lazy={false}
             />
           </a>
         </div>

@@ -77,8 +77,9 @@ const FeaturedProperties = props => {
   return (
     <div className={className} {...rest}>
       <SectionHeader
-        title="Featured properties"
-        subtitle="After 3 days all of your offers will arrive and you will have another 7 days to select your new company."
+        title="Industry Partners for Semester 1, 2021"
+        //"Featured properties"
+        // subtitle="After 3 days all of your offers will arrive and you will have another 7 days to select your new company."
         data-aos="fade-up"
       />
       <Grid container spacing={isMd ? 4 : 2}>
@@ -91,20 +92,20 @@ const FeaturedProperties = props => {
                 {...item.image}
               >
                 <div className={classes.pricingContainer}>
-                  <div className={classes.cardCta}>
+                  {/* <div className={classes.cardCta}>
                     <Typography color="primary" variant="subtitle1">
                       {item.price}
                     </Typography>
-                  </div>
-                  <div className={classes.cardCta}>
+                  </div> */}
+                  {/* <div className={classes.cardCta}>
                     <Typography color="primary" variant="subtitle1">
                       <NoSsr><i className="far fa-heart" /></NoSsr>
                     </Typography>
-                  </div>
+                  </div> */}
                 </div>
               </CardMedia>
               <CardContent>
-                <List disablePadding>
+                {/* <List disablePadding>
                   <ListItem disableGutters>
                     <ListItemIcon className={classes.listItemIcon}>
                       <NoSsr>
@@ -115,46 +116,54 @@ const FeaturedProperties = props => {
                     </ListItemIcon>
                     <ListItemText primary={item.location} />
                   </ListItem>
-                </List>
-                <Typography
+                </List> */}
+                {/* <Typography
                   color="textPrimary"
                   variant="subtitle1"
                   className={classes.fontWeight500}
                 >
                   {item.address}
-                </Typography>
+                </Typography> */}
                 <Divider className={classes.divider} />
                 <Grid container>
                   <Grid item xs={6}>
                     <List disablePadding>
                       <ListItem disableGutters className={classes.listItem}>
-                        <ListItemIcon className={classes.listItemIcon}>
-                          <NoSsr><i className="fas fa-home" /></NoSsr>
-                        </ListItemIcon>
-                        <ListItemText primary={item.size} />
+                        {/* <ListItemIcon className={classes.listItemIcon}>
+                          <NoSsr>
+                            <i className="fas fa-home" />
+                          </NoSsr>
+                        </ListItemIcon> */}
+                        {/* <ListItemText primary={item.size} /> */}
                       </ListItem>
                     </List>
                   </Grid>
                   <Grid item xs={6}>
                     <List disablePadding className={classes.propertyList}>
                       <ListItem disableGutters className={classes.listItem}>
-                        <ListItemIcon className={classes.listItemIcon}>
-                          <NoSsr><i className="fas fa-parking" /></NoSsr>
-                        </ListItemIcon>
-                        <ListItemText primary={item.garages} />
+                        {/* <ListItemIcon className={classes.listItemIcon}>
+                          <NoSsr>
+                            <i className="fas fa-parking" />
+                          </NoSsr>
+                        </ListItemIcon> */}
+                        {/* <ListItemText primary={item.garages} /> */}
                       </ListItem>
-                      <ListItem disableGutters className={classes.listItem}>
-                        <ListItemIcon className={classes.listItemIcon}>
-                          <NoSsr><i className="fas fa-bath" /></NoSsr>
-                        </ListItemIcon>
-                        <ListItemText primary={item.baths} />
-                      </ListItem>
-                      <ListItem disableGutters className={classes.listItem}>
-                        <ListItemIcon className={classes.listItemIcon}>
-                          <NoSsr><i className="fas fa-door-open" /></NoSsr>
-                        </ListItemIcon>
-                        <ListItemText primary={item.rooms} />
-                      </ListItem>
+                      {/* <ListItem disableGutters className={classes.listItem}> */}
+                      {/* <ListItemIcon className={classes.listItemIcon}>
+                          <NoSsr>
+                            <i className="fas fa-bath" />
+                          </NoSsr>
+                        </ListItemIcon> */}
+                      {/* <ListItemText primary={item.baths} /> */}
+                      {/* </ListItem> */}
+                      {/* <ListItem disableGutters className={classes.listItem}> */}
+                      {/* <ListItemIcon className={classes.listItemIcon}>
+                          <NoSsr>
+                            <i className="fas fa-door-open" />
+                          </NoSsr>
+                        </ListItemIcon> */}
+                      {/* <ListItemText primary={item.rooms} /> */}
+                      {/* </ListItem> */}
                     </List>
                   </Grid>
                 </Grid>
@@ -163,9 +172,9 @@ const FeaturedProperties = props => {
           </Grid>
         ))}
         <Grid item xs={12} container justify="center" data-aos="fade-up">
-          <Button variant="outlined" color="primary">
+          {/* <Button variant="outlined" color="primary">
             See all list
-          </Button>
+          </Button> */}
         </Grid>
       </Grid>
     </div>

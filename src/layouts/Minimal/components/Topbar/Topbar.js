@@ -38,7 +38,11 @@ const Topbar = ({ themeMode, className, ...rest }) => {
         <a href="/" title="thefront">
           <Image
             className={classes.logoImage}
-            src={themeMode === 'light' ? 'https://assets.maccarianagency.com/the-front/logos/logo.svg' : 'https://assets.maccarianagency.com/the-front/logos/logo-negative.svg'}
+            src={
+              themeMode === 'light'
+                ? 'https://assets.maccarianagency.com/the-front/logos/logo.svg'
+                : 'https://assets.maccarianagency.com/the-front/logos/logo-negative.svg'
+            }
             alt="thefront"
             lazy={false}
           />

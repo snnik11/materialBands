@@ -31,12 +31,13 @@ const Main = ({ children, themeToggler, themeMode }) => {
             {
               title: 'Homepage',
               //   title: 'Coworking',
-              href: '/coworking',
+              href: '/web-basic',
+              // href: '/coworking',
             },
-            // {
-            //   title: 'Rental',
-            //   href: '/rental',
-            // },
+            {
+              title: 'Rental',
+              href: '/rental',
+            },
             // {
             //   title: 'Job Listing',
             //   href: '/job-listing',
@@ -337,6 +338,7 @@ const Main = ({ children, themeToggler, themeMode }) => {
         pages={pages}
         themeMode={themeMode}
         themeToggler={themeToggler}
+        style={{ paddingBottom: '50px', paddingTop: '20px' }}
       />
       <Sidebar
         onClose={handleSidebarClose}

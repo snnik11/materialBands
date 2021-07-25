@@ -38,28 +38,29 @@ const Rental = () => {
 
   return (
     <div>
-      <Hero />
-      <SectionAlternate>
+      {/* <Hero /> */}
+      {/* <SectionAlternate>
         <Search />
-      </SectionAlternate>
-      <Section>
+      </SectionAlternate> */}
+      {/* <Section>
         <Teaser />
-      </Section>
-      <Section className={classes.sectionNoPaddingTop}>
+      </Section> */}
+      {/* <Section className={classes.sectionNoPaddingTop}>
         <Articles data={aricles} />
-      </Section>
+      </Section> */}
       <SectionAlternate>
         <FeaturedProperties data={featuredProperties} />
       </SectionAlternate>
+      <Section>
+        <Reviews data={reviews} />
+      </Section>
       <Section>
         <Places data={places} />
       </Section>
       <SectionAlternate innerNarrowed>
         <HouseTypes />
       </SectionAlternate>
-      <Section>
-        <Reviews data={reviews} />
-      </Section>
+
       <SellProperty />
       <Section>
         <Partners data={partners} />

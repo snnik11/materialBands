@@ -1,83 +1,95 @@
 export const folio = [
   {
-    cover: 'https://assets.maccarianagency.com/the-front/photos/blog/cover1.jpg',
+    cover: 'https://i.postimg.cc/MKJnp1XY/cd.jpg',
+    //'https://assets.maccarianagency.com/the-front/photos/blog/cover1.jpg',
     title: 'Design component systems, not pages.',
     subtitle:
       'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.',
     h: 420,
   },
   {
-    cover: 'https://assets.maccarianagency.com/the-front/photos/blog/cover2.jpg',
+    cover:
+      'https://assets.maccarianagency.com/the-front/photos/blog/cover2.jpg',
     title: 'Run your business on profit, not credit.',
     subtitle:
       'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.',
     h: 300,
   },
   {
-    cover: 'https://assets.maccarianagency.com/the-front/photos/blog/cover3.jpg',
+    cover:
+      'https://assets.maccarianagency.com/the-front/photos/blog/cover3.jpg',
     title: 'Write documentation for everything.',
     subtitle:
       'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.',
     h: 550,
   },
   {
-    cover: 'https://assets.maccarianagency.com/the-front/photos/blog/cover4.jpg',
+    cover:
+      'https://assets.maccarianagency.com/the-front/photos/blog/cover4.jpg',
     title: 'Run your business on profit, not credit.',
     subtitle:
       'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.',
     h: 494,
   },
   {
-    cover: 'https://assets.maccarianagency.com/the-front/photos/blog/cover4.jpg',
+    cover:
+      'https://assets.maccarianagency.com/the-front/photos/blog/cover4.jpg',
     title: 'Build a culture where everyone designs.',
     subtitle:
       'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.',
     h: 350,
   },
   {
-    cover: 'https://assets.maccarianagency.com/the-front/photos/blog/cover3.jpg',
+    cover:
+      'https://assets.maccarianagency.com/the-front/photos/blog/cover3.jpg',
     title: 'Detach your worth from your work.',
     subtitle:
       'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.',
     h: 550,
   },
   {
-    cover: 'https://assets.maccarianagency.com/the-front/photos/blog/cover2.jpg',
+    cover:
+      'https://assets.maccarianagency.com/the-front/photos/blog/cover2.jpg',
     title: 'Designers can learn from interior design.',
     subtitle:
       'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.',
     h: 350,
   },
   {
-    cover: 'https://assets.maccarianagency.com/the-front/photos/blog/cover1.jpg',
+    cover:
+      'https://assets.maccarianagency.com/the-front/photos/blog/cover1.jpg',
     title: 'Build a culture where everyone designs.',
     subtitle:
       'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.',
     h: 518,
   },
   {
-    cover: 'https://assets.maccarianagency.com/the-front/photos/blog/cover2.jpg',
+    cover:
+      'https://assets.maccarianagency.com/the-front/photos/blog/cover2.jpg',
     title: 'Detach your worth from your work.',
     subtitle:
       'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.',
     h: 550,
   },
   {
-    cover: 'https://assets.maccarianagency.com/the-front/photos/blog/cover4.jpg',
+    cover:
+      'https://assets.maccarianagency.com/the-front/photos/blog/cover4.jpg',
     title: 'Write documentation for everything.',
     subtitle:
       'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.',
     h: 450,
   },
   {
-    cover: 'https://assets.maccarianagency.com/the-front/photos/blog/cover1.jpg',
+    cover:
+      'https://assets.maccarianagency.com/the-front/photos/blog/cover1.jpg',
     title: 'Design component systems, not pages.',
     subtitle:
       'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.',
     h: 450,
   },
   {
-    cover: 'https://assets.maccarianagency.com/the-front/photos/blog/cover3.jpg',
+    cover:
+      'https://assets.maccarianagency.com/the-front/photos/blog/cover3.jpg',
     title: 'Run your business on profit, not credit.',
     subtitle:
       'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.',

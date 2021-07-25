@@ -75,7 +75,7 @@ const Hero = props => {
         >
           <Image
             src={bandsgif}
-            style={{ width: '600px', height: '390px', borderRadius: '20px' }}
+            style={{ height: '380px', width: '550px', borderRadius: '18px' }}
             //"https://assets.maccarianagency.com/the-front/illustrations/mind-map.svg"
             alt="TheFront Company"
             className={classes.image}

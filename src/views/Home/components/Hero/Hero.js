@@ -53,7 +53,9 @@ const Hero = props => {
           title={
             <span>
               Welcome to{' '}
-              <Typography component="span" variant="inherit" color="primary">theFront.</Typography>
+              <Typography component="span" variant="inherit" color="primary">
+                theFront.
+              </Typography>
               <br />
               <span>Develop anything your business needs.</span>
             </span>

@@ -29,7 +29,7 @@ const Search = props => {
         data-aos="fade-up"
       />
       <Grid container spacing={isMd ? 4 : 2}>
-        <Grid item xs={12} md={6} data-aos="fade-up">
+        {/* <Grid item xs={12} md={6} data-aos="fade-up">
           <CardBase withShadow liftUp>
             <Grid container spacing={2}>
               <Grid item xs={12} sm={9}>
@@ -65,8 +65,8 @@ const Search = props => {
               </Grid>
             </Grid>
           </CardBase>
-        </Grid>
-        <Grid item xs={12} md={6} data-aos="fade-up">
+        </Grid> */}
+        {/* <Grid item xs={12} md={6} data-aos="fade-up">
           <CardBase withShadow liftUp>
             <Grid container spacing={2}>
               <Grid item xs={12} sm={9}>
@@ -102,7 +102,7 @@ const Search = props => {
               </Grid>
             </Grid>
           </CardBase>
-        </Grid>
+        </Grid> */}
       </Grid>
     </div>
   );

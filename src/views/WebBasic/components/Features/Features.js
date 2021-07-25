@@ -50,7 +50,7 @@ const Features = props => {
                     </Typography>
                   </span>
                 }
-                subtitle="Inter-University Hackathon to being part of UN Hackmakers, we have reached many milestones. Many more to come."
+                subtitle="Inter-University Hackathons to being the community partner of United Nations Environment Program - Hackmaker, we have reached many milestones. Many more to come."
                 //"You have a business to run. Stop worring about cross-browser bugs, designing new pages, keeping your components up to date. Let us do that for you."
                 align="left"
                 fadeUp
@@ -81,11 +81,23 @@ const Features = props => {
                     suffix="+"
                   />
                 </div>
-                <div>
+                {/* <div>
                   <CountUpNumber
                     end={5}
                     //{24}
                     label="Hackathons"
+                    //"Support"
+                    textColor="primary"
+                    // suffix="+"
+                    //"/7"
+                  />
+                </div> */}
+                <br />
+                <div>
+                  <CountUpNumber
+                    end={875}
+                    //{24}
+                    label="Facebook Followers"
                     //"Support"
                     textColor="primary"
                     // suffix="+"

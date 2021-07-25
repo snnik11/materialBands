@@ -16,7 +16,7 @@ import {
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import MenuIcon from '@material-ui/icons/Menu';
 import { Image, DarkModeToggler } from 'components/atoms';
-
+import logo from './logo.png';
 const useStyles = makeStyles(theme => ({
   flexGrow: {
     flexGrow: 1,
@@ -273,7 +273,11 @@ const Topbar = ({
         <a href="/" title="thefront">
           <Image
             className={classes.logoImage}
-            src="https://i.postimg.cc/W3RkLNb1/logo.png"
+            style= {{width: "130px", height:"85px"}}
+            src=
+            //{logo}
+            "https://i.postimg.cc/W3RkLNb1/logo.png"
+
             // src={
             //   themeMode === 'light'
             //     ? 'https://assets.maccarianagency.com/the-front/logos/logo.svg'

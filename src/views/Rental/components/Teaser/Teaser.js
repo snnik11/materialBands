@@ -50,11 +50,11 @@ const Teaser = props => {
           md={6}
           data-aos={'fade-up'}
         >
-          <Image
+          {/* <Image
             src="https://assets.maccarianagency.com/the-front/illustrations/relax-in-sofa.svg"
             alt="Features"
             className={classes.image}
-          />
+          /> */}
         </Grid>
       </Grid>
     </div>

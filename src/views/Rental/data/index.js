@@ -19,15 +19,16 @@ export const aricles = [
 export const featuredProperties = [
   {
     image: {
-      src: 'https://assets.maccarianagency.com/the-front/photos/rental/1.jpg',
+      src: 'https://i.postimg.cc/W3RkLNb1/logo.png',
+      //'https://assets.maccarianagency.com/the-front/photos/rental/1.jpg',
     },
-    price: '$320,000.00',
-    location: 'Beverly Hills, CA',
-    address: '272 S Rexford Dr, Beverly Hills, CA 90212, USA',
-    size: '2400 Sq Ft',
-    garages: 2,
-    baths: 2,
-    rooms: 3,
+    //  price: '$320,000.00',
+    //  location: 'Beverly Hills, CA',
+    //  address: '272 S Rexford Dr, Beverly Hills, CA 90212, USA',
+    //   size: '2400 Sq Ft',
+    //    garages: 2,
+    //   baths: 2,
+    //   rooms: 3,
   },
   {
     image: {
@@ -89,13 +90,51 @@ export const featuredProperties = [
     baths: 2,
     rooms: 3,
   },
+  {
+    image: {
+      src: 'https://assets.maccarianagency.com/the-front/photos/rental/6.jpg',
+    },
+    price: '$320,000.00',
+    location: 'Beverly Hills, CA',
+    address: '272 S Rexford Dr, Beverly Hills, CA 90212, USA',
+    size: '2400 Sq Ft',
+    garages: 2,
+    baths: 2,
+    rooms: 3,
+  },
+  {
+    image: {
+      src: 'https://assets.maccarianagency.com/the-front/photos/rental/6.jpg',
+    },
+    price: '$320,000.00',
+    location: 'Beverly Hills, CA',
+    address: '272 S Rexford Dr, Beverly Hills, CA 90212, USA',
+    size: '2400 Sq Ft',
+    garages: 2,
+    baths: 2,
+    rooms: 3,
+  },
+  {
+    image: {
+      src: 'https://assets.maccarianagency.com/the-front/photos/rental/6.jpg',
+    },
+    price: '$320,000.00',
+    location: 'Beverly Hills, CA',
+    address: '272 S Rexford Dr, Beverly Hills, CA 90212, USA',
+    size: '2400 Sq Ft',
+    garages: 2,
+    baths: 2,
+    rooms: 3,
+  },
 ];
 
 export const places = [
   {
     image: {
-      src: 'https://assets.maccarianagency.com/the-front/photos/rental/los-angeles.jpg',
-      srcSet: 'https://assets.maccarianagency.com/the-front/photos/rental/los-angeles@2x.jpg 2x',
+      src:
+        'https://assets.maccarianagency.com/the-front/photos/rental/los-angeles.jpg',
+      srcSet:
+        'https://assets.maccarianagency.com/the-front/photos/rental/los-angeles@2x.jpg 2x',
     },
     location: 'Los Angeles',
     properties: 24,
@@ -103,8 +142,10 @@ export const places = [
   },
   {
     image: {
-      src: 'https://assets.maccarianagency.com/the-front/photos/rental/san-francisco.jpg',
-      srcSet: 'https://assets.maccarianagency.com/the-front/photos/rental/san-francisco@2x.jpg 2x',
+      src:
+        'https://assets.maccarianagency.com/the-front/photos/rental/san-francisco.jpg',
+      srcSet:
+        'https://assets.maccarianagency.com/the-front/photos/rental/san-francisco@2x.jpg 2x',
     },
     location: 'San Francisco',
     properties: 19,
@@ -112,8 +153,10 @@ export const places = [
   },
   {
     image: {
-      src: 'https://assets.maccarianagency.com/the-front/photos/rental/seattle.jpg',
-      srcSet: 'https://assets.maccarianagency.com/the-front/photos/rental/seattle@2x.jpg 2x',
+      src:
+        'https://assets.maccarianagency.com/the-front/photos/rental/seattle.jpg',
+      srcSet:
+        'https://assets.maccarianagency.com/the-front/photos/rental/seattle@2x.jpg 2x',
     },
     location: 'Seattle',
     properties: 32,
@@ -121,8 +164,10 @@ export const places = [
   },
   {
     image: {
-      src: 'https://assets.maccarianagency.com/the-front/photos/rental/san-diego.jpg',
-      srcSet: 'https://assets.maccarianagency.com/the-front/photos/rental/san-diego@2x.jpg 2x',
+      src:
+        'https://assets.maccarianagency.com/the-front/photos/rental/san-diego.jpg',
+      srcSet:
+        'https://assets.maccarianagency.com/the-front/photos/rental/san-diego@2x.jpg 2x',
     },
     location: 'San Diego',
     properties: 15,
@@ -133,8 +178,10 @@ export const places = [
 export const reviews = [
   {
     authorPhoto: {
-      src: 'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams.jpg',
-      srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams@2x.jpg 2x',
+      src:
+        'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams.jpg',
+      srcSet:
+        'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams@2x.jpg 2x',
     },
     authorName: 'Veronica Adams',
     authorOccupation: 'Growth Marketer, Crealytics',
@@ -143,8 +190,10 @@ export const reviews = [
   },
   {
     authorPhoto: {
-      src: 'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
-      srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
+      src:
+        'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
+      srcSet:
+        'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
     },
     authorName: 'Akachi Luccini',
     authorOccupation: 'Lead Generation, Alternative Capital',
@@ -153,8 +202,10 @@ export const reviews = [
   },
   {
     authorPhoto: {
-      src: 'https://assets.maccarianagency.com/the-front/photos/people/jack-smith.jpg',
-      srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/jack-smith@2x.jpg 2x',
+      src:
+        'https://assets.maccarianagency.com/the-front/photos/people/jack-smith.jpg',
+      srcSet:
+        'https://assets.maccarianagency.com/the-front/photos/people/jack-smith@2x.jpg 2x',
     },
     authorName: 'Jack Smith',
     authorOccupation: 'Head of Operations, Parkfield Commerce',

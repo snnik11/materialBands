@@ -4,7 +4,7 @@ import { makeStyles, useTheme } from '@material-ui/core/styles';
 import { useMediaQuery, Grid, Button, Typography } from '@material-ui/core';
 import { Image } from 'components/atoms';
 import { SectionHeader } from 'components/molecules';
-
+import bandsgif from './bandsgif.gif';
 const useStyles = makeStyles(theme => ({
   image: {
     [theme.breakpoints.down('sm')]: {
@@ -29,20 +29,35 @@ const Hero = props => {
           <SectionHeader
             title={
               <span>
-                Welcome to{' '}
-                <Typography component="span" variant="inherit" color="primary">TheFront.</Typography>
+                {/* Welcome to{' '} */}
+                Networking for the
+                <Typography component="span" variant="inherit" color="primary">
+                  {/* TheFront. */} future
+                </Typography>
                 <br />
-                <span>Develop anything your business needs.</span>
+                {/* <span>Develop anything your business needs.</span> */}
               </span>
             }
-            subtitle="Build a beautiful, modern website with flexible, fully customizable, atomic Material UI components."
+            subtitle="For Business Analysis and Data Science enthusiasts providing a platform to bridge the gap between industry and academia. QUT Business Analysis and Data Science club[community] engaging both students and professionals, striving to bridge the gap between these groups for mutual benefits."
+            // subtitle="Build a beautiful, modern website with flexible, fully customizable, atomic Material UI components."
             ctaGroup={[
-              <Button variant="contained" color="primary" size="large">
-                View Pages
+              <Button
+                variant="contained"
+                color="primary"
+                size={isMd ? 'large' : 'medium'}
+                onClick={e => {
+                  e.preventDefault();
+                  window.location.href = 'https://qutbandsmember.getqpay.com/';
+                }}
+              >
+                Join Today
               </Button>,
-              <Button variant="outlined" color="primary" size="large">
-                Documentation
-              </Button>,
+              // <Button variant="contained" color="primary" size="large">
+              //   View Pages
+              // </Button>,
+              // <Button variant="outlined" color="primary" size="large">
+              //   Documentation
+              // </Button>,
             ]}
             align={isMd ? 'left' : 'center'}
             disableGutter
@@ -59,7 +74,9 @@ const Hero = props => {
           data-aos={'fade-up'}
         >
           <Image
-            src="https://assets.maccarianagency.com/the-front/illustrations/mind-map.svg"
+            src={bandsgif}
+            style={{ width: '600px', height: '390px', borderRadius: '20px' }}
+            //"https://assets.maccarianagency.com/the-front/illustrations/mind-map.svg"
             alt="TheFront Company"
             className={classes.image}
           />

@@ -41,13 +41,22 @@ const About = props => {
           <SectionHeader
             title={
               <span>
-                Welcome to{' '}
-                <Typography component="span" variant="inherit" color="primary">TheFront.</Typography>
+                {/* Welcome to{' '} */}
+                Upcoming{' '}
+                <Typography component="span" variant="inherit" color="primary">
+                  Events
+                  {/* TheFront. */}
+                </Typography>
                 <br />
-                <span>Develop anything your business needs.</span>
+                <span>
+                  {' '}
+                  for Semester 2, 2021
+                  {/* Develop anything your business needs. */}
+                </span>
               </span>
             }
-            subtitle="Build a beautiful, modern website with flexible, fully customizable, atomic Material UI components."
+            subtitle="Know what's coming up? Find it out here in this space"
+            // subtitle="Build a beautiful, modern website with flexible, fully customizable, atomic Material UI components."
             align="left"
             disableGutter
           />
@@ -76,7 +85,9 @@ const About = props => {
           data-aos="fade-up"
         >
           <Image
-            src="https://assets.maccarianagency.com/the-front/illustrations/dashboard-drawing.svg"
+            style={{ width: '600px' }}
+            src="https://i.postimg.cc/MKJnp1XY/cd.jpg"
+            //src="https://assets.maccarianagency.com/the-front/illustrations/dashboard-drawing.svg"
             alt="..."
             className={classes.coverImage}
           />

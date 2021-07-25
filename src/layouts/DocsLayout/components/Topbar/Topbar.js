@@ -14,6 +14,7 @@ import {
 } from '@material-ui/core';
 import { Image, DarkModeToggler } from 'components/atoms';
 import MenuIcon from '@material-ui/icons/Menu';
+import style from 'react-syntax-highlighter/dist/esm/styles/hljs/a11y-dark';
 
 const useStyles = makeStyles(theme => ({
   root: {

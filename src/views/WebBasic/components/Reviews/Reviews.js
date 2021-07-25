@@ -55,8 +55,9 @@ const Reviews = props => {
   return (
     <div className={className} {...rest}>
       <SectionHeader
-        title="Our customers are our biggest fans."
-        subtitle="We dont' like to brag, but we don't mind letting our customers do it for us. Here are a few nice things folks have said about our themes over the years."
+        title="Hear from our Alumnis and Industry Partners"
+        //"Our customers are our biggest fans."
+        //    subtitle="We dont' like to brag, but we don't mind letting our customers do it for us. Here are a few nice things folks have said about our themes over the years."
         align="center"
         data-aos="fade-up"
       />

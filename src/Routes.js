@@ -72,7 +72,8 @@ const Routes = () => {
         render={matchProps => (
           <WithLayout
             {...matchProps}
-            component={Coworking}
+            component={WebBasicView}
+            //{Coworking}
             // component={IndexView}
             layout={MainLayout}
           />

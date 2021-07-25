@@ -34,7 +34,13 @@ const Locations = props => {
             label="locations"
             title={
               <span>
-                <Typography color="secondary" variant="inherit" component="span">Over 400 locations </Typography>
+                <Typography
+                  color="secondary"
+                  variant="inherit"
+                  component="span"
+                >
+                  Over 400 locations{' '}
+                </Typography>
                 spread across the entire planet.
               </span>
             }

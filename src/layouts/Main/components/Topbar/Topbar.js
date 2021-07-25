@@ -139,7 +139,8 @@ const Topbar = ({
 
   const landings = pages.landings;
   const supportedPages = pages.pages;
-  const account = pages.account;
+  //const account = pages.account;
+  // const events = pages.events;
 
   const MenuGroup = props => {
     const { item } = props;
@@ -214,24 +215,42 @@ const Topbar = ({
     );
   };
 
-  const AccountPages = () => {
-    const { settings, signup, signin, password, error } = account.children;
-    return (
-      <div className={classes.menu}>
-        <div className={classes.menuItem}>
-          <MenuGroup item={settings} />
-        </div>
-        <div className={classes.menuItem}>
-          <MenuGroup item={signup} />
-          <MenuGroup item={signin} />
-        </div>
-        <div className={classes.menuItem}>
-          <MenuGroup item={password} />
-          <MenuGroup item={error} />
-        </div>
-      </div>
-    );
-  };
+  // const Events = () => {
+  //   const { settings, signup, signin, password, error } = events.children;
+  //   return (
+  //     <div className={classes.menu}>
+  //       <div className={classes.menuItem}>
+  //         <MenuGroup item={settings} />
+  //       </div>
+  //       <div className={classes.menuItem}>
+  //         <MenuGroup item={signup} />
+  //         <MenuGroup item={signin} />
+  //       </div>
+  //       <div className={classes.menuItem}>
+  //         <MenuGroup item={password} />
+  //         <MenuGroup item={error} />
+  //       </div>
+  //     </div>
+  //   );
+  // };
+  // const AccountPages = () => {
+  //   const { settings, signup, signin, password, error } = account.children;
+  //   return (
+  //     <div className={classes.menu}>
+  //       <div className={classes.menuItem}>
+  //         <MenuGroup item={settings} />
+  //       </div>
+  //       <div className={classes.menuItem}>
+  //         <MenuGroup item={signup} />
+  //         <MenuGroup item={signin} />
+  //       </div>
+  //       <div className={classes.menuItem}>
+  //         <MenuGroup item={password} />
+  //         <MenuGroup item={error} />
+  //       </div>
+  //     </div>
+  //   );
+  // };
 
   const renderPages = id => {
     if (id === 'landing-pages') {
@@ -240,9 +259,12 @@ const Topbar = ({
     if (id === 'supported-pages') {
       return <SupportedPages />;
     }
-    if (id === 'account') {
-      return <AccountPages />;
-    }
+    // if (id === 'events') {
+    //   return <Events />;
+    // }
+    // if (id === 'account') {
+    //   return <AccountPages />;
+    // }
   };
 
   return (
@@ -265,7 +287,8 @@ const Topbar = ({
       <div className={classes.flexGrow} />
       <Hidden smDown>
         <List disablePadding className={classes.navigationContainer}>
-          {[landings, supportedPages, account].map((page, i) => (
+          {[landings, supportedPages].map((page, i) => (
+            //  {[landings, supportedPages, account].map((page, i) => (
             <div key={page.id}>
               <ListItem
                 aria-describedby={page.id}

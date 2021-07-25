@@ -1,21 +1,67 @@
+export const aboutServices = [
+  {
+    icon: 'fas fa-hands-helping',
+    //'fas fa-users',
+    //'fas fa-layer-group',
+    title: 'Welcome Party',
+    // title: 'Built for developers',
+    subtitle:
+      'Introducing new team for Semester 2. Meet the executive team and get to know each other ',
+    //  'We bring incredible people from different industries together. Learn from their experiences and get a chance to connect with them',
+    // 'TheFront is built to make your life easier. Variables, build tooling, documentation, and reusable components.',
+  },
+  {
+    icon: 'fas fa-hands-helping',
+    //'fas fa-users',
+    //'fas fa-layer-group',
+    title: 'Welcome Party',
+    // title: 'Built for developers',
+    subtitle:
+      'Introducing new team for Semester 2. Meet the executive team and get to know each other ',
+    //  'We bring incredible people from different industries together. Learn from their experiences and get a chance to connect with them',
+    // 'TheFront is built to make your life easier. Variables, build tooling, documentation, and reusable components.',
+  },
+  {
+    icon: 'fas fa-hands-helping',
+    //'fas fa-users',
+    //'fas fa-layer-group',
+    title: 'Welcome Party',
+    // title: 'Built for developers',
+    subtitle:
+      'Introducing new team for Semester 2. Meet the executive team and get to know each other ',
+    //  'We bring incredible people from different industries together. Learn from their experiences and get a chance to connect with them',
+    // 'TheFront is built to make your life easier. Variables, build tooling, documentation, and reusable components.',
+  },
+];
+
 export const services = [
   {
-    icon: 'fas fa-layer-group',
-    title: 'Built for developers',
+    icon: 'fas fa-users',
+    //'fas fa-layer-group',
+    title: 'Networking Nights',
+    // title: 'Built for developers',
     subtitle:
-      'TheFront is built to make your life easier. Variables, build tooling, documentation, and reusable components.',
+      'We bring incredible people from different industries together. Learn from their experiences and get a chance to connect with them',
+    // 'TheFront is built to make your life easier. Variables, build tooling, documentation, and reusable components.',
   },
   {
-    icon: 'fab fa-sketch',
-    title: 'Designed to be modern',
+    icon: 'fas fa-university',
+    //'fab fa-sketch',
+    title: 'Career Development Workshops',
+
+    //  title: 'Designed to be modern',
     subtitle:
-      'Designed with the latest design trends in mind. TheFront feels modern, minimal, and beautiful.',
+      'We help you build your own brand. Get tailor-made guidance and support from our Industry partners ',
+    // 'Designed with the latest design trends in mind. TheFront feels modern, minimal, and beautiful.',
   },
   {
-    icon: 'fas fa-code',
-    title: 'Documentation for everything',
+    icon: 'far fa-comment-alt',
+    //'fas fa-code',
+    // title: 'Documentation for everything',
+    title: 'Social Gatherings',
     subtitle:
-      "We've written extensive documentation for components and tools, so you never have to reverse engineer anything.",
+      'Engage yourself into technical conversations, share ideas and make new connections. All inclusive in membership!',
+    // "We've written extensive documentation for components and tools, so you never have to reverse engineer anything.",
   },
 ];
 
@@ -71,7 +117,8 @@ export const users = [
     name: 'Google Drive',
   },
   {
-    logo: 'https://assets.maccarianagency.com/the-front/logos/google-ad-manager.svg',
+    logo:
+      'https://assets.maccarianagency.com/the-front/logos/google-ad-manager.svg',
     name: 'Google Ad Manager',
   },
   {
@@ -182,8 +229,10 @@ export const faq = [
 export const reviews = [
   {
     authorPhoto: {
-      src: 'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams.jpg',
-      srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams@2x.jpg 2x',
+      src:
+        'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams.jpg',
+      srcSet:
+        'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams@2x.jpg 2x',
     },
     authorName: 'Veronica Adams',
     authorOccupation: 'Growth Marketer, Crealytics',
@@ -191,19 +240,25 @@ export const reviews = [
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   },
   {
-    authorPhoto: {
-      src: 'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
-      srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
-    },
-    authorName: 'Akachi Luccini',
-    authorOccupation: 'Lead Generation, Alternative Capital',
+    //  authorPhoto: {
+    // src:
+    //   'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
+    // srcSet:
+    //   'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
+    //  },
+    authorName: 'Holly',
+    //'Akachi Luccini',
+    authorOccupation: 'ACS',
+    //'Lead Generation, Alternative Capital',
     feedback:
       'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
   },
   {
     authorPhoto: {
-      src: 'https://assets.maccarianagency.com/the-front/photos/people/jack-smith.jpg',
-      srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/jack-smith@2x.jpg 2x',
+      src:
+        'https://assets.maccarianagency.com/the-front/photos/people/jack-smith.jpg',
+      srcSet:
+        'https://assets.maccarianagency.com/the-front/photos/people/jack-smith@2x.jpg 2x',
     },
     authorName: 'Jack Smith',
     authorOccupation: 'Head of Operations, Parkfield Commerce',
@@ -212,8 +267,10 @@ export const reviews = [
   },
   {
     authorPhoto: {
-      src: 'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams.jpg',
-      srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams@2x.jpg 2x',
+      src:
+        'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams.jpg',
+      srcSet:
+        'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams@2x.jpg 2x',
     },
     authorName: 'Veronica Adams',
     authorOccupation: 'Growth Marketer, Crealytics',
@@ -222,8 +279,10 @@ export const reviews = [
   },
   {
     authorPhoto: {
-      src: 'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
-      srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
+      src:
+        'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
+      srcSet:
+        'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
     },
     authorName: 'Akachi Luccini',
     authorOccupation: 'Lead Generation, Alternative Capital',
@@ -232,8 +291,10 @@ export const reviews = [
   },
   {
     authorPhoto: {
-      src: 'https://assets.maccarianagency.com/the-front/photos/people/jack-smith.jpg',
-      srcSet: 'https://assets.maccarianagency.com/the-front/photos/people/jack-smith@2x.jpg 2x',
+      src:
+        'https://assets.maccarianagency.com/the-front/photos/people/jack-smith.jpg',
+      srcSet:
+        'https://assets.maccarianagency.com/the-front/photos/people/jack-smith@2x.jpg 2x',
     },
     authorName: 'Jack Smith',
     authorOccupation: 'Head of Operations, Parkfield Commerce',

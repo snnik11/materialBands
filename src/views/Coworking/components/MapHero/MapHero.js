@@ -52,15 +52,19 @@ const MapHero = props => {
               <div className={classes.placementGrid}>
                 <div>
                   <CountUpNumber
-                    end={125}
-                    label="Countries"
+                    end={300}
+                    //   end={125}
+                    //  label="Countries"
+                    label="Facebook"
                     textColor="secondary"
                   />
                 </div>
                 <div className={classes.placementGridItemMiddle}>
                   <CountUpNumber
-                    end={312}
-                    label="Cities"
+                    //  end={312}
+                    end={12}
+                    label="LinkedIn"
+                    // label="Cities"
                     textColor="secondary"
                   />
                 </div>

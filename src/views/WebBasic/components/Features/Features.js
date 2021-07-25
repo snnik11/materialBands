@@ -37,14 +37,21 @@ const Features = props => {
               <SectionHeader
                 title={
                   <span>
-                    Stay focused on your business.
+                    BANDS is growing
+                    {/* Stay focused on your business. */}
                     <br />
-                    <Typography component="span" variant="inherit" color="primary">
-                      Let us handle the design.
+                    <Typography
+                      component="span"
+                      variant="inherit"
+                      color="primary"
+                    >
+                      each semester
+                      {/* Let us handle the design. */}
                     </Typography>
                   </span>
                 }
-                subtitle="You have a business to run. Stop worring about cross-browser bugs, designing new pages, keeping your components up to date. Let us do that for you."
+                subtitle="Inter-University Hackathon to being part of UN Hackmakers, we have reached many milestones. Many more to come."
+                //"You have a business to run. Stop worring about cross-browser bugs, designing new pages, keeping your components up to date. Let us do that for you."
                 align="left"
                 fadeUp
                 disableGutter
@@ -54,26 +61,35 @@ const Features = props => {
               <div className={classes.placementGrid}>
                 <div>
                   <CountUpNumber
-                    end={99}
-                    label="Countries"
+                    //end={99}
+                    // label="Countries"
+                    end={40}
+                    label="Industry partners"
                     textColor="primary"
-                    suffix="%"
+                    suffix="+"
+                    //"%"
+                  />
+                </div>
+
+                <div>
+                  <CountUpNumber
+                    end={200}
+                    //{80}
+                    label="Members"
+                    //"Desks"
+                    textColor="primary"
+                    suffix="+"
                   />
                 </div>
                 <div>
                   <CountUpNumber
-                    end={24}
-                    label="Support"
+                    end={5}
+                    //{24}
+                    label="Hackathons"
+                    //"Support"
                     textColor="primary"
-                    suffix="/7"
-                  />
-                </div>
-                <div>
-                  <CountUpNumber
-                    end={80}
-                    label="Desks"
-                    textColor="primary"
-                    suffix="K +"
+                    // suffix="+"
+                    //"/7"
                   />
                 </div>
               </div>

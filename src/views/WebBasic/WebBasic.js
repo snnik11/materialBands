@@ -23,6 +23,7 @@ import {
   pricings,
   reviews,
   faq,
+  aboutServices,
 } from './data';
 
 const useStyles = makeStyles(theme => ({
@@ -54,27 +55,31 @@ const WebBasic = () => {
         <Services data={services} />
       </Section>
       <Divider />
-      <Section>
-        <Partners data={partners} />
-      </Section>
-      <Divider />
-      <SectionAlternate>
-        <Contact data={props} />
-      </SectionAlternate>
       <div className={classes.shape}>
         <Section className={classes.sectionNoPaddingTop}>
-          <About data={services} />
+          {/* <About data={services} /> */}
+          <About data={aboutServices} />
         </Section>
       </div>
       <Section>
-        <Users data={users} />
+        <Features />
       </Section>
+
+      <Divider />
       <SectionAlternate>
         <Reviews data={reviews} />
       </SectionAlternate>
-      <Section>
-        <Features />
+      {/* <Section>
+        <Partners data={partners} />
       </Section>
+      <SectionAlternate>
+        <Contact data={props} />
+      </SectionAlternate>
+
+      <Section>
+        <Users data={users} />
+      </Section>
+
       <div className={classes.shape}>
         <Section>
           <Pricings data={pricings} />
@@ -82,7 +87,7 @@ const WebBasic = () => {
         <Section className={classes.sectionNoPaddingTop}>
           <Faq data={faq} />
         </Section>
-      </div>
+      </div> */}
     </div>
   );
 };

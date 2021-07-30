@@ -19,7 +19,8 @@ export const aricles = [
 export const featuredProperties = [
   {
     image: {
-      src: 'https://i.postimg.cc/W3RkLNb1/logo.png',
+      src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/logos/esri.png',
+      //'https://i.postimg.cc/W3RkLNb1/logo.png',
       //'https://assets.maccarianagency.com/the-front/photos/rental/1.jpg',
     },
     //  price: '$320,000.00',

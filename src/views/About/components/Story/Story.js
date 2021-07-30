@@ -8,13 +8,14 @@ import welcome from './welcome.jpg';
 
 const useStyles = makeStyles(() => ({
   image: {
-    maxWidth: 420,
+    maxWidth: 590,
+   
   },
 }));
 
 const Story = props => {
   const { className, ...rest } = props;
-  const classes = useStyles();
+ const classes = useStyles();
 
   const theme = useTheme();
   const isMd = useMediaQuery(theme.breakpoints.up('md'), {
@@ -67,8 +68,11 @@ const Story = props => {
           data-aos={'fade-up'}
         >
           <Image
-            style={{ width: '1500px' }}
-            src={welcome}
+           
+            src="https://mybands.s3.ap-southeast-2.amazonaws.com/gallery/industrydinner.jpg"
+            //"https://mybands.s3.ap-southeast-2.amazonaws.com/gallery/sem2.jpg"
+            //"https://mybands.s3.ap-southeast-2.amazonaws.com/gallery/welcome.jpg"
+            //{welcome}
             // src="https://assets.maccarianagency.com/the-front/illustrations/working-on-sofa.svg"
             alt="Our story"
             className={classes.image}

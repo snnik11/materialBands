@@ -17,7 +17,8 @@ export default function Footer() {
           <li>
             <a href="https://www.linkedin.com/company/qutbands/mycompany/">
               <img
-                src="https://mybands.s3.ap-southeast-2.amazonaws.com/icons/fb.png"
+                src="https://mybands.s3.ap-southeast-2.amazonaws.com/icons/linkedin.png"
+                //"https://mybands.s3.ap-southeast-2.amazonaws.com/icons/fb.png"
                 //{linkedin}
                 style={{
                   width: '80px',
@@ -32,7 +33,8 @@ export default function Footer() {
             <a href="https://www.instagram.com/qutbands/">
               {' '}
               <img
-                src="https://mybands.s3.ap-southeast-2.amazonaws.com/icons/fb.png"
+                src="https://mybands.s3.ap-southeast-2.amazonaws.com/icons/instagram.png"
+                //"https://mybands.s3.ap-southeast-2.amazonaws.com/icons/fb.png"
                 //{instagram}
                 style={{
                   width: '80px',

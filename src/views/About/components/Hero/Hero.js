@@ -41,7 +41,7 @@ const Hero = props => {
   const classes = useStyles();
   return (
     <div className={clsx(classes.root, className)} {...rest}>
-      <Image
+      {/* <Image
         src="https://assets.maccarianagency.com/the-front/photos/about/hero-image.png"
         srcSet="https://assets.maccarianagency.com/the-front/photos/about/hero-image.png 2x"
         alt="About"
@@ -66,7 +66,7 @@ const Hero = props => {
             className: classes.textWhite,
           }}
         />
-      </Section>
+      </Section> */}
     </div>
   );
 };

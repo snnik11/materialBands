@@ -111,7 +111,8 @@ const Hero = props => {
           <Image
             //  src="https://i.postimg.cc/ry0tnnXg/speednetworking.png"
             // src="https://assets.maccarianagency.com/the-front/illustrations/mobiles.svg"
-            src={cd}
+            src="https://mybands.s3.ap-southeast-2.amazonaws.com/events/careerdevelopment.jpg"
+            //{cd}
             className={classes.image}
           />
         </Grid>

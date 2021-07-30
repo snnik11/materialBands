@@ -4,10 +4,13 @@ export const articles1 = [
     cover: {
       // src: '../assets/images/speednetworking.png',
       // src: { speednetworking },
-      src: 'https://i.postimg.cc/rzTmz9pt/speednetworking.png',
+      src:
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/events/speednetworking.png',
+      //'https://i.postimg.cc/rzTmz9pt/speednetworking.png',
       //  'https://assets.maccarianagency.com/the-front/photos/blog/cover1.jpg',
       srcSet:
-        'https://assets.maccarianagency.com/the-front/photos/blog/cover1.jpg 2x',
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/events/speednetworking.png',
+      // 'https://assets.maccarianagency.com/the-front/photos/blog/cover1.jpg 2x',
     },
     title: 'Flagship event- Speed Networking',
     subtitle:
@@ -16,7 +19,8 @@ export const articles1 = [
     author: {
       photo: {
         src:
-          'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams.jpg',
+          'https://mybands.s3.ap-southeast-2.amazonaws.com/events/speednetworking.png',
+        //          'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams.jpg',
         srcSet:
           'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams@2x.jpg 2x',
       },
@@ -27,7 +31,9 @@ export const articles1 = [
   },
   {
     cover: {
-      src: 'https://i.postimg.cc/MKJnp1XY/cd.jpg',
+      src:
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/events/careerdevelopment.jpg',
+      // 'https://i.postimg.cc/MKJnp1XY/cd.jpg',
       // 'https://assets.maccarianagency.com/the-front/photos/blog/cover2.jpg',
       srcSet:
         'https://assets.maccarianagency.com/the-front/photos/blog/cover2.jpg 2x',
@@ -54,7 +60,9 @@ export const articles1 = [
 export const articles2 = [
   {
     cover: {
-      src: 'https://i.postimg.cc/hPNpjyT5/industrycatchup.jpg',
+      src:
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/events/industrycatchup.jpg',
+      //'https://i.postimg.cc/hPNpjyT5/industrycatchup.jpg',
       //  'https://assets.maccarianagency.com/the-front/photos/blog/cover3.jpg',
       srcSet:
         'https://assets.maccarianagency.com/the-front/photos/blog/cover3.jpg 2x',
@@ -106,7 +114,9 @@ export const articles2 = [
 export const articles3 = [
   {
     cover: {
-      src: 'https://i.postimg.cc/PpQZxWCb/hackathon.png',
+      src:
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/events/hackathon.png',
+      //'https://i.postimg.cc/PpQZxWCb/hackathon.png',
       // 'https://assets.maccarianagency.com/the-front/photos/blog/cover2.jpg',
       srcSet:
         'https://assets.maccarianagency.com/the-front/photos/blog/cover2.jpg 2x',
@@ -129,10 +139,11 @@ export const articles3 = [
   },
   {
     cover: {
-      src:
-        'https://assets.maccarianagency.com/the-front/photos/blog/cover3.jpg',
+      src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/events/dataviz.png',
+      // 'https://assets.maccarianagency.com/the-front/photos/blog/cover3.jpg',
       srcSet:
-        'https://assets.maccarianagency.com/the-front/photos/blog/cover3.jpg 2x',
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/events/dataviz.png',
+      //  'https://assets.maccarianagency.com/the-front/photos/blog/cover3.jpg 2x',
     },
     title: 'Data Viz and Story Telling by Kate Norris',
     subtitle:
@@ -155,9 +166,13 @@ export const articles4 = [
   {
     cover: {
       src:
-        'https://assets.maccarianagency.com/the-front/photos/blog/cover3.jpg',
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/events/hackathon.png',
+      //'https://mybands.s3.ap-southeast-2.amazonaws.com/events/pitchday.jpg',
+      // 'https://assets.maccarianagency.com/the-front/photos/blog/cover3.jpg',
       srcSet:
-        'https://assets.maccarianagency.com/the-front/photos/blog/cover3.jpg 2x',
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/events/hackathon.png',
+      // 'https://mybands.s3.ap-southeast-2.amazonaws.com/events/pitchday.jpg',
+      //  'https://assets.maccarianagency.com/the-front/photos/blog/cover3.jpg 2x',
     },
     title: 'Tableau Workshop by KeyData',
     subtitle:
@@ -179,10 +194,13 @@ export const articles4 = [
 
   {
     cover: {
-      src: 'https://i.postimg.cc/G35j777m/paneld.jpg',
+      src:
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/events/paneldiscussion.jpg',
+      // 'https://i.postimg.cc/G35j777m/paneld.jpg',
       //    'https://assets.maccarianagency.com/the-front/photos/blog/cover3.jpg',
       srcSet:
-        'https://assets.maccarianagency.com/the-front/photos/blog/cover3.jpg 2x',
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/events/paneldiscussion.jpg',
+      //        'https://assets.maccarianagency.com/the-front/photos/blog/cover3.jpg 2x',
     },
     title: 'Panel Discussion',
     subtitle:
@@ -204,7 +222,8 @@ export const articles4 = [
   {
     cover: {
       src:
-        'https://assets.maccarianagency.com/the-front/photos/blog/cover4.jpg',
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/events/welcomeparty.jpg',
+      //  'https://assets.maccarianagency.com/the-front/photos/blog/cover4.jpg',
       srcSet:
         'https://assets.maccarianagency.com/the-front/photos/blog/cover4.jpg 2x',
     },

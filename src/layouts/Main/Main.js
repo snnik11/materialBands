@@ -3,7 +3,10 @@ import PropTypes from 'prop-types';
 import clsx from 'clsx';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import { useMediaQuery, Divider } from '@material-ui/core';
-import { Topbar, Footer, Sidebar } from './components';
+import { Footer, Sidebar, Topbar } from './components';
+import { Navbar } from 'layouts/DocsLayout/components';
+import Navb from 'layouts/DocsLayout/components/Navb';
+import FooterEnd from 'layouts/DocsLayout/components/FooterEnd';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -333,7 +336,14 @@ const Main = ({ children, themeToggler, themeMode }) => {
         [classes.root]: true,
       })}
     >
-      <Topbar
+      {/* <Topbar
+        onSidebarOpen={handleSidebarOpen}
+        pages={pages}
+        themeMode={themeMode}
+        themeToggler={themeToggler}
+        style={{ paddingBottom: '50px', paddingTop: '20px' }}
+      /> */}
+      <Navb
         onSidebarOpen={handleSidebarOpen}
         pages={pages}
         themeMode={themeMode}
@@ -350,7 +360,8 @@ const Main = ({ children, themeToggler, themeMode }) => {
         <Divider />
         {children}
       </main>
-      <Footer pages={pages} />
+      <FooterEnd />
+      {/* <Footer pages={pages} /> */}
     </div>
   );
 };

@@ -25,7 +25,7 @@ const Gallery = props => {
     <div className={className} {...rest}>
       <SectionHeader
         title="Checkout our gallery"
-        subtitle="After 3 days all of your offers will arrive and you will have another 7 days to select your new company."
+        // subtitle="After 3 days all of your offers will arrive and you will have another 7 days to select your new company."
         data-aos="fade-up"
       />
       <GridList cellHeight={isMd ? 360 : 260} cols={4} spacing={isMd ? 24 : 8}>

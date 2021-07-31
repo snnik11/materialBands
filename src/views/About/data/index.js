@@ -172,8 +172,9 @@ export const mapData = [
 export const gallery = [
   {
     image: {
-      src:
-        'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery1.jpg',
+      src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/gallery/adam.jpeg',
+      // 'https://mybands.s3.ap-southeast-2.amazonaws.com/gallery/tableau.jpeg',
+      //  'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery1.jpg',
       srcSet:
         'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery1@2x.jpg 2x',
     },
@@ -183,7 +184,9 @@ export const gallery = [
   {
     image: {
       src:
-        'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery3.jpg',
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/gallery/welcome.jpg',
+
+      //  'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery3.jpg',
       srcSet:
         'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery3@2x.jpg 2x',
     },
@@ -193,7 +196,8 @@ export const gallery = [
   {
     image: {
       src:
-        'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery2.jpg',
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/gallery/rivercity.jpeg',
+      //  'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery2.jpg',
       srcSet:
         'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery2@2x.jpg 2x',
     },
@@ -202,8 +206,8 @@ export const gallery = [
   },
   {
     image: {
-      src:
-        'https://assets.maccarianagency.com/the-front/photos/coworking/place3.jpg',
+      src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/gallery/oweek.jpg',
+      //  'https://assets.maccarianagency.com/the-front/photos/coworking/place3.jpg',
       srcSet:
         'https://assets.maccarianagency.com/the-front/photos/coworking/place3@2x.jpg 2x',
     },

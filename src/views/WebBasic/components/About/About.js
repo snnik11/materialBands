@@ -85,8 +85,9 @@ const About = props => {
           data-aos="fade-up"
         >
           <Image
-            style={{ width: '600px' }}
-            src="https://i.postimg.cc/MKJnp1XY/cd.jpg"
+            style={{ width: '500px' }}
+            src="https://mybands.s3.ap-southeast-2.amazonaws.com/upcomingevents/welcomeparty.png"
+            //"https://i.postimg.cc/MKJnp1XY/cd.jpg"
             //src="https://assets.maccarianagency.com/the-front/illustrations/dashboard-drawing.svg"
             alt="..."
             className={classes.coverImage}

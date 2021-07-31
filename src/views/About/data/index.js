@@ -3,9 +3,9 @@ export const team = [
     title: 'President',
     authorPhoto: {
       src:
-      "https://mybands.s3.ap-southeast-2.amazonaws.com/team/jonathanma.png",
-    //  "https://mybands.s3.ap-southeast-2.amazonaws.com/team/jona.png",
-     // "https://mybands.s3.ap-southeast-2.amazonaws.com/team/jonathan.png",
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/team/jonathanma.png',
+      //  "https://mybands.s3.ap-southeast-2.amazonaws.com/team/jona.png",
+      // "https://mybands.s3.ap-southeast-2.amazonaws.com/team/jonathan.png",
       //  'https://assets.maccarianagency.com/the-front/photos/people/kate-segelson.jpg',
       srcSet:
         'https://assets.maccarianagency.com/the-front/photos/people/kate-segelson@2x.jpg 2x',
@@ -15,8 +15,7 @@ export const team = [
   {
     title: 'Vice President',
     authorPhoto: {
-      src:
-      'https://mybands.s3.ap-southeast-2.amazonaws.com/team/joe.png',
+      src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/team/joe.png',
       //  'https://assets.maccarianagency.com/the-front/photos/people/alex-johnson.jpg',
       srcSet:
         'https://assets.maccarianagency.com/the-front/photos/people/alex-johnson@2x.jpg 2x',
@@ -26,20 +25,19 @@ export const team = [
   {
     title: 'Secretary',
     authorPhoto: {
-      src:
-      "https://mybands.s3.ap-southeast-2.amazonaws.com/team/simi.png",
+      src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/team/sim.jpg',
+      // 'https://mybands.s3.ap-southeast-2.amazonaws.com/team/simi.png',
       //  'https://assets.maccarianagency.com/the-front/photos/people/valeria-kogan.jpg',
       srcSet:
         'https://assets.maccarianagency.com/the-front/photos/people/valeria-kogan@2x.jpg 2x',
     },
-    authorName: 'Simarjyot Alag',
+    authorName: 'Simi Alag',
   },
   {
     title: 'Treasurer',
     authorPhoto: {
-      src:
-      "https://mybands.s3.ap-southeast-2.amazonaws.com/team/jasonshin.png",
-       // 'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
+      src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/team/jasonshin.png',
+      // 'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
       srcSet:
         'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
     },
@@ -48,8 +46,7 @@ export const team = [
   {
     title: 'Social Media Director',
     authorPhoto: {
-      src:
-      "https://mybands.s3.ap-southeast-2.amazonaws.com/team/Wilson.png",
+      src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/team/Wilson.png',
       //  'https://assets.maccarianagency.com/the-front/photos/people/jack-smith.jpg',
       srcSet:
         'https://assets.maccarianagency.com/the-front/photos/people/jack-smith@2x.jpg 2x',
@@ -59,7 +56,7 @@ export const team = [
   {
     title: 'Operations Manager',
     authorPhoto: {
-      src:"https://mybands.s3.ap-southeast-2.amazonaws.com/team/aparna.png",
+      src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/team/aparna.png',
       //  'https://assets.maccarianagency.com/the-front/photos/people/jack-smith.jpg',
       srcSet:
         'https://assets.maccarianagency.com/the-front/photos/people/jack-smith@2x.jpg 2x',
@@ -69,9 +66,8 @@ export const team = [
   {
     title: 'Technology Consultant',
     authorPhoto: {
-      src:
-      "https://mybands.s3.ap-southeast-2.amazonaws.com/team/nik.png",
-        //'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams.jpg',
+      src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/team/nik.png',
+      //'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams.jpg',
       srcSet:
         'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams@2x.jpg 2x',
     },
@@ -80,8 +76,7 @@ export const team = [
   {
     title: 'Head of Professional Development',
     authorPhoto: {
-      src:
-      "https://mybands.s3.ap-southeast-2.amazonaws.com/team/Stephen.png",
+      src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/team/Stephen.png',
       //  'https://assets.maccarianagency.com/the-front/photos/people/jack-smith.jpg',
       srcSet:
         'https://assets.maccarianagency.com/the-front/photos/people/jack-smith@2x.jpg 2x',
@@ -91,8 +86,7 @@ export const team = [
   {
     title: 'Industry Liasion',
     authorPhoto: {
-      src:
-     "https://mybands.s3.ap-southeast-2.amazonaws.com/team/niloo.png",
+      src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/team/niloo.png',
       //'https://assets.maccarianagency.com/the-front/photos/people/jack-smith.jpg',
       srcSet:
         'https://assets.maccarianagency.com/the-front/photos/people/jack-smith@2x.jpg 2x',

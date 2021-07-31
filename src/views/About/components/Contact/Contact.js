@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/core/styles';
+//import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
+
 import {
   List,
   ListItem,
@@ -10,6 +12,11 @@ import {
 } from '@material-ui/core';
 import { SectionHeader } from 'components/molecules';
 import { HeroShaped, Map } from 'components/organisms';
+
+// const mapStyles = {
+//   width: '100%',
+//   height: '100%',
+// };
 
 const useStyles = makeStyles(() => ({
   map: {
@@ -110,9 +117,25 @@ const Contact = props => {
           </div>
         }
         rightSide={
+          // <Map
+          //   google={this.props.google}
+          //   zoom={8}
+          //   style={mapStyles}
+          //   initialCenter={{ lat: -27.477623043750906, lng: 153.0302869394563 }}
+          // >
+          //   <Marker position={{ lat: 48.0, lng: -122.0 }} />
+          // </Map>
           <Map
-            center={[45.464211, 9.011383]}
+            center={[
+              -27.477623043750906,
+              153.0302869394563,
+              // -27.477628980264633,
+              //153.03026317641522,
+              //-27.477621742151612, 153.02998454796955
+            ]}
+            //{[45.464211, 9.011383]}
             pins={data}
+            zoom={15}
             className={classes.map}
           />
         }

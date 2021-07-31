@@ -1,28 +1,29 @@
 export const aboutServices = [
+  // {
+  //   icon: 'fas fa-calendar-alt',
+  //   //'fas fa-users',
+  //   //'fas fa-layer-group',
+  //   title: 'Welcome Party',
+  //   // title: 'Built for developers',
+  //   subtitle:
+  //     'Introducing new team for Semester 2. Meet the executive team and get to know each other ',
+  //   //  'We bring incredible people from different industries together. Learn from their experiences and get a chance to connect with them',
+  //   // 'TheFront is built to make your life easier. Variables, build tooling, documentation, and reusable components.',
+  // },
   {
-    icon: 'fas fa-hands-helping',
+    icon: 'fas fa-calendar-alt',
     //'fas fa-users',
     //'fas fa-layer-group',
-    title: 'Welcome Party',
+    title: 'Hackathon BANDS x Orefox',
     // title: 'Built for developers',
     subtitle:
-      'Introducing new team for Semester 2. Meet the executive team and get to know each other ',
+      'Hackathon is an amazing opportunity for those who love to play with data and visualisation. Participate by forming a team and pitch to win the prize',
+    //'Introducing new team for Semester 2. Meet the executive team and get to know each other ',
     //  'We bring incredible people from different industries together. Learn from their experiences and get a chance to connect with them',
     // 'TheFront is built to make your life easier. Variables, build tooling, documentation, and reusable components.',
   },
   {
-    icon: 'fas fa-hands-helping',
-    //'fas fa-users',
-    //'fas fa-layer-group',
-    title: 'Welcome Party',
-    // title: 'Built for developers',
-    subtitle:
-      'Introducing new team for Semester 2. Meet the executive team and get to know each other ',
-    //  'We bring incredible people from different industries together. Learn from their experiences and get a chance to connect with them',
-    // 'TheFront is built to make your life easier. Variables, build tooling, documentation, and reusable components.',
-  },
-  {
-    icon: 'fas fa-hands-helping',
+    icon: 'far fa-calendar-check',
     //'fas fa-users',
     //'fas fa-layer-group',
     title: 'Welcome Party',

@@ -111,7 +111,9 @@ const Hero = props => {
           <Image
             //  src="https://i.postimg.cc/ry0tnnXg/speednetworking.png"
             // src="https://assets.maccarianagency.com/the-front/illustrations/mobiles.svg"
-            src="https://mybands.s3.ap-southeast-2.amazonaws.com/events/careerdevelopment.jpg"
+            src="https://mybands.s3.ap-southeast-2.amazonaws.com/events/acs.jpg"
+            // "https://mybands.s3.ap-southeast-2.amazonaws.com/upcomingevents/welcomeparty.png"
+            //"https://mybands.s3.ap-southeast-2.amazonaws.com/events/careerdevelopment.jpg"
             //{cd}
             className={classes.image}
           />

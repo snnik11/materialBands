@@ -13,6 +13,7 @@ import {
 } from './components';
 
 import { articles1, articles2, articles3, articles4 } from './data';
+//import { BlogReachView } from 'views/Coworking/components';
 
 const useStyles = makeStyles(theme => ({
   root: {

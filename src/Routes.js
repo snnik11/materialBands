@@ -20,7 +20,7 @@ import {
   Pricing as PricingView,
   About as AboutView,
   AboutSideCover as AboutSideCoverView,
-  BlogReachView as BlogReachViewView,
+  BlogReachView,
   Coworking,
 } from './views';
 
@@ -68,7 +68,7 @@ const Routes = () => {
         render={matchProps => (
           <WithLayout
             {...matchProps}
-            component={BlogReachViewView}
+            component={BlogReachView}
             layout={MainLayout}
           />
         )}
@@ -128,7 +128,8 @@ const Routes = () => {
           />
         )}
       />
-      <Redirect to="/not-found-cover" />
+      <Redirect to="/home" />
+      {/* <Redirect to="/not-found-cover" /> */}
     </Switch>
   );
 };

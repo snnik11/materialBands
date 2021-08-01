@@ -52,7 +52,11 @@ const HouseTypes = props => {
             <div>
               <NoSsr>
                 <i
-                  className={clsx(classes.icon, 'fas fa-door-open', 'card-icon')}
+                  className={clsx(
+                    classes.icon,
+                    'fas fa-door-open',
+                    'card-icon',
+                  )}
                 />
               </NoSsr>
             </div>
@@ -70,7 +74,11 @@ const HouseTypes = props => {
         <Grid item xs={12} sm={4} data-aos="fade-up">
           <CardBase withShadow liftUp className={classes.cardBase}>
             <div>
-              <NoSsr><i className={clsx(classes.icon, 'fas fa-couch', 'card-icon')} /></NoSsr>
+              <NoSsr>
+                <i
+                  className={clsx(classes.icon, 'fas fa-couch', 'card-icon')}
+                />
+              </NoSsr>
             </div>
             <Typography
               variant="h5"
@@ -88,7 +96,11 @@ const HouseTypes = props => {
             <div>
               <NoSsr>
                 <i
-                  className={clsx(classes.icon, 'fas fa-box-tissue', 'card-icon')}
+                  className={clsx(
+                    classes.icon,
+                    'fas fa-box-tissue',
+                    'card-icon',
+                  )}
                 />
               </NoSsr>
             </div>

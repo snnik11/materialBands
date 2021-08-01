@@ -19,8 +19,8 @@ export const aricles = [
 export const featuredProperties = [
   {
     image: {
-      src:
-        'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/acs.png.png',
+      src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/MV.png',
+      //  'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/acs.png.png',
       // 'https://mybands.s3.ap-southeast-2.amazonaws.com/logos/esri.png',
       //'https://i.postimg.cc/W3RkLNb1/logo.png',
       //'https://assets.maccarianagency.com/the-front/photos/rental/1.jpg',
@@ -49,7 +49,10 @@ export const featuredProperties = [
   },
   {
     image: {
-      src: 'https://assets.maccarianagency.com/the-front/photos/rental/3.jpg',
+      src:
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/buisnessAnalysis.png',
+      //  'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/aginic.png',
+      // 'https://assets.maccarianagency.com/the-front/photos/rental/3.jpg',
     },
     price: '$320,000.00',
     location: 'Beverly Hills, CA',
@@ -61,8 +64,8 @@ export const featuredProperties = [
   },
   {
     image: {
-      src:
-        'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/blackbook.png',
+      src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/acs.png',
+      //  'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/blackbook.png',
       //'https://assets.maccarianagency.com/the-front/photos/rental/4.jpg',
     },
     price: '$320,000.00',
@@ -75,7 +78,9 @@ export const featuredProperties = [
   },
   {
     image: {
-      src: 'https://assets.maccarianagency.com/the-front/photos/rental/5.jpg',
+      src:
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/blackbookai.png',
+      // 'https://assets.maccarianagency.com/the-front/photos/rental/5.jpg',
     },
     price: '$320,000.00',
     location: 'Beverly Hills, CA',
@@ -87,7 +92,9 @@ export const featuredProperties = [
   },
   {
     image: {
-      src: 'https://assets.maccarianagency.com/the-front/photos/rental/6.jpg',
+      src:
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/esriAus.png',
+      // 'https://assets.maccarianagency.com/the-front/photos/rental/6.jpg',
     },
     price: '$320,000.00',
     location: 'Beverly Hills, CA',
@@ -99,7 +106,9 @@ export const featuredProperties = [
   },
   {
     image: {
-      src: 'https://assets.maccarianagency.com/the-front/photos/rental/6.jpg',
+      src:
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/explorate.png',
+      //'https://assets.maccarianagency.com/the-front/photos/rental/6.jpg',
     },
     price: '$320,000.00',
     location: 'Beverly Hills, CA',
@@ -111,7 +120,9 @@ export const featuredProperties = [
   },
   {
     image: {
-      src: 'https://assets.maccarianagency.com/the-front/photos/rental/6.jpg',
+      src:
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/keyData.png',
+      // 'https://assets.maccarianagency.com/the-front/photos/rental/6.jpg',
     },
     price: '$320,000.00',
     location: 'Beverly Hills, CA',
@@ -123,7 +134,23 @@ export const featuredProperties = [
   },
   {
     image: {
-      src: 'https://assets.maccarianagency.com/the-front/photos/rental/6.jpg',
+      src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/kjr.png',
+      //'https://assets.maccarianagency.com/the-front/photos/rental/6.jpg',
+    },
+    price: '$320,000.00',
+    location: 'Beverly Hills, CA',
+    address: '272 S Rexford Dr, Beverly Hills, CA 90212, USA',
+    size: '2400 Sq Ft',
+    garages: 2,
+    baths: 2,
+    rooms: 3,
+  },
+  {
+    image: {
+      src:
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/orefox.png',
+      // 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/kjr.png',
+      //'https://assets.maccarianagency.com/the-front/photos/rental/6.jpg',
     },
     price: '$320,000.00',
     location: 'Beverly Hills, CA',
@@ -139,7 +166,8 @@ export const places = [
   {
     image: {
       src:
-        'https://assets.maccarianagency.com/the-front/photos/rental/los-angeles.jpg',
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/orefox.png',
+      // 'https://assets.maccarianagency.com/the-front/photos/rental/los-angeles.jpg',
       srcSet:
         'https://assets.maccarianagency.com/the-front/photos/rental/los-angeles@2x.jpg 2x',
     },

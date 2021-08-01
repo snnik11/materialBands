@@ -74,7 +74,11 @@ const Hero = props => {
           data-aos={'fade-up'}
         >
           <Image
-            src={bandsgif}
+            src=
+            //"https://mybands.s3.ap-southeast-2.amazonaws.com/design/2.png"
+            "https://mybands.s3.ap-southeast-2.amazonaws.com/design/3.png"
+            //"https://mybands.s3.ap-southeast-2.amazonaws.com/design/1.png"
+            //{bandsgif}
             style={{ height: '380px', width: '550px', borderRadius: '18px' }}
             //"https://assets.maccarianagency.com/the-front/illustrations/mind-map.svg"
             alt="TheFront Company"

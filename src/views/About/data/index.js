@@ -27,6 +27,7 @@ export const team = [
     title: 'Secretary',
     authorPhoto: {
       src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/team/Simi.png',
+      //'https://mybands.s3.ap-southeast-2.amazonaws.com/team/Simi.png',
       //'https://mybands.s3.ap-southeast-2.amazonaws.com/team/sim.jpg',
       // 'https://mybands.s3.ap-southeast-2.amazonaws.com/team/simi.png',
       //  'https://assets.maccarianagency.com/the-front/photos/people/valeria-kogan.jpg',
@@ -50,6 +51,7 @@ export const team = [
     title: 'Social Media Director',
     authorPhoto: {
       src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/team/Wilson.png',
+      //'https://mybands.s3.ap-southeast-2.amazonaws.com/team/Wilson.png',
       // "https://mybands.s3.ap-southeast-2.amazonaws.com/team/Jason.png",
       //'https://mybands.s3.ap-southeast-2.amazonaws.com/team/Wilson.png',
       //  'https://assets.maccarianagency.com/the-front/photos/people/jack-smith.jpg',
@@ -61,7 +63,8 @@ export const team = [
   {
     title: 'Operations Manager',
     authorPhoto: {
-      src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/team/aparna.png',
+      src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/team/Aparna.png',
+      //'https://mybands.s3.ap-southeast-2.amazonaws.com/team/aparna.png',
       //  'https://assets.maccarianagency.com/the-front/photos/people/jack-smith.jpg',
       srcSet:
         'https://assets.maccarianagency.com/the-front/photos/people/jack-smith@2x.jpg 2x',
@@ -72,6 +75,7 @@ export const team = [
     title: 'Technology Consultant',
     authorPhoto: {
       src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/team/Nikita.png',
+      //'https://mybands.s3.ap-southeast-2.amazonaws.com/team/Nikita.png',
       //'https://mybands.s3.ap-southeast-2.amazonaws.com/team/Aparna.png',
       //'https://mybands.s3.ap-southeast-2.amazonaws.com/team/nik.png',
       //'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams.jpg',
@@ -96,6 +100,7 @@ export const team = [
     title: 'Industry Liasion',
     authorPhoto: {
       src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/team/Niloo.png',
+      //'https://mybands.s3.ap-southeast-2.amazonaws.com/team/Niloo.png',
       // 'https://mybands.s3.ap-southeast-2.amazonaws.com/team/niloo.png',
       //'https://assets.maccarianagency.com/the-front/photos/people/jack-smith.jpg',
       srcSet:

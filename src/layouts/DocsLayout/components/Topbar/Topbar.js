@@ -12,7 +12,7 @@ import {
   Button,
   makeStyles,
 } from '@material-ui/core';
-import { Image, DarkModeToggler } from 'components/atoms';
+import { Image } from 'components/atoms';
 import MenuIcon from '@material-ui/icons/Menu';
 import style from 'react-syntax-highlighter/dist/esm/styles/hljs/a11y-dark';
 
@@ -91,7 +91,7 @@ const TopBar = ({
           </a>
         </div>
         <Box flexGrow={1} />
-        <DarkModeToggler themeMode={themeMode} onClick={() => themeToggler()} />
+      
         <Hidden smDown>
           <List disablePadding className={classes.navigationContainer}>
             <ListItem

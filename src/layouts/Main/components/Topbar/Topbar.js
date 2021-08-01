@@ -15,7 +15,7 @@ import {
 } from '@material-ui/core';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import MenuIcon from '@material-ui/icons/Menu';
-import { Image, DarkModeToggler } from 'components/atoms';
+import { Image,  } from 'components/atoms';
 import logo from './logo.png';
 const useStyles = makeStyles(theme => ({
   flexGrow: {
@@ -341,10 +341,7 @@ const Topbar = ({
           <ListItem
             className={clsx(classes.listItem, 'menu-item--no-dropdown')}
           >
-            <DarkModeToggler
-              themeMode={themeMode}
-              onClick={() => themeToggler()}
-            />
+         
           </ListItem>
           <ListItem
             className={clsx(classes.listItem, 'menu-item--no-dropdown')}
@@ -370,7 +367,7 @@ const Topbar = ({
         </List>
       </Hidden>
       <Hidden mdUp>
-        <DarkModeToggler themeMode={themeMode} onClick={() => themeToggler()} />
+     
         <IconButton
           className={classes.iconButton}
           onClick={onSidebarOpen}

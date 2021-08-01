@@ -22,7 +22,8 @@ export const articles1 = [
           'https://mybands.s3.ap-southeast-2.amazonaws.com/events/speednetworking.png',
         //          'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams.jpg',
         srcSet:
-          'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams@2x.jpg 2x',
+          'https://mybands.s3.ap-southeast-2.amazonaws.com/events/speednetworking.png',
+        //'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams@2x.jpg 2x',
       },
       name: 'GP Campus',
     },
@@ -36,7 +37,8 @@ export const articles1 = [
       // 'https://i.postimg.cc/MKJnp1XY/cd.jpg',
       // 'https://assets.maccarianagency.com/the-front/photos/blog/cover2.jpg',
       srcSet:
-        'https://assets.maccarianagency.com/the-front/photos/blog/cover2.jpg 2x',
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/events/careerdevelopment.jpg',
+      // 'https://assets.maccarianagency.com/the-front/photos/blog/cover2.jpg 2x',
     },
     title: 'Career Development',
     subtitle:
@@ -53,7 +55,7 @@ export const articles1 = [
     },
     date: 'May 2021',
     // date: '04 Aug',
-    tags: ['adidas', 'sport', 'shop', 'training'],
+    tags: ['Cover Letter', 'Resume', 'CV', 'Career Advice'],
   },
 ];
 
@@ -65,7 +67,8 @@ export const articles2 = [
       //'https://i.postimg.cc/hPNpjyT5/industrycatchup.jpg',
       //  'https://assets.maccarianagency.com/the-front/photos/blog/cover3.jpg',
       srcSet:
-        'https://assets.maccarianagency.com/the-front/photos/blog/cover3.jpg 2x',
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/events/industrycatchup.jpg',
+      //   'https://assets.maccarianagency.com/the-front/photos/blog/cover3.jpg 2x',
     },
     title: 'Industry-Catch Up',
     subtitle:
@@ -83,7 +86,7 @@ export const articles2 = [
       name: 'River City Labs',
     },
     date: 'May 2021',
-    tags: ['nike', 'sport', 'shop', 'training'],
+    tags: ['Meet-Up', 'Latest Technology', 'Techie'],
   },
   {
     cover: {
@@ -107,7 +110,7 @@ export const articles2 = [
       name: 'GP Campus',
     },
     date: 'April 2021',
-    tags: ['larq', 'bottle', 'shop', 'drinks', 'eco', 'self washing'],
+    tags: ['Personal Growth', 'Interview Preparation', 'Communication'],
   },
 ];
 
@@ -119,7 +122,8 @@ export const articles3 = [
       //'https://i.postimg.cc/PpQZxWCb/hackathon.png',
       // 'https://assets.maccarianagency.com/the-front/photos/blog/cover2.jpg',
       srcSet:
-        'https://assets.maccarianagency.com/the-front/photos/blog/cover2.jpg 2x',
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/events/hackathon.png',
+      // 'https://assets.maccarianagency.com/the-front/photos/blog/cover2.jpg 2x',
     },
     title: 'Hackathon',
     subtitle:
@@ -135,7 +139,7 @@ export const articles3 = [
       name: 'GP Campus',
     },
     date: 'April 2021',
-    tags: ['adidas', 'sport', 'shop', 'training'],
+    tags: ['Competition', 'Problem-solving', 'Innovation'],
   },
   {
     cover: {
@@ -158,7 +162,7 @@ export const articles3 = [
       name: 'GP Campus',
     },
     date: 'March 2021',
-    tags: ['nike', 'sport', 'shop', 'training'],
+    tags: ['Data visualisation', 'Data interpretation'],
   },
 ];
 
@@ -189,7 +193,7 @@ export const articles4 = [
       name: 'GP Campus',
     },
     date: 'March 2021',
-    tags: ['nike', 'sport', 'shop', 'training'],
+    tags: ['Tableau', 'Hands-On Training'],
   },
 
   {
@@ -217,7 +221,7 @@ export const articles4 = [
       name: 'GP Campus',
     },
     date: 'March 2021',
-    tags: ['nike', 'sport', 'shop', 'training'],
+    tags: ['Emerging Technologies', 'Trends'],
   },
   {
     cover: {
@@ -225,7 +229,8 @@ export const articles4 = [
         'https://mybands.s3.ap-southeast-2.amazonaws.com/events/welcomeparty.jpg',
       //  'https://assets.maccarianagency.com/the-front/photos/blog/cover4.jpg',
       srcSet:
-        'https://assets.maccarianagency.com/the-front/photos/blog/cover4.jpg 2x',
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/events/welcomeparty.jpg',
+      // 'https://assets.maccarianagency.com/the-front/photos/blog/cover4.jpg 2x',
     },
     title: ' Welcome Party',
     //  title: "LARQ | World's First Self-cleaning Water Bottle‎",
@@ -242,6 +247,6 @@ export const articles4 = [
       name: 'GP Campus',
     },
     date: 'March 2021',
-    tags: ['larq', 'bottle', 'shop', 'drinks', 'eco', 'self washing'],
+    tags: ['Social Gathering', 'Team Building'],
   },
 ];

@@ -103,10 +103,10 @@ const Main = ({ children, themeToggler, themeMode }) => {
               title: 'Cloud Hosting',
               href: '/cloud-hosting',
             },
-            {
-              title: 'Agency',
-              href: '/agency',
-            },
+            // {
+            //   title: 'Agency',
+            //   href: '/agency',
+            // },
             {
               title: 'Design Company',
               href: '/design-company',
@@ -229,10 +229,10 @@ const Main = ({ children, themeToggler, themeMode }) => {
               title: 'Grid View',
               href: '/portfolio-grid',
             },
-            {
-              title: 'Parallax Effect',
-              href: '/agency',
-            },
+            // {
+            //   title: 'Parallax Effect',
+            //   href: '/agency',
+            // },
           ],
         },
       },

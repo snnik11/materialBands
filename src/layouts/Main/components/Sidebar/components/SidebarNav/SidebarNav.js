@@ -177,7 +177,7 @@ const SidebarNav = props => {
         <Typography variant="h6" color="textPrimary" gutterBottom>
           Account
         </Typography>
-        <AccountPages />
+        {/* <AccountPages /> */}
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button

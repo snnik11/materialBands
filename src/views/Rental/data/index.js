@@ -19,7 +19,9 @@ export const aricles = [
 export const featuredProperties = [
   {
     image: {
-      src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/logos/esri.png',
+      src:
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/acs.png.png',
+      // 'https://mybands.s3.ap-southeast-2.amazonaws.com/logos/esri.png',
       //'https://i.postimg.cc/W3RkLNb1/logo.png',
       //'https://assets.maccarianagency.com/the-front/photos/rental/1.jpg',
     },
@@ -33,7 +35,9 @@ export const featuredProperties = [
   },
   {
     image: {
-      src: 'https://assets.maccarianagency.com/the-front/photos/rental/2.jpg',
+      src:
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/aginic.png',
+      // 'https://assets.maccarianagency.com/the-front/photos/rental/2.jpg',
     },
     price: '$320,000.00',
     location: 'Beverly Hills, CA',
@@ -57,7 +61,9 @@ export const featuredProperties = [
   },
   {
     image: {
-      src: 'https://assets.maccarianagency.com/the-front/photos/rental/4.jpg',
+      src:
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/blackbook.png',
+      //'https://assets.maccarianagency.com/the-front/photos/rental/4.jpg',
     },
     price: '$320,000.00',
     location: 'Beverly Hills, CA',

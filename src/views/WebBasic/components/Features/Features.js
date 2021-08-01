@@ -37,7 +37,7 @@ const Features = props => {
               <SectionHeader
                 title={
                   <span>
-                    BANDS is growing
+                    BANDS is
                     {/* Stay focused on your business. */}
                     <br />
                     <Typography
@@ -45,7 +45,7 @@ const Features = props => {
                       variant="inherit"
                       color="primary"
                     >
-                      each semester
+                      growing each semester
                       {/* Let us handle the design. */}
                     </Typography>
                   </span>

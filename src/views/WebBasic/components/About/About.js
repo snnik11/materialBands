@@ -42,7 +42,7 @@ const About = props => {
             title={
               <span>
                 {/* Welcome to{' '} */}
-                Upcoming{' '}
+                Latest {''}
                 <Typography component="span" variant="inherit" color="primary">
                   Events
                   {/* TheFront. */}

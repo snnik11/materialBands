@@ -14,7 +14,7 @@ export const aboutServices = [
     icon: 'fas fa-calendar-alt',
     //'fas fa-users',
     //'fas fa-layer-group',
-    title: 'Hackathon BANDS x Orefox',
+    title: 'Hackathon BANDS x OREFOX',
     // title: 'Built for developers',
     subtitle:
       'Hackathon is an amazing opportunity for those who love to play with data and visualisation. Participate by forming a team and pitch to win the prize',

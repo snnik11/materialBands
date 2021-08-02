@@ -80,6 +80,7 @@ export const featuredProperties = [
     image: {
       src:
         'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/blackbookai.png',
+      // 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/blackbookai.png',
       // 'https://assets.maccarianagency.com/the-front/photos/rental/5.jpg',
     },
     price: '$320,000.00',

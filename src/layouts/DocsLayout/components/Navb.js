@@ -84,7 +84,8 @@ function Navb() {
           <span>
             <img
               className="bands-logo"
-              src="https://mybands.s3.ap-southeast-2.amazonaws.com/logos/bands.png"
+              src="https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/bands.png"
+              //"https://mybands.s3.ap-southeast-2.amazonaws.com/logos/bands.png"
               //"https://mybands.s3.ap-southeast-2.amazonaws.com/events/bandslogo.png"
               alt="BANDS"
               style={{

@@ -92,8 +92,8 @@ export const articles2 = [
     cover: {
       src: 'https://i.postimg.cc/Mpbrvkxp/personalbranding.jpg',
       //   'https://assets.maccarianagency.com/the-front/photos/blog/cover4.jpg',
-      srcSet:
-        'https://assets.maccarianagency.com/the-front/photos/blog/cover4.jpg 2x',
+      srcSet: 'https://i.postimg.cc/Mpbrvkxp/personalbranding.jpg',
+      //'https://assets.maccarianagency.com/the-front/photos/blog/cover4.jpg 2x',
     },
     title: 'Personal Branding',
     //  title: "LARQ | World's First Self-cleaning Water Bottle‎",

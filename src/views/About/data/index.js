@@ -229,7 +229,8 @@ export const gallery = [
       src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/gallery/oweek.jpg',
       //  'https://assets.maccarianagency.com/the-front/photos/coworking/place3.jpg',
       srcSet:
-        'https://assets.maccarianagency.com/the-front/photos/coworking/place3@2x.jpg 2x',
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/gallery/oweek.jpg',
+      //  'https://assets.maccarianagency.com/the-front/photos/coworking/place3@2x.jpg 2x',
     },
     title: 'gallery',
     cols: 1,

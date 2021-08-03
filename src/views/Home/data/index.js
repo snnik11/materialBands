@@ -107,7 +107,7 @@ export const landings = [
       'https://assets.maccarianagency.com/the-front/web-screens/landings/coworking--dark-min.png',
   },
   {
-    title: 'Rental',
+    title: 'IndustryPartners',
     href: '/rental',
     cover:
       'https://assets.maccarianagency.com/the-front/web-screens/landings/rental-min.png',

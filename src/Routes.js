@@ -16,7 +16,7 @@ import {
   Home as HomeView,
   Coworking as CoworkingView,
   WebBasic as WebBasicView,
-  Rental as RentalView,
+  IndustryPartners as IndustryPartnersView,
   Pricing as PricingView,
   About as AboutView,
   AboutSideCover as AboutSideCoverView,
@@ -86,11 +86,11 @@ const Routes = () => {
       />
       <Route
         exact
-        path="/rental"
+        path="/industry_partners"
         render={matchProps => (
           <WithLayout
             {...matchProps}
-            component={RentalView}
+            component={IndustryPartnersView}
             layout={MainLayout}
           />
         )}

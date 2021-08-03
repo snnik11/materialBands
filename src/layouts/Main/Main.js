@@ -38,7 +38,7 @@ const Main = ({ children, themeToggler, themeMode }) => {
               // href: '/coworking',
             },
             {
-              title: 'Rental',
+              title: 'IndustryPartners',
               href: '/rental',
             },
             // {

@@ -142,14 +142,14 @@ function Navb() {
               >
                 Events
               </Nav.Link>
-              {/* <Nav.Link className="nav-links" href="/Rental">
+              {/* <Nav.Link className="nav-links" href="/IndustryPartners">
               ind
             </Nav.Link> */}
               {/* <Nav.Link href="/faqs">FAQs</Nav.Link> */}
               {/* <Nav.Link className = "nav-links" href="/blog">Blog</Nav.Link> */}
               <Nav.Link
                 className="nav-links"
-                href="/Rental"
+                href="/industry_partners"
                 style={navlinkStyle}
               >
                 Industry Partners

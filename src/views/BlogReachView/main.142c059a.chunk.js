@@ -28,8 +28,8 @@
       a.r(t);
       var n = a(1),
         s = a.n(n),
-        i = a(21),
-        c = a.n(i);
+        c = a(21),
+        i = a.n(c);
       Boolean(
         'localhost' === window.location.hostname ||
           '[::1]' === window.location.hostname ||
@@ -46,8 +46,8 @@
         h = a(109),
         b = a(343),
         g = a(379),
-        u = a(256),
-        j = {
+        j = a(256),
+        u = {
           alternate: { main: 'rgb(247, 249, 250)', dark: '#e8eaf6' },
           cardShadow: 'rgba(23, 70, 161, .11)',
           type: 'light',
@@ -102,8 +102,8 @@
         },
         x = function(e) {
           return Object(g.a)(
-            Object(u.a)({
-              palette: 'light' === e ? j : f,
+            Object(j.a)({
+              palette: 'light' === e ? u : f,
               layout: { contentWidth: 1236 },
               typography: { fontFamily: 'Lato' },
               zIndex: { appBar: 1200, drawer: 1100 },
@@ -117,7 +117,7 @@
       function k(e) {
         var t = e.component,
           a = e.layout,
-          i = Object(p.a)(e, w);
+          c = Object(p.a)(e, w);
         s.a.useEffect(function() {
           var e = document.querySelector('#jss-server-side');
           e && e.parentElement.removeChild(e),
@@ -128,15 +128,15 @@
               easing: 'ease-in-out',
             });
         }, []);
-        var c = (function() {
+        var i = (function() {
             var e = Object(n.useState)('light'),
               t = Object(d.a)(e, 2),
               a = t[0],
               s = t[1],
-              i = Object(n.useState)(!1),
-              c = Object(d.a)(i, 2),
-              r = c[0],
-              o = c[1],
+              c = Object(n.useState)(!1),
+              i = Object(d.a)(c, 2),
+              r = i[0],
+              o = i[1],
               l = function(e) {
                 window.localStorage.setItem('themeMode', e), s(e);
               };
@@ -160,16 +160,16 @@
               ]
             );
           })(),
-          r = Object(d.a)(c, 3),
+          r = Object(d.a)(i, 3),
           o = r[0],
           g = r[1],
-          u = r[2];
+          j = r[2];
         return (
           Object(n.useEffect)(
             function() {
               y.a.refresh();
             },
-            [u],
+            [j],
           ),
           Object(v.jsxs)(m.a, {
             theme: x(o),
@@ -180,7 +180,7 @@
                 children: Object(v.jsx)(a, {
                   themeMode: o,
                   themeToggler: g,
-                  children: Object(v.jsx)(t, Object(l.a)({ themeMode: o }, i)),
+                  children: Object(v.jsx)(t, Object(l.a)({ themeMode: o }, c)),
                 }),
               }),
             ],
@@ -211,8 +211,8 @@
             a = e.srcSet,
             n = e.alt,
             s = e.lazy,
-            i = e.lazyProps,
-            c = e.className,
+            c = e.lazyProps,
+            i = e.className,
             r = Object(p.a)(e, D),
             o = R();
           return s
@@ -221,13 +221,13 @@
                 Object(l.a)(
                   Object(l.a)(
                     {
-                      className: Object(S.a)('image', o.root, o.dBlock, c),
+                      className: Object(S.a)('image', o.root, o.dBlock, i),
                       alt: n,
                       src: t,
                       srcSet: a,
                       effect: 'opacity',
                     },
-                    i,
+                    c,
                   ),
                   r,
                 ),
@@ -236,7 +236,7 @@
                 'img',
                 Object(l.a)(
                   {
-                    className: Object(S.a)('image', o.root, c),
+                    className: Object(S.a)('image', o.root, i),
                     alt: n,
                     src: t,
                     srcSet: a,
@@ -253,7 +253,7 @@
       var L = G,
         E = a(346),
         H = ['fontIconClass', 'size', 'fontIconColor', 'className'],
-        F = Object(P.a)(function() {
+        U = Object(P.a)(function() {
           return {
             extraSmall: { fontSize: 10 },
             small: { fontSize: 20 },
@@ -261,28 +261,28 @@
             large: { fontSize: 40 },
           };
         }),
-        U = function(e) {
+        F = function(e) {
           var t = e.fontIconClass,
             a = e.size,
             n = e.fontIconColor,
             s = e.className,
-            i = Object(p.a)(e, H),
-            c = F();
+            c = Object(p.a)(e, H),
+            i = U();
           return Object(v.jsx)(E.a, {
             children: Object(v.jsx)(
               'i',
               Object(l.a)(
                 {
-                  className: Object(S.a)('icon', t, c[a], s),
+                  className: Object(S.a)('icon', t, i[a], s),
                   style: { color: n },
                 },
-                i,
+                c,
               ),
             ),
           });
         };
-      U.defaultProps = { size: 'small' };
-      var V = U,
+      F.defaultProps = { size: 'small' };
+      var V = F,
         q = a(98),
         J = a.n(q),
         K = [
@@ -315,8 +315,8 @@
             a = (e.component, e.variant),
             n = e.title,
             s = e.href,
-            i = e.className,
-            c = e.iconProps,
+            c = e.className,
+            i = e.iconProps,
             r = e.typographyProps,
             o = Object(p.a)(e, K),
             d = Y(),
@@ -352,7 +352,7 @@
                         ),
                         color: t || 'primary',
                       },
-                      c,
+                      i,
                     ),
                     {},
                     {
@@ -370,7 +370,7 @@
               Object(l.a)(
                 {
                   href: s,
-                  className: Object(S.a)('learn-more-link', d.root, i),
+                  className: Object(S.a)('learn-more-link', d.root, c),
                 },
                 o,
               ),
@@ -411,8 +411,8 @@
             a = e.color,
             n = e.fontIconClass,
             s = e.className,
-            i = e.iconProps,
-            c = e.typographyProps,
+            c = e.iconProps,
+            i = e.typographyProps,
             r = Object(p.a)(e, Z),
             o = $();
           return Object(v.jsxs)(
@@ -434,7 +434,7 @@
                         fontIconClass: n,
                         fontIconColor: a,
                       },
-                      i,
+                      c,
                     ),
                   ),
                   Object(v.jsx)(
@@ -450,7 +450,7 @@
                             o.title,
                           ),
                         },
-                        c,
+                        i,
                       ),
                       {},
                       { children: t },
@@ -532,8 +532,8 @@
           a(352)),
         ne = a(378),
         se = a(354),
-        ie = (a(315), a(99)),
-        ce = a.n(ie),
+        ce = (a(315), a(99)),
+        ie = a.n(ce),
         re =
           (a(101),
           a.p,
@@ -632,8 +632,8 @@
             a = e.onClose,
             n = e.className,
             s = Object(p.a)(e, de),
-            i = me(),
-            c = t.landings,
+            c = me(),
+            i = t.landings,
             r = t.pages,
             o =
               (t.account,
@@ -647,7 +647,7 @@
                       children: Object(v.jsx)(T.a, {
                         variant: 'body2',
                         color: 'primary',
-                        className: i.menuGroupTitle,
+                        className: c.menuGroupTitle,
                         children: t.groupTitle,
                       }),
                     }),
@@ -656,12 +656,12 @@
                         W.a,
                         {
                           disableGutters: !0,
-                          className: i.menuGroupItem,
+                          className: c.menuGroupItem,
                           children: Object(v.jsx)(T.a, {
                             variant: 'body2',
                             component: 'a',
                             href: e.href,
-                            className: Object(S.a)(i.navLink, 'submenu-item'),
+                            className: Object(S.a)(c.navLink, 'submenu-item'),
                             color: 'textPrimary',
                             onClick: function() {
                               return a();
@@ -676,22 +676,22 @@
                 });
               }),
             d = function() {
-              var e = c.children,
+              var e = i.children,
                 t = e.services,
                 a = e.apps,
                 n = e.web;
               return Object(v.jsxs)('div', {
-                className: i.menu,
+                className: c.menu,
                 children: [
                   Object(v.jsxs)('div', {
-                    className: i.menuItem,
+                    className: c.menuItem,
                     children: [
                       Object(v.jsx)(o, { item: t }),
                       Object(v.jsx)(o, { item: a }),
                     ],
                   }),
                   Object(v.jsx)('div', {
-                    className: i.menuItem,
+                    className: c.menuItem,
                     children: Object(v.jsx)(o, { item: n }),
                   }),
                 ],
@@ -703,13 +703,13 @@
                 a = e.helpCenter,
                 n = e.company,
                 s = e.contact,
-                c = e.blog,
+                i = e.blog,
                 l = e.portfolio;
               return Object(v.jsxs)('div', {
-                className: i.menu,
+                className: c.menu,
                 children: [
                   Object(v.jsxs)('div', {
-                    className: i.menuItem,
+                    className: c.menuItem,
                     children: [
                       Object(v.jsx)(o, { item: t }),
                       Object(v.jsx)(o, { item: a }),
@@ -717,10 +717,10 @@
                     ],
                   }),
                   Object(v.jsxs)('div', {
-                    className: i.menuItem,
+                    className: c.menuItem,
                     children: [
                       Object(v.jsx)(o, { item: s }),
-                      Object(v.jsx)(o, { item: c }),
+                      Object(v.jsx)(o, { item: i }),
                       Object(v.jsx)(o, { item: l }),
                     ],
                   }),
@@ -733,20 +733,20 @@
               Object(l.a)({}, s),
               {},
               {
-                className: Object(S.a)(i.root, n),
+                className: Object(S.a)(c.root, n),
                 children: [
                   Object(v.jsx)(W.a, {
-                    className: i.closeIcon,
+                    className: c.closeIcon,
                     onClick: function() {
                       return a();
                     },
                     children: Object(v.jsx)(se.a, {
-                      className: i.listItemIcon,
+                      className: c.listItemIcon,
                       children: Object(v.jsx)(pe.a, { fontSize: 'small' }),
                     }),
                   }),
                   Object(v.jsxs)(W.a, {
-                    className: i.listItem,
+                    className: c.listItem,
                     children: [
                       Object(v.jsx)(T.a, {
                         variant: 'h6',
@@ -758,11 +758,11 @@
                     ],
                   }),
                   Object(v.jsx)(W.a, {
-                    className: i.listItem,
-                    children: Object(v.jsx)(B.a, { className: i.divider }),
+                    className: c.listItem,
+                    children: Object(v.jsx)(B.a, { className: c.divider }),
                   }),
                   Object(v.jsxs)(W.a, {
-                    className: i.listItem,
+                    className: c.listItem,
                     children: [
                       Object(v.jsx)(T.a, {
                         variant: 'h6',
@@ -774,11 +774,11 @@
                     ],
                   }),
                   Object(v.jsx)(W.a, {
-                    className: i.listItem,
-                    children: Object(v.jsx)(B.a, { className: i.divider }),
+                    className: c.listItem,
+                    children: Object(v.jsx)(B.a, { className: c.divider }),
                   }),
                   Object(v.jsx)(W.a, {
-                    className: i.listItem,
+                    className: c.listItem,
                     children: Object(v.jsx)(T.a, {
                       variant: 'h6',
                       color: 'textPrimary',
@@ -787,7 +787,7 @@
                     }),
                   }),
                   Object(v.jsx)(W.a, {
-                    className: i.listItem,
+                    className: c.listItem,
                     children: Object(v.jsx)(oe.a, {
                       variant: 'outlined',
                       fullWidth: !0,
@@ -797,7 +797,7 @@
                     }),
                   }),
                   Object(v.jsx)(W.a, {
-                    className: i.listItem,
+                    className: c.listItem,
                     children: Object(v.jsx)(oe.a, {
                       variant: 'contained',
                       color: 'primary',
@@ -822,13 +822,13 @@
             nav: { marginBottom: e.spacing(1) },
           };
         }),
-        ue = function(e) {
+        je = function(e) {
           var t = e.pages,
             a = e.open,
             n = e.variant,
             s = e.onClose,
-            i = e.className,
-            c = Object(p.a)(e, be),
+            c = e.className,
+            i = Object(p.a)(e, be),
             r = ge();
           return Object(v.jsx)(re.a, {
             anchor: 'left',
@@ -841,10 +841,10 @@
             children: Object(v.jsx)(
               'div',
               Object(l.a)(
-                Object(l.a)({}, c),
+                Object(l.a)({}, i),
                 {},
                 {
-                  className: Object(S.a)(r.root, i),
+                  className: Object(S.a)(r.root, c),
                   children: Object(v.jsx)(he, {
                     className: r.nav,
                     pages: t,
@@ -855,7 +855,7 @@
             ),
           });
         },
-        je = a(360),
+        ue = a(360),
         fe = a(376),
         xe =
           (Object(P.a)(function(e) {
@@ -906,25 +906,25 @@
             a = e.href,
             n = (e.icon, e.title),
             s = e.id,
-            i = Object(p.a)(e, Oe),
-            c = ye();
+            c = Object(p.a)(e, Oe),
+            i = ye();
           return Object(v.jsx)(
             W.a,
             Object(l.a)(
               Object(l.a)(
                 {
                   className: Object(S.a)(
-                    c.item,
+                    i.item,
                     (Object(xe.parse)(window.location.search).component ||
                       'introduction') === s
-                      ? c.itemActive
+                      ? i.itemActive
                       : '',
                     t,
                   ),
                   component: 'a',
                   href: a,
                 },
-                i,
+                c,
               ),
               {},
               {
@@ -1304,7 +1304,7 @@
                     children: Object(v.jsx)('img', {
                       className: 'bands-logo',
                       src:
-                        'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/bands.png',
+                        'https://mybands.s3.ap-southeast-2.amazonaws.com/logos/bands.png',
                       alt: 'BANDS',
                       style: {
                         width: 135,
@@ -1334,13 +1334,13 @@
                         }),
                         Object(v.jsx)(Pe.a.Link, {
                           className: 'nav-links',
-                          href: '/blog-reach-view',
+                          href: '/events',
                           style: Ce,
                           children: 'Events',
                         }),
                         Object(v.jsx)(Pe.a.Link, {
                           className: 'nav-links',
-                          href: '/IndustryPartners',
+                          href: '/Partners',
                           style: Ce,
                           children: 'Industry Partners',
                         }),
@@ -1429,9 +1429,9 @@
           var t = e.children,
             a = e.themeToggler,
             s = e.themeMode,
-            i = Te(),
-            c = Object(C.a)(),
-            r = Object(I.a)(c.breakpoints.up('md'), { defaultMatches: !0 }),
+            c = Te(),
+            i = Object(C.a)(),
+            r = Object(I.a)(i.breakpoints.up('md'), { defaultMatches: !0 }),
             o = {
               landings: {
                 title: 'Home',
@@ -1440,7 +1440,7 @@
                   services: {
                     pages: [
                       { title: 'Homepage', href: '/web-basic' },
-                      { title: 'IndustryPartners', href: '/rental' },
+                      { title: 'Partners', href: '/rental' },
                     ],
                   },
                   apps: { pages: [] },
@@ -1469,7 +1469,7 @@
                   company: { pages: [{ title: 'About', href: '/about' }] },
                   contact: { pages: [] },
                   blog: {
-                    pages: [{ title: 'Events', href: '/blog-reach-view' }],
+                    pages: [{ title: 'Events', href: '/events' }],
                   },
                   portfolio: {
                     groupTitle: 'Portfolio',
@@ -1499,7 +1499,7 @@
             h = p[1],
             b = !r && m;
           return Object(v.jsxs)('div', {
-            className: Object(S.a)(Object(N.a)({}, i.root, !0)),
+            className: Object(S.a)(Object(N.a)({}, c.root, !0)),
             children: [
               Object(v.jsx)(Be, {
                 onSidebarOpen: function() {
@@ -1510,7 +1510,7 @@
                 themeToggler: a,
                 style: { paddingBottom: '50px', paddingTop: '20px' },
               }),
-              Object(v.jsx)(ue, {
+              Object(v.jsx)(je, {
                 onClose: function() {
                   h(!1);
                 },
@@ -1611,8 +1611,8 @@
             a = e.titleVariant,
             n = e.subtitleVariant,
             s = e.subtitle,
-            i = e.subtitleColor,
-            c = e.label,
+            c = e.subtitleColor,
+            i = e.label,
             r = e.overline,
             o = e.fadeUp,
             d = e.align,
@@ -1620,8 +1620,8 @@
             h = e.disableGutter,
             b = e.titleClasses,
             g = e.className,
-            u = e.labelProps,
-            j = e.titleProps,
+            j = e.labelProps,
+            u = e.titleProps,
             f = e.subtitleProps,
             x = Object(p.a)(e, ze),
             O = Me(),
@@ -1659,7 +1659,7 @@
                         className: 'section-header__overline-wrapper',
                         children: r,
                       }),
-                    c &&
+                    i &&
                       Object(v.jsx)(_.a, {
                         item: !0,
                         xs: 12,
@@ -1674,10 +1674,10 @@
                                 component: 'p',
                                 align: d || 'center',
                               },
-                              u,
+                              j,
                             ),
                             {},
-                            { children: c },
+                            { children: i },
                           ),
                         ),
                       }),
@@ -1699,7 +1699,7 @@
                               ),
                               color: 'textPrimary',
                             },
-                            j,
+                            u,
                           ),
                           {},
                           { children: t },
@@ -1718,7 +1718,7 @@
                               {
                                 variant: n || 'h6',
                                 align: d || 'center',
-                                color: i || 'textSecondary',
+                                color: c || 'textSecondary',
                                 className: 'section-header__subtitle',
                               },
                               f,
@@ -1792,8 +1792,8 @@
             a = e.fontIconClass,
             n = e.size,
             s = e.color,
-            i = e.shape,
-            c = e.className,
+            c = e.shape,
+            i = e.className,
             r = Object(p.a)(e, Le),
             o = Ee(),
             d = Object(P.a)(function() {
@@ -1807,9 +1807,9 @@
                   className: Object(S.a)(
                     'icon-alternate',
                     o[n],
-                    o[i],
+                    o[c],
                     d.background,
-                    c,
+                    i,
                   ),
                 },
                 r,
@@ -1833,8 +1833,8 @@
           );
         };
       He.defaultProps = { size: 'medium', shape: 'square', iconProps: {} };
-      var Fe = He,
-        Ue = a(77),
+      var Ue = He,
+        Fe = a(77),
         Ve = ['items', 'navigationButtonStyle', 'imageClassName', 'className'],
         qe = Object(P.a)(function(e) {
           return {
@@ -1872,12 +1872,12 @@
           var t = e.items,
             a = e.navigationButtonStyle,
             n = e.imageClassName,
-            i = e.className,
-            c = Object(p.a)(e, Ve),
+            c = e.className,
+            i = Object(p.a)(e, Ve),
             r = qe();
           return (
             s.a.useEffect(function() {
-              new Ue.a('.swiper-container', {
+              new Fe.a('.swiper-container', {
                 slidesPerView: 1,
                 spaceBetween: 0,
                 navigation: {
@@ -1895,10 +1895,10 @@
                       'swiper-container',
                       'swiper-image',
                       r.root,
-                      i,
+                      c,
                     ),
                   },
-                  c,
+                  i,
                 ),
                 {},
                 {
@@ -1979,8 +1979,8 @@
             a = e.subtitle,
             n = e.primaryCta,
             s = e.secondaryCta,
-            i = e.align,
-            c = e.className,
+            c = e.align,
+            i = e.className,
             r = e.wrapperProps,
             o = e.titleProps,
             d = e.subtitleProps,
@@ -1988,13 +1988,13 @@
             h = e.primaryButtonWrapperProps,
             b = e.secondaryButtonWrapperProps,
             g = Object(p.a)(e, Ke),
-            u = Object(C.a)(),
-            j = Object(I.a)(u.breakpoints.up('sm'), { defaultMatches: !0 }),
+            j = Object(C.a)(),
+            u = Object(I.a)(j.breakpoints.up('sm'), { defaultMatches: !0 }),
             f = 'center';
           return (
-            'left' === i
-              ? (f = j ? 'flex-end' : 'flex-start')
-              : 'right' === i && (f = j ? 'flex-start' : 'flex-end'),
+            'left' === c
+              ? (f = u ? 'flex-end' : 'flex-start')
+              : 'right' === c && (f = u ? 'flex-start' : 'flex-end'),
             Object(v.jsxs)(
               _.a,
               Object(l.a)(
@@ -2004,7 +2004,7 @@
                     spacing: 2,
                     justify: 'space-between',
                     alignItems: 'center',
-                    className: Object(S.a)('description-cta', c),
+                    className: Object(S.a)('description-cta', i),
                   },
                   g,
                 ),
@@ -2027,7 +2027,7 @@
                                 Object(l.a)(
                                   {
                                     variant: 'h5',
-                                    align: i,
+                                    align: c,
                                     gutterBottom: !0,
                                     className: 'description-cta__title',
                                   },
@@ -2044,7 +2044,7 @@
                                   Object(l.a)(
                                     {
                                       variant: 'subtitle1',
-                                      align: i,
+                                      align: c,
                                       color: 'textSecondary',
                                       className: 'description-cta__subtitle',
                                     },
@@ -2151,16 +2151,16 @@
           var t = e.start,
             a = e.end,
             n = e.suffix,
-            i = e.prefix,
-            c = e.label,
+            c = e.prefix,
+            i = e.label,
             r = e.textColor,
             o = e.labelColor,
             m = e.className,
             h = e.visibilitySensorProps,
             b = e.wrapperProps,
             g = e.countWrapperProps,
-            u = e.countNumberProps,
-            j = e.labelProps,
+            j = e.countNumberProps,
+            u = e.labelProps,
             f = Object(p.a)(e, tt),
             x = s.a.useState(!1),
             O = Object(d.a)(x, 2),
@@ -2223,10 +2223,10 @@
                                           end: y ? a : t,
                                           start: t,
                                           suffix: n || '',
-                                          prefix: i || '',
+                                          prefix: c || '',
                                           className: 'countup-number__count',
                                         },
-                                        u,
+                                        j,
                                       ),
                                     ),
                                   },
@@ -2242,10 +2242,10 @@
                                       align: 'center',
                                       className: 'countup-number__label',
                                     },
-                                    j,
+                                    u,
                                   ),
                                   {},
-                                  { children: c },
+                                  { children: i },
                                 ),
                               ),
                             ],
@@ -2288,7 +2288,7 @@
             };
           }),
           ['items', 'className', 'numberProps', 'labelProps']),
-        it = Object(P.a)(function(e) {
+        ct = Object(P.a)(function(e) {
           return {
             swiperSlide: Object(N.a)(
               { paddingBottom: e.spacing(3) },
@@ -2298,18 +2298,18 @@
             number: { fontWeight: 900 },
           };
         }),
-        ct = function(e) {
+        it = function(e) {
           var t = e.items,
             a = e.className,
             n = e.numberProps,
-            i = e.labelProps,
-            c = Object(p.a)(e, st),
-            r = it(),
+            c = e.labelProps,
+            i = Object(p.a)(e, st),
+            r = ct(),
             o = Object(C.a)(),
             d = Object(I.a)(o.breakpoints.up('md'), { defaultMatches: !0 });
           return (
             s.a.useEffect(function() {
-              new Ue.a('.swiper-container', {
+              new Fe.a('.swiper-container', {
                 slidesPerView: d ? 4 : 3,
                 spaceBetween: 30,
                 pagination: {
@@ -2331,7 +2331,7 @@
                       a,
                     ),
                   },
-                  c,
+                  i,
                 ),
                 {},
                 {
@@ -2390,7 +2390,7 @@
                                           align: 'center',
                                           className: 'swiper-number__label',
                                         },
-                                        i,
+                                        c,
                                       ),
                                       {},
                                       { children: e.title },
@@ -2413,7 +2413,7 @@
             )
           );
         };
-      ct.defaultProps = { numberProps: {}, labelProps: {} };
+      it.defaultProps = { numberProps: {}, labelProps: {} };
       a(250);
       var rt = [
           'children',
@@ -2449,8 +2449,8 @@
             a = e.fullWidth,
             n = e.narrow,
             s = e.disablePadding,
-            i = e.className,
-            c = Object(p.a)(e, rt),
+            c = e.className,
+            i = Object(p.a)(e, rt),
             r = ot();
           return Object(v.jsx)(
             'section',
@@ -2463,10 +2463,10 @@
                     a ? r.fullWidth : {},
                     n ? r.narrow : {},
                     s ? r.disablePadding : {},
-                    i,
+                    c,
                   ),
                 },
-                c,
+                i,
               ),
               {},
               { children: t },
@@ -2500,12 +2500,12 @@
             a = e.innerNarrowed,
             n = e.className,
             s = Object(p.a)(e, pt),
-            i = dt();
+            c = dt();
           return Object(v.jsx)(
             'section',
             Object(l.a)(
               Object(l.a)(
-                { className: Object(S.a)('section-alternate', i.root, n) },
+                { className: Object(S.a)('section-alternate', c.root, n) },
                 s,
               ),
               {},
@@ -2513,8 +2513,8 @@
                 children: Object(v.jsx)('div', {
                   className: Object(S.a)(
                     'section-alternate__content',
-                    i.inner,
-                    a ? i.innerNarrowed : {},
+                    c.inner,
+                    a ? c.innerNarrowed : {},
                   ),
                   children: t,
                 }),
@@ -2541,8 +2541,8 @@
             a = e.subtitle,
             n = e.icon,
             s = e.align,
-            i = e.titleVariant,
-            c = e.subtitleVariant,
+            c = e.titleVariant,
+            i = e.subtitleVariant,
             r = e.className,
             o = e.titleProps,
             d = (e.subtitleProps, Object(p.a)(e, ht)),
@@ -2577,7 +2577,7 @@
                         Object(l.a)(
                           Object(l.a)(
                             {
-                              variant: i,
+                              variant: c,
                               color: 'textPrimary',
                               align: s,
                               className: Object(S.a)(
@@ -2598,7 +2598,7 @@
                         xs: 12,
                         className: 'description-list-icon__subtitle-wrapper',
                         children: Object(v.jsx)(T.a, {
-                          variant: c,
+                          variant: i,
                           color: 'textSecondary',
                           align: s,
                           className: 'description-list-icon__subtitle',
@@ -2618,8 +2618,8 @@
         titleProps: {},
         subtitleProps: {},
       };
-      var ut = gt,
-        jt = a(361),
+      var jt = gt,
+        ut = a(361),
         ft = a(362),
         xt = [
           'withShadow',
@@ -2675,15 +2675,15 @@
             a = e.noShadow,
             n = e.noBorder,
             s = e.noBg,
-            i = e.liftUp,
-            c = e.children,
+            c = e.liftUp,
+            i = e.children,
             r = e.align,
             o = e.className,
             d = e.cardContentProps,
             m = Object(p.a)(e, xt),
             h = Ot();
           return Object(v.jsx)(
-            jt.a,
+            ut.a,
             Object(l.a)(
               Object(l.a)(
                 {
@@ -2694,7 +2694,7 @@
                     a ? h.noShadow : {},
                     n ? h.noBorder : {},
                     s ? h.noBg : {},
-                    i ? h.liftUp : {},
+                    c ? h.liftUp : {},
                     o,
                   ),
                 },
@@ -2716,7 +2716,7 @@
                       d,
                     ),
                     {},
-                    { children: c },
+                    { children: i },
                   ),
                 ),
               },
@@ -2748,8 +2748,8 @@
             a = e.text,
             n = e.authorPhoto,
             s = e.authorName,
-            i = e.authorTitle,
-            c = e.align,
+            c = e.authorTitle,
+            i = e.align,
             r = e.textVariant,
             o = e.className,
             d = e.textProps,
@@ -2757,11 +2757,11 @@
             h = e.listItemSecondaryTypographyProps,
             b = Object(p.a)(e, Nt),
             g = St(),
-            u = 'center';
+            j = 'center';
           return (
-            'left' === c
-              ? (u = 'flex-start')
-              : 'right' === c && (u = 'flex-end'),
+            'left' === i
+              ? (j = 'flex-start')
+              : 'right' === i && (j = 'flex-end'),
             Object(v.jsx)(
               vt,
               Object(l.a)(
@@ -2779,7 +2779,7 @@
                       Object(v.jsx)(_.a, {
                         item: !0,
                         container: !0,
-                        justify: u,
+                        justify: j,
                         xs: 12,
                         className: 'card-review__icon-wrapper',
                         children: t,
@@ -2792,7 +2792,7 @@
                           T.a,
                           Object(l.a)(
                             Object(l.a)(
-                              { variant: r, align: c, component: 'p' },
+                              { variant: r, align: i, component: 'p' },
                               d,
                             ),
                             {},
@@ -2806,7 +2806,7 @@
                         className: 'card-review__lits-container',
                         children: Object(v.jsx)(_.a, {
                           container: !0,
-                          justify: u,
+                          justify: j,
                           className: 'card-review__list-wrapper',
                           children: Object(v.jsx)(A.a, {
                             disablePadding: !0,
@@ -2831,7 +2831,7 @@
                                 Object(v.jsx)(kt.a, {
                                   className: 'card-review__list-item-text',
                                   primary: s,
-                                  secondary: i,
+                                  secondary: c,
                                   primaryTypographyProps: Object(l.a)({}, m),
                                   secondaryTypographyProps: Object(l.a)({}, h),
                                 }),
@@ -2864,14 +2864,14 @@
             a = e.title,
             n = e.align,
             s = e.className,
-            i = Object(p.a)(e, It),
-            c = Bt();
+            c = Object(p.a)(e, It),
+            i = Bt();
           return Object(v.jsx)(
             vt,
             Object(l.a)(
-              Object(l.a)({ className: Object(S.a)(c.root, s) }, i),
+              Object(l.a)({ className: Object(S.a)(i.root, s) }, c),
               {},
-              { children: Object(v.jsx)(ut, { icon: t, title: a, align: n }) },
+              { children: Object(v.jsx)(jt, { icon: t, title: a, align: n }) },
             ),
           );
         };
@@ -2948,15 +2948,15 @@
             a = e.subtitle,
             n = e.showArrow,
             s = e.titleProps,
-            i = e.subtitleProps,
-            c = (e.className, Object(p.a)(e, Tt)),
+            c = e.subtitleProps,
+            i = (e.className, Object(p.a)(e, Tt)),
             r = _t();
           return Object(v.jsxs)(
             'div',
             Object(l.a)(
               Object(l.a)(
                 { className: Object(S.a)(r.root, 'card-job-minimal') },
-                c,
+                i,
               ),
               {},
               {
@@ -2999,7 +2999,7 @@
                                 color: 'textSecondary',
                                 className: 'card-job-minimal__location',
                               },
-                              i,
+                              c,
                             ),
                             {},
                             { children: a },
@@ -3099,8 +3099,8 @@
             a = e.className,
             n = e.titleProps,
             s = e.subtitleProps,
-            i = e.textProps,
-            c = e.linkProps,
+            c = e.textProps,
+            i = e.linkProps,
             r = Object(p.a)(e, Gt),
             o = Lt();
           return Object(v.jsx)(
@@ -3120,7 +3120,7 @@
                       ),
                       children: [
                         Object(v.jsx)(Dt.a, {
-                          expandIcon: Object(v.jsx)(ce.a, {}),
+                          expandIcon: Object(v.jsx)(ie.a, {}),
                           'aria-controls': ''.concat(e.id, '-content'),
                           id: e.id,
                           children: Object(v.jsxs)(_.a, {
@@ -3193,7 +3193,7 @@
                                         className:
                                           'accordion__collapsable-text',
                                       },
-                                      i,
+                                      c,
                                     ),
                                     {},
                                     { children: e.text },
@@ -3215,7 +3215,7 @@
                                         className:
                                           'accordion__collapsable-link',
                                       },
-                                      c,
+                                      i,
                                     ),
                                   ),
                                 }),
@@ -3238,7 +3238,7 @@
         linkProps: {},
       };
       var Ht = ['leftSide', 'rightSide', 'className'],
-        Ft = Object(P.a)(function(e) {
+        Ut = Object(P.a)(function(e) {
           var t;
           return {
             root: { height: '100%', width: '100%', overflow: 'hidden' },
@@ -3293,51 +3293,51 @@
             ),
           };
         }),
-        Ut = function(e) {
+        Ft = function(e) {
           var t = e.leftSide,
             a = e.rightSide,
             n = e.className,
             s = Object(p.a)(e, Ht),
-            i = Ft();
+            c = Ut();
           return Object(v.jsxs)(
             'div',
             Object(l.a)(
               Object(l.a)(
-                { className: Object(S.a)(i.root, 'hero-shaped', n) },
+                { className: Object(S.a)(c.root, 'hero-shaped', n) },
                 s,
               ),
               {},
               {
                 children: [
                   Object(v.jsxs)('div', {
-                    className: Object(S.a)('hero-shaped__wrapper', i.hero),
+                    className: Object(S.a)('hero-shaped__wrapper', c.hero),
                     children: [
                       Object(v.jsx)(lt, {
                         className: Object(S.a)(
                           'hero-shaped__left-side',
-                          i.heroLeftSide,
+                          c.heroLeftSide,
                         ),
                         children: t,
                       }),
                       Object(v.jsx)('div', {
                         className: Object(S.a)(
                           'hero-shaped__right-side',
-                          i.heroRightSide,
+                          c.heroRightSide,
                         ),
                         children: Object(v.jsx)('div', {
                           className: Object(S.a)(
                             'hero-shaped__cover',
-                            i.heroCover,
+                            c.heroCover,
                           ),
                           children: Object(v.jsx)('div', {
                             className: Object(S.a)(
                               'hero-shaped__image-container',
-                              i.heroImageContainer,
+                              c.heroImageContainer,
                             ),
                             children: Object(v.jsx)('div', {
                               className: Object(S.a)(
                                 'hero-shaped__image',
-                                i.heroImage,
+                                c.heroImage,
                               ),
                               children: a,
                             }),
@@ -3409,8 +3409,8 @@
             a = e.withShadow,
             n = e.noShadow,
             s = e.noBorder,
-            i = e.noBg,
-            c = e.liftUp,
+            c = e.noBg,
+            i = e.liftUp,
             r = e.cardContent,
             o = e.mediaContent,
             d = e.align,
@@ -3418,7 +3418,7 @@
             h = Object(p.a)(e, qt),
             b = Jt();
           return Object(v.jsxs)(
-            jt.a,
+            ut.a,
             Object(l.a)(
               Object(l.a)(
                 {
@@ -3428,8 +3428,8 @@
                     a ? b.withShadow : {},
                     n ? b.noShadow : {},
                     s ? b.noBorder : {},
-                    i ? b.noBg : {},
-                    c ? b.liftUp : {},
+                    c ? b.noBg : {},
+                    i ? b.liftUp : {},
                     m,
                   ),
                 },
@@ -3474,8 +3474,8 @@
         Zt = function(e) {
           var t = e.zoom,
             n = e.center,
-            i = e.pins,
-            c = e.className,
+            c = e.pins,
+            i = e.className,
             r = Object(p.a)(e, Qt),
             o = Xt();
           if (
@@ -3504,7 +3504,7 @@
                 {
                   zoom: t,
                   center: n,
-                  className: Object(S.a)('map', o.root, c),
+                  className: Object(S.a)('map', o.root, i),
                 },
                 r,
               ),
@@ -3518,9 +3518,9 @@
                       '&copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
                     url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
                   }),
-                  i &&
-                    i.length &&
-                    i.map(function(e, t) {
+                  c &&
+                    c.length &&
+                    c.map(function(e, t) {
                       return Object(v.jsx)(
                         h,
                         {
@@ -3627,8 +3627,8 @@
             a = e.fontIconClass,
             n = e.color,
             s = e.title,
-            i = e.subtitle,
-            c = e.description,
+            c = e.subtitle,
+            i = e.description,
             r = e.align,
             o = e.className,
             d = e.iconAlternateProps,
@@ -3636,15 +3636,15 @@
             h = e.subtitleProps,
             b = e.descriptionProps,
             g = Object(p.a)(e, ea),
-            u = ta(),
-            j = 'flex-start';
+            j = ta(),
+            u = 'flex-start';
           return (
-            'center' === r ? (j = 'center') : 'right' === r && (j = 'flex-end'),
+            'center' === r ? (u = 'center') : 'right' === r && (u = 'flex-end'),
             Object(v.jsx)(
               vt,
               Object(l.a)(
                 Object(l.a)(
-                  { className: Object(S.a)('card__promo', u.root, o) },
+                  { className: Object(S.a)('card__promo', j.root, o) },
                   g,
                 ),
                 {},
@@ -3657,11 +3657,11 @@
                       Object(v.jsx)(_.a, {
                         item: !0,
                         container: !0,
-                        justify: j,
+                        justify: u,
                         xs: 12,
                         className: 'card-promo__icon-wrapper',
                         children: Object(v.jsx)(
-                          Fe,
+                          Ue,
                           Object(l.a)(
                             {
                               fontIconClass: a,
@@ -3686,7 +3686,7 @@
                                 align: r,
                                 className: Object(S.a)(
                                   'card-promo__title',
-                                  u.fontWeight700,
+                                  j.fontWeight700,
                                 ),
                                 color: t || 'textPrimary',
                               },
@@ -3697,7 +3697,7 @@
                           ),
                         ),
                       }),
-                      i &&
+                      c &&
                         Object(v.jsx)(_.a, {
                           item: !0,
                           xs: 12,
@@ -3711,17 +3711,17 @@
                                   align: r,
                                   className: Object(S.a)(
                                     'card-promo__subtitle',
-                                    u.fontWeight700,
+                                    j.fontWeight700,
                                   ),
                                 },
                                 h,
                               ),
                               {},
-                              { children: i },
+                              { children: c },
                             ),
                           ),
                         }),
-                      c &&
+                      i &&
                         Object(v.jsx)(_.a, {
                           item: !0,
                           xs: 12,
@@ -3739,7 +3739,7 @@
                                 b,
                               ),
                               {},
-                              { children: c },
+                              { children: i },
                             ),
                           ),
                         }),
@@ -3780,13 +3780,13 @@
             },
           };
         }),
-        ia = function(e) {
+        ca = function(e) {
           var t = e.fontIconClass,
             a = e.color,
             n = e.title,
             s = e.subtitle,
-            i = e.href,
-            c = e.align,
+            c = e.href,
+            i = e.align,
             r = e.className,
             o = e.iconAlternateProps,
             d = e.titleProps,
@@ -3795,7 +3795,7 @@
             b = sa(),
             g = 'flex-start';
           return (
-            'center' === c ? (g = 'center') : 'right' === c && (g = 'flex-end'),
+            'center' === i ? (g = 'center') : 'right' === i && (g = 'flex-end'),
             Object(v.jsx)(
               vt,
               Object(l.a)(
@@ -3818,7 +3818,7 @@
                             justify: g,
                             xs: 12,
                             children: Object(v.jsx)(
-                              Fe,
+                              Ue,
                               Object(l.a)(
                                 { fontIconClass: t, color: a, size: 'medium' },
                                 o,
@@ -3834,7 +3834,7 @@
                                 Object(l.a)(
                                   {
                                     variant: 'h6',
-                                    align: c,
+                                    align: i,
                                     className: b.fontWeight700,
                                   },
                                   d,
@@ -3854,7 +3854,7 @@
                                   Object(l.a)(
                                     {
                                       variant: 'subtitle1',
-                                      align: c,
+                                      align: i,
                                       color: 'textSecondary',
                                     },
                                     m,
@@ -3867,7 +3867,7 @@
                         ],
                       }),
                       Object(v.jsx)('a', {
-                        href: i,
+                        href: c,
                         className: Object(S.a)(
                           'card-category-link__item',
                           b.categoryIconButton,
@@ -3887,14 +3887,14 @@
             )
           );
         };
-      ia.defaultProps = {
+      ca.defaultProps = {
         align: 'left',
         href: '#',
         iconAlternateProps: {},
         titleProps: {},
         subtitleProps: {},
       };
-      var ca = [
+      var ia = [
           'children',
           'backgroundSize',
           'backgroundImage',
@@ -3911,8 +3911,8 @@
             a = e.backgroundSize,
             n = e.backgroundImage,
             s = e.backgroundPosition,
-            i = e.className,
-            c = Object(p.a)(e, ca),
+            c = e.className,
+            i = Object(p.a)(e, ia),
             r = ra(),
             o = Object(P.a)(function() {
               return {
@@ -3929,13 +3929,13 @@
                   className: Object(S.a)(
                     'hero-simple-background',
                     r.root,
-                    i,
+                    c,
                     o.backgroundImage,
                     o.backgroundSize,
                     o.backgroundPosition,
                   ),
                 },
-                c,
+                i,
               ),
               {},
               {
@@ -3976,8 +3976,8 @@
             a = e.subtitle,
             n = e.priceComponent,
             s = e.featureCheckComponent,
-            i = e.features,
-            c = e.cta,
+            c = e.features,
+            i = e.cta,
             r = e.disclaimer,
             o = e.className,
             d = e.titleProps,
@@ -3985,13 +3985,13 @@
             h = e.disclaimerProps,
             b = e.featureTitleProps,
             g = Object(p.a)(e, la),
-            u = pa();
+            j = pa();
           return Object(v.jsx)(
             vt,
             Object(l.a)(
               Object(l.a)(
                 {
-                  className: Object(S.a)('card-pricing-standard', u.root, o),
+                  className: Object(S.a)('card-pricing-standard', j.root, o),
                   align: 'left',
                 },
                 g,
@@ -4055,14 +4055,14 @@
                       className: 'card-pricing-standard__content',
                       children: n,
                     }),
-                    i &&
+                    c &&
                       Object(v.jsx)(_.a, {
                         item: !0,
                         xs: 12,
                         className: 'card-pricing-standard__feature-wrapper',
                         children: Object(v.jsx)(A.a, {
                           className: 'card-pricing-standard__feature-list',
-                          children: i.map(function(e, t) {
+                          children: c.map(function(e, t) {
                             return Object(v.jsxs)(
                               W.a,
                               {
@@ -4074,7 +4074,7 @@
                                     Object(v.jsx)('div', {
                                       className: Object(S.a)(
                                         'card-pricing-standard__feature-check',
-                                        u.featureCheck,
+                                        j.featureCheck,
                                       ),
                                       children: s,
                                     }),
@@ -4105,7 +4105,7 @@
                       item: !0,
                       xs: 12,
                       className: 'card-pricing-standard__cta-wrapper',
-                      children: c,
+                      children: i,
                     }),
                     r &&
                       Object(v.jsx)(_.a, {
@@ -4165,10 +4165,10 @@
           a(369)),
         ba = a(252),
         ga = a.n(ba),
-        ua = Object(P.a)(function(e) {
+        ja = Object(P.a)(function(e) {
           return { root: { width: '100%' } };
         }),
-        ja = {
+        ua = {
           fullname: {
             presence: { allowEmpty: !1, message: 'is required' },
             length: { maximum: 128 },
@@ -4181,7 +4181,7 @@
           message: { presence: { allowEmpty: !1, message: 'is required' } },
         },
         fa = function() {
-          var e = ua(),
+          var e = ja(),
             t = s.a.useState({
               isValid: !1,
               values: {},
@@ -4190,11 +4190,11 @@
             }),
             a = Object(d.a)(t, 2),
             n = a[0],
-            i = a[1];
+            c = a[1];
           s.a.useEffect(
             function() {
-              var e = ga()(n.values, ja);
-              i(function(t) {
+              var e = ga()(n.values, ua);
+              c(function(t) {
                 return Object(l.a)(
                   Object(l.a)({}, t),
                   {},
@@ -4204,9 +4204,9 @@
             },
             [n.values],
           );
-          var c = function(e) {
+          var i = function(e) {
               e.persist(),
-                i(function(t) {
+                c(function(t) {
                   return Object(l.a)(
                     Object(l.a)({}, t),
                     {},
@@ -4283,7 +4283,7 @@
                         fullWidth: !0,
                         helperText: r('fullname') ? n.errors.fullname[0] : null,
                         error: r('fullname'),
-                        onChange: c,
+                        onChange: i,
                         type: 'text',
                         value: n.values.fullname || '',
                       }),
@@ -4301,7 +4301,7 @@
                         fullWidth: !0,
                         helperText: r('email') ? n.errors.email[0] : null,
                         error: r('email'),
-                        onChange: c,
+                        onChange: i,
                         type: 'email',
                         value: n.values.email || '',
                       }),
@@ -4317,7 +4317,7 @@
                         fullWidth: !0,
                         helperText: r('message') ? n.errors.message[0] : null,
                         error: r('message'),
-                        onChange: c,
+                        onChange: i,
                         multiline: !0,
                         rows: 4,
                         value: n.values.message || '',
@@ -4382,7 +4382,7 @@
             a = Object(p.a)(e, xa),
             n = Oa(),
             s = Object(C.a)(),
-            i = Object(I.a)(s.breakpoints.up('md'), { defaultMatches: !0 });
+            c = Object(I.a)(s.breakpoints.up('md'), { defaultMatches: !0 });
           return Object(v.jsxs)(
             'div',
             Object(l.a)(
@@ -4420,7 +4420,7 @@
                   Object(v.jsx)(lt, {
                     children: Object(v.jsx)(_.a, {
                       container: !0,
-                      spacing: i ? 4 : 2,
+                      spacing: c ? 4 : 2,
                       children: ya.map(function(e, t) {
                         return Object(v.jsx)(
                           _.a,
@@ -4429,10 +4429,10 @@
                             xs: 12,
                             sm: 4,
                             'data-aos': 'fade-up',
-                            children: Object(v.jsx)(ut, {
+                            children: Object(v.jsx)(jt, {
                               title: e.title,
                               subtitle: e.subtitle,
-                              icon: Object(v.jsx)(Fe, {
+                              icon: Object(v.jsx)(Ue, {
                                 fontIconClass: e.icon,
                                 size: 'medium',
                                 color: Wt.a.indigo,
@@ -4476,12 +4476,12 @@
             a = void 0 === t ? 'light' : t,
             n = e.data,
             s = e.className,
-            i = Object(p.a)(e, Pa),
-            c = Ca();
+            c = Object(p.a)(e, Pa),
+            i = Ca();
           return Object(v.jsxs)(
             'div',
             Object(l.a)(
-              Object(l.a)({ className: s }, i),
+              Object(l.a)({ className: s }, c),
               {},
               {
                 children: [
@@ -4508,7 +4508,7 @@
                             children: Object(v.jsx)(vt, {
                               withShadow: !0,
                               liftUp: !0,
-                              className: c.cardBase,
+                              className: i.cardBase,
                               children: Object(v.jsxs)(v.Fragment, {
                                 children: [
                                   Object(v.jsx)(L, {
@@ -4516,12 +4516,12 @@
                                     alt: e.title,
                                   }),
                                   Object(v.jsxs)('div', {
-                                    className: c.linkContainer,
+                                    className: i.linkContainer,
                                     children: [
                                       Object(v.jsx)(T.a, {
                                         variant: 'subtitle1',
                                         color: 'textPrimary',
-                                        className: c.title,
+                                        className: i.title,
                                         children: e.title,
                                       }),
                                       Object(v.jsx)(Sa.a, {}),
@@ -4564,12 +4564,12 @@
             a = void 0 === t ? 'light' : t,
             n = e.data,
             s = e.className,
-            i = Object(p.a)(e, Ba),
-            c = Aa();
+            c = Object(p.a)(e, Ba),
+            i = Aa();
           return Object(v.jsxs)(
             'div',
             Object(l.a)(
-              Object(l.a)({ className: s }, i),
+              Object(l.a)({ className: s }, c),
               {},
               {
                 children: [
@@ -4596,7 +4596,7 @@
                             children: Object(v.jsx)(vt, {
                               withShadow: !0,
                               liftUp: !0,
-                              className: c.cardBase,
+                              className: i.cardBase,
                               children: Object(v.jsxs)(v.Fragment, {
                                 children: [
                                   Object(v.jsx)(L, {
@@ -4604,12 +4604,12 @@
                                     alt: e.title,
                                   }),
                                   Object(v.jsxs)('div', {
-                                    className: c.linkContainer,
+                                    className: i.linkContainer,
                                     children: [
                                       Object(v.jsx)(T.a, {
                                         variant: 'subtitle1',
                                         color: 'textPrimary',
-                                        className: c.title,
+                                        className: i.title,
                                         children: e.title,
                                       }),
                                       Object(v.jsx)(Sa.a, {}),
@@ -4737,7 +4737,7 @@
               'https://assets.maccarianagency.com/the-front/web-screens/landings/coworking--dark-min.png',
           },
           {
-            title: 'IndustryPartners',
+            title: 'Partners',
             href: '/rental',
             cover:
               'https://assets.maccarianagency.com/the-front/web-screens/landings/rental-min.png',
@@ -4948,11 +4948,11 @@
           },
           {
             title: 'Blog Reach View',
-            href: '/blog-reach-view',
+            href: '/events',
             cover:
-              'https://assets.maccarianagency.com/the-front/web-screens/pages/blog-reach-view-min.png',
+              'https://assets.maccarianagency.com/the-front/web-screens/pages/events-min.png',
             coverDark:
-              'https://assets.maccarianagency.com/the-front/web-screens/pages/blog-reach-view--dark-min.png',
+              'https://assets.maccarianagency.com/the-front/web-screens/pages/events--dark-min.png',
           },
           {
             title: 'Blog Search',
@@ -5088,8 +5088,8 @@
             a = e.className,
             n = Object(p.a)(e, Ra),
             s = Ga(),
-            i = Object(C.a)(),
-            c = Object(I.a)(i.breakpoints.up('md'), { defaultMatches: !0 });
+            c = Object(C.a)(),
+            i = Object(I.a)(c.breakpoints.up('md'), { defaultMatches: !0 });
           return Object(v.jsx)(
             'div',
             Object(l.a)(
@@ -5099,7 +5099,7 @@
                 children: Object(v.jsxs)(_.a, {
                   container: !0,
                   spacing: 4,
-                  direction: c ? 'row' : 'column-reverse',
+                  direction: i ? 'row' : 'column-reverse',
                   children: [
                     Object(v.jsxs)(_.a, {
                       item: !0,
@@ -5140,7 +5140,7 @@
                                 children: [
                                   Object(v.jsx)(wt.a, {
                                     className: s.listItemAvatar,
-                                    children: Object(v.jsx)(Fe, {
+                                    children: Object(v.jsx)(Ue, {
                                       size: 'small',
                                       fontIconClass: e.icon,
                                       color: Wt.a.indigo,
@@ -5215,7 +5215,7 @@
             };
           }),
           ['className']),
-        Fa = Object(P.a)(function(e) {
+        Ua = Object(P.a)(function(e) {
           return {
             placementGrid: {
               maxWidth: 320,
@@ -5228,12 +5228,12 @@
             }),
           };
         }),
-        Ua = function(e) {
+        Fa = function(e) {
           var t = e.className,
             a = Object(p.a)(e, Ha),
-            n = Fa(),
+            n = Ua(),
             s = Object(C.a)(),
-            i = Object(I.a)(s.breakpoints.up('md'), { defaultMatches: !0 });
+            c = Object(I.a)(s.breakpoints.up('md'), { defaultMatches: !0 });
           return Object(v.jsx)(
             'div',
             Object(l.a)(
@@ -5242,7 +5242,7 @@
               {
                 children: Object(v.jsxs)(_.a, {
                   container: !0,
-                  spacing: i ? 4 : 2,
+                  spacing: c ? 4 : 2,
                   children: [
                     Object(v.jsx)(_.a, {
                       item: !0,
@@ -5333,18 +5333,19 @@
             ),
           );
         },
-        Va = (a.p, ['className']),
-        qa = Object(P.a)(function(e) {
+        Va = a.p + 'static/media/bandsgif.133a52cf.gif',
+        qa = ['className'],
+        Ja = Object(P.a)(function(e) {
           return {
             image: Object(N.a)({}, e.breakpoints.down('sm'), { maxWidth: 500 }),
           };
         }),
-        Ja = function(e) {
+        Ka = function(e) {
           var t = e.className,
-            a = Object(p.a)(e, Va),
-            n = qa(),
+            a = Object(p.a)(e, qa),
+            n = Ja(),
             s = Object(C.a)(),
-            i = Object(I.a)(s.breakpoints.up('md'), { defaultMatches: !0 });
+            c = Object(I.a)(s.breakpoints.up('md'), { defaultMatches: !0 });
           return Object(v.jsx)(
             'div',
             Object(l.a)(
@@ -5354,7 +5355,7 @@
                 children: Object(v.jsxs)(_.a, {
                   container: !0,
                   justify: 'space-between',
-                  spacing: i ? 4 : 2,
+                  spacing: c ? 4 : 2,
                   children: [
                     Object(v.jsx)(_.a, {
                       item: !0,
@@ -5380,7 +5381,7 @@
                           Object(v.jsx)(oe.a, {
                             variant: 'contained',
                             color: 'primary',
-                            size: i ? 'large' : 'medium',
+                            size: c ? 'large' : 'medium',
                             onClick: function(e) {
                               e.preventDefault(),
                                 (window.location.href =
@@ -5389,7 +5390,7 @@
                             children: 'Join Today',
                           }),
                         ],
-                        align: i ? 'left' : 'center',
+                        align: c ? 'left' : 'center',
                         disableGutter: !0,
                         titleVariant: 'h3',
                       }),
@@ -5403,8 +5404,7 @@
                       md: 6,
                       'data-aos': 'fade-up',
                       children: Object(v.jsx)(L, {
-                        src:
-                          'https://mybands.s3.ap-southeast-2.amazonaws.com/design/1.png',
+                        src: Va,
                         style: {
                           height: '380px',
                           width: '550px',
@@ -5420,12 +5420,12 @@
             ),
           );
         },
-        Ka =
+        Ya =
           (Object(P.a)(function(e) {
             return { logoImg: { maxWidth: 120 } };
           }),
           ['data', 'className']),
-        Ya = Object(P.a)(function(e) {
+        Qa = Object(P.a)(function(e) {
           var t;
           return {
             gridItem:
@@ -5451,13 +5451,13 @@
               t),
           };
         }),
-        Qa = function(e) {
+        Xa = function(e) {
           var t = e.data,
             a = e.className,
-            n = Object(p.a)(e, Ka),
-            s = Ya(),
-            i = Object(C.a)(),
-            c = Object(I.a)(i.breakpoints.up('md'), { defaultMatches: !0 });
+            n = Object(p.a)(e, Ya),
+            s = Qa(),
+            c = Object(C.a)(),
+            i = Object(I.a)(c.breakpoints.up('md'), { defaultMatches: !0 });
           return Object(v.jsxs)(
             'div',
             Object(l.a)(
@@ -5472,7 +5472,7 @@
                   }),
                   Object(v.jsx)(_.a, {
                     container: !0,
-                    spacing: c ? 4 : 2,
+                    spacing: i ? 4 : 2,
                     children: t.map(function(e, t) {
                       return Object(v.jsx)(
                         _.a,
@@ -5537,13 +5537,13 @@
             ),
           );
         },
-        Xa = ['data', 'className'],
-        Za = function(e) {
+        Za = ['data', 'className'],
+        $a = function(e) {
           var t = e.data,
             a = e.className,
-            n = Object(p.a)(e, Xa),
+            n = Object(p.a)(e, Za),
             s = Object(C.a)(),
-            i = Object(I.a)(s.breakpoints.up('md'), { defaultMatches: !0 });
+            c = Object(I.a)(s.breakpoints.up('md'), { defaultMatches: !0 });
           return Object(v.jsx)(
             'div',
             Object(l.a)(
@@ -5552,7 +5552,7 @@
               {
                 children: Object(v.jsx)(_.a, {
                   container: !0,
-                  spacing: i ? 4 : 2,
+                  spacing: c ? 4 : 2,
                   children: t.map(function(e, t) {
                     return Object(v.jsx)(
                       _.a,
@@ -5561,10 +5561,10 @@
                         xs: 12,
                         sm: 4,
                         'data-aos': 'fade-up',
-                        children: Object(v.jsx)(ut, {
+                        children: Object(v.jsx)(jt, {
                           title: e.title,
                           subtitle: e.subtitle,
-                          icon: Object(v.jsx)(Fe, {
+                          icon: Object(v.jsx)(Ue, {
                             fontIconClass: e.icon,
                             size: 'medium',
                             color: Wt.a.indigo,
@@ -5580,7 +5580,7 @@
             ),
           );
         },
-        $a =
+        en =
           (Object(P.a)(function(e) {
             return {
               avatar: Object(N.a)(
@@ -5613,7 +5613,7 @@
                 'Introducing new team for Semester 2. Meet the executive team and get to know each other ',
             },
           ]),
-        en = [
+        tn = [
           {
             icon: 'fas fa-users',
             title: 'Networking Nights',
@@ -5633,7 +5633,7 @@
               'Engage yourself into technical conversations, share ideas and make new connections. All inclusive in membership!',
           },
         ],
-        tn = [
+        an = [
           {
             authorName: 'Name',
             authorOccupation: 'Occupation',
@@ -5665,7 +5665,7 @@
             feedback: 'Your experience with BANDS',
           },
         ],
-        an = Object(P.a)(function(e) {
+        nn = Object(P.a)(function(e) {
           return {
             pagePaddingTop: Object(N.a)(
               { paddingTop: e.spacing(3) },
@@ -5680,63 +5680,237 @@
             },
           };
         }),
-        nn = function() {
-          var e = an();
+        sn = function() {
+          var e = nn();
           return Object(v.jsxs)('div', {
             children: [
               Object(v.jsx)(lt, {
                 className: e.pagePaddingTop,
-                children: Object(v.jsx)(Ja, {}),
+                children: Object(v.jsx)(Ka, {}),
               }),
               Object(v.jsx)(lt, {
                 className: e.sectionNoPaddingTop,
-                children: Object(v.jsx)(Za, { data: en }),
+                children: Object(v.jsx)($a, { data: tn }),
               }),
               Object(v.jsx)(B.a, {}),
               Object(v.jsx)('div', {
                 className: e.shape,
                 children: Object(v.jsx)(lt, {
                   className: e.sectionNoPaddingTop,
-                  children: Object(v.jsx)(La, { data: $a }),
+                  children: Object(v.jsx)(La, { data: en }),
                 }),
               }),
-              Object(v.jsx)(lt, { children: Object(v.jsx)(Ua, {}) }),
+              Object(v.jsx)(lt, { children: Object(v.jsx)(Fa, {}) }),
               Object(v.jsx)(B.a, {}),
-              Object(v.jsx)(mt, { children: Object(v.jsx)(Qa, { data: tn }) }),
+              Object(v.jsx)(mt, { children: Object(v.jsx)(Xa, { data: an }) }),
             ],
           });
         },
-        sn =
-          (Object(P.a)(function(e) {
-            return {
-              readMoreLink: Object(N.a)(
-                { marginTop: e.spacing(1) },
-                e.breakpoints.up('md'),
-                { marginTop: e.spacing(2) },
-              ),
-              grid: {
-                borderRadius: e.spacing(1),
-                transition:
-                  'box-shadow .25s ease,transform .25s ease,-webkit-transform .25s ease',
-                '&:hover': {
-                  boxShadow:
-                    '0 1.5rem 2.5rem rgba(22,28,45,.1),0 .3rem 0.5rem -.50rem rgba(22,28,45,.05) !important',
-                  transform: 'translate3d(0,-5px,0)',
-                },
+        cn = ['data', 'className'],
+        rn = Object(P.a)(function(e) {
+          return {
+            readMoreLink: Object(N.a)(
+              { marginTop: e.spacing(1) },
+              e.breakpoints.up('md'),
+              { marginTop: e.spacing(2) },
+            ),
+            grid: {
+              borderRadius: e.spacing(1),
+              transition:
+                'box-shadow .25s ease,transform .25s ease,-webkit-transform .25s ease',
+              '&:hover': {
+                boxShadow:
+                  '0 1.5rem 2.5rem rgba(22,28,45,.1),0 .3rem 0.5rem -.50rem rgba(22,28,45,.05) !important',
+                transform: 'translate3d(0,-5px,0)',
               },
-            };
-          }),
-          Object(P.a)(function(e) {
-            return {
-              cta: Object(N.a)(
-                { marginTop: e.spacing(2) },
-                e.breakpoints.up('md'),
-                { marginTop: e.spacing(3) },
-              ),
-            };
-          }),
-          ['data', 'className']),
-        cn = Object(P.a)(function(e) {
+            },
+          };
+        }),
+        on = function(e) {
+          var t = e.data,
+            a = e.className,
+            n = Object(p.a)(e, cn),
+            s = rn(),
+            c = Object(C.a)(),
+            i = Object(I.a)(c.breakpoints.up('md'), { defaultMatches: !0 });
+          return Object(v.jsx)(
+            'div',
+            Object(l.a)(
+              Object(l.a)({ className: a }, n),
+              {},
+              {
+                children: Object(v.jsx)(_.a, {
+                  container: !0,
+                  justify: 'center',
+                  spacing: i ? 4 : 2,
+                  children: t.map(function(e, t) {
+                    return Object(v.jsxs)(
+                      _.a,
+                      {
+                        item: !0,
+                        container: !0,
+                        direction: 'column',
+                        xs: 12,
+                        md: 3,
+                        'data-aos': 'fade-up',
+                        className: s.grid,
+                        children: [
+                          Object(v.jsx)(Re, {
+                            titleVariant: 'h6',
+                            title: e.title,
+                            subtitle: e.subtitle,
+                            subtitleColor: 'textPrimary',
+                            subtitleVariant: 'body1',
+                            align: 'left',
+                            disableGutter: !0,
+                          }),
+                          Object(v.jsx)('div', { style: { flexGrow: 1 } }),
+                          Object(v.jsx)(X, {
+                            title: 'Learn more',
+                            variant: 'subtitle1',
+                            className: s.readMoreLink,
+                          }),
+                        ],
+                      },
+                      t,
+                    );
+                  }),
+                }),
+              },
+            ),
+          );
+        },
+        ln = ['className'],
+        pn = Object(P.a)(function(e) {
+          return {
+            cta: Object(N.a)(
+              { marginTop: e.spacing(2) },
+              e.breakpoints.up('md'),
+              { marginTop: e.spacing(3) },
+            ),
+          };
+        }),
+        dn = function(e) {
+          var t = e.className,
+            a = Object(p.a)(e, ln),
+            n = pn(),
+            s = Object(C.a)(),
+            c = Object(I.a)(s.breakpoints.up('md'), { defaultMatches: !0 });
+          return Object(v.jsx)(
+            'div',
+            Object(l.a)(
+              Object(l.a)({ className: t }, a),
+              {},
+              {
+                children: Object(v.jsxs)(_.a, {
+                  container: !0,
+                  spacing: c ? 4 : 0,
+                  children: [
+                    Object(v.jsx)(_.a, {
+                      item: !0,
+                      container: !0,
+                      alignItems: 'center',
+                      xs: 12,
+                      md: 6,
+                      children: Object(v.jsxs)('div', {
+                        children: [
+                          Object(v.jsx)(Re, {
+                            title: 'Ask the Expert',
+                            subtitle:
+                              'You can schedule a meeting with an expense manager',
+                            align: 'left',
+                            'data-aos': 'fade-up',
+                          }),
+                          Object(v.jsxs)(_.a, {
+                            container: !0,
+                            spacing: 2,
+                            children: [
+                              Object(v.jsxs)(_.a, {
+                                item: !0,
+                                container: !0,
+                                xs: 12,
+                                sm: 6,
+                                'data-aos': 'fade-up',
+                                children: [
+                                  Object(v.jsx)(jt, {
+                                    icon: Object(v.jsx)(Ue, {
+                                      fontIconClass: 'fas fa-comment-dollar',
+                                      color: Wt.a.indigo,
+                                    }),
+                                    title: 'Investing made easy',
+                                    subtitle:
+                                      'Three simple options- cautions, balanced, adventurous. Expert will take care of rest!',
+                                    align: 'left',
+                                  }),
+                                  Object(v.jsx)('div', {
+                                    style: { flexGrow: 1 },
+                                  }),
+                                  Object(v.jsx)(oe.a, {
+                                    variant: 'contained',
+                                    color: 'primary',
+                                    size: 'large',
+                                    className: n.cta,
+                                    children: 'get started',
+                                  }),
+                                ],
+                              }),
+                              Object(v.jsxs)(_.a, {
+                                item: !0,
+                                container: !0,
+                                xs: 12,
+                                sm: 6,
+                                'data-aos': 'fade-up',
+                                children: [
+                                  Object(v.jsx)(jt, {
+                                    icon: Object(v.jsx)(Ue, {
+                                      fontIconClass: 'far fa-calendar-alt',
+                                      color: Wt.a.indigo,
+                                    }),
+                                    title: 'Schedule a meeting',
+                                    subtitle:
+                                      'Expert will give you the best advice. Schedule a meeting with the expert to know mutual funds better.',
+                                    align: 'left',
+                                  }),
+                                  Object(v.jsx)('div', {
+                                    style: { flexGrow: 1 },
+                                  }),
+                                  Object(v.jsx)(oe.a, {
+                                    variant: 'contained',
+                                    color: 'primary',
+                                    size: 'large',
+                                    className: n.cta,
+                                    children: 'get started',
+                                  }),
+                                ],
+                              }),
+                            ],
+                          }),
+                        ],
+                      }),
+                    }),
+                    c
+                      ? Object(v.jsx)(_.a, {
+                          item: !0,
+                          xs: 12,
+                          md: 6,
+                          'data-aos': 'fade-up',
+                          children: Object(v.jsx)(L, {
+                            src:
+                              'https://assets.maccarianagency.com/the-front/photos/rental/expert-cover.png',
+                            srcSet:
+                              'https://assets.maccarianagency.com/the-front/photos/rental/expert-cover@2x.png 2x',
+                            alt: '...',
+                          }),
+                        })
+                      : null,
+                  ],
+                }),
+              },
+            ),
+          );
+        },
+        mn = ['data', 'className'],
+        hn = Object(P.a)(function(e) {
           return {
             card: { boxShadow: '0 7px 14px 0 rgba(0, 0, 0, 0.1)' },
             cardMedia: {
@@ -5768,13 +5942,13 @@
             divider: { margin: e.spacing(3, 0, 2, 0) },
           };
         }),
-        rn = function(e) {
+        bn = function(e) {
           var t = e.data,
             a = e.className,
-            n = Object(p.a)(e, sn),
-            s = cn(),
-            i = Object(C.a)(),
-            c = Object(I.a)(i.breakpoints.up('md'), { defaultMatches: !0 });
+            n = Object(p.a)(e, mn),
+            s = hn(),
+            c = Object(C.a)(),
+            i = Object(I.a)(c.breakpoints.up('md'), { defaultMatches: !0 });
           return Object(v.jsxs)(
             'div',
             Object(l.a)(
@@ -5783,13 +5957,12 @@
               {
                 children: [
                   Object(v.jsx)(Re, {
-                    title:
-                      'Industry Partners for Speed Networking Semester 1, 2021',
+                    title: 'Industry Partners for Semester 1, 2021',
                     'data-aos': 'fade-up',
                   }),
                   Object(v.jsxs)(_.a, {
                     container: !0,
-                    spacing: c ? 4 : 2,
+                    spacing: i ? 4 : 2,
                     children: [
                       t.map(function(e, t) {
                         return Object(v.jsx)(
@@ -5800,7 +5973,7 @@
                             sm: 6,
                             md: 4,
                             'data-aos': 'fade-up',
-                            children: Object(v.jsxs)(jt.a, {
+                            children: Object(v.jsxs)(ut.a, {
                               className: s.card,
                               children: [
                                 Object(v.jsx)(
@@ -5876,28 +6049,71 @@
             ),
           );
         },
-        on =
-          (Object(P.a)(function(e) {
-            return {
-              root: {
-                width: '100%',
-                height: '100%',
-                background:
-                  'url(https://assets.maccarianagency.com/the-front/photos/rental/footer-bg.jpg) no-repeat center',
-                backgroundSize: 'cover',
+        gn = ['data', 'className'],
+        jn = Object(P.a)(function(e) {
+          return {
+            root: {
+              width: '100%',
+              height: '100%',
+              background:
+                'url(https://assets.maccarianagency.com/the-front/photos/rental/footer-bg.jpg) no-repeat center',
+              backgroundSize: 'cover',
+            },
+            section: Object(N.a)(
+              {
+                background: e.palette.primary.dark,
+                borderRadius: e.spacing(1),
               },
-              section: Object(N.a)(
-                {
-                  background: e.palette.primary.dark,
-                  borderRadius: e.spacing(1),
-                },
-                e.breakpoints.up('md'),
-                { maxWidth: '50%', marginLeft: 0, padding: e.spacing(9) },
-              ),
-              textWhite: { color: 'white' },
-            };
-          }),
-          a(322),
+              e.breakpoints.up('md'),
+              { maxWidth: '50%', marginLeft: 0, padding: e.spacing(9) },
+            ),
+            textWhite: { color: 'white' },
+          };
+        }),
+        un = function(e) {
+          e.data;
+          var t = e.className,
+            a = Object(p.a)(e, gn),
+            n = jn();
+          return Object(v.jsx)(
+            'div',
+            Object(l.a)(
+              Object(l.a)({ className: Object(S.a)(n.root, t) }, a),
+              {},
+              {
+                children: Object(v.jsx)(lt, {
+                  children: Object(v.jsx)(lt, {
+                    className: n.section,
+                    children: Object(v.jsx)(Re, {
+                      disableGutter: !0,
+                      'data-aos': 'fade-up',
+                      align: 'left',
+                      titleVariant: 'h3',
+                      title: Object(v.jsx)('span', {
+                        className: n.textWhite,
+                        children: 'Want to Sell Property?',
+                      }),
+                      subtitle: Object(v.jsx)('span', {
+                        className: n.textWhite,
+                        children:
+                          'Let us create a tailored strategic marketing plan and keep track of the selling process.',
+                      }),
+                      ctaGroup: [
+                        Object(v.jsx)(oe.a, {
+                          variant: 'contained',
+                          size: 'large',
+                          children: 'get started',
+                        }),
+                      ],
+                    }),
+                  }),
+                }),
+              },
+            ),
+          );
+        },
+        fn =
+          (a(322),
           a(328),
           a(370),
           Object(P.a)(function(e) {
@@ -5949,43 +6165,280 @@
               ),
             };
           }),
-          Object(P.a)(function(e) {
-            return {
-              cardBase: {
-                '&:hover': {
-                  background: e.palette.primary.main,
-                  '& .card-icon, & .card-title': { color: 'white' },
-                },
+          ['className']),
+        xn = Object(P.a)(function(e) {
+          return {
+            cardBase: {
+              '&:hover': {
+                background: e.palette.primary.main,
+                '& .card-icon, & .card-title': { color: 'white' },
               },
-              icon: Object(N.a)(
-                { fontSize: 60, color: e.palette.primary.main },
-                e.breakpoints.up('sm'),
-                { fontSize: 80 },
-              ),
-              title: Object(N.a)(
-                { marginTop: e.spacing(4) },
-                e.breakpoints.up('sm'),
-                { marginTop: e.spacing(6) },
-              ),
-            };
-          }),
-          Object(P.a)(function(e) {
-            return { promoLogo: { maxWidth: 120 } };
-          }),
-          Object(P.a)(function(e) {
-            return {
-              image: { objectFit: 'cover', borderRadius: e.spacing(1) },
-              textWhite: { color: 'white' },
-              gridListTile: { position: 'relative' },
-              gridListSection: {
-                position: 'absolute',
-                bottom: e.spacing(2),
-                left: e.spacing(2),
+            },
+            icon: Object(N.a)(
+              { fontSize: 60, color: e.palette.primary.main },
+              e.breakpoints.up('sm'),
+              { fontSize: 80 },
+            ),
+            title: Object(N.a)(
+              { marginTop: e.spacing(4) },
+              e.breakpoints.up('sm'),
+              { marginTop: e.spacing(6) },
+            ),
+          };
+        }),
+        On = function(e) {
+          var t = e.className,
+            a = Object(p.a)(e, fn),
+            n = xn(),
+            s = Object(C.a)(),
+            c = Object(I.a)(s.breakpoints.up('md'), { defaultMatches: !0 });
+          return Object(v.jsxs)(
+            'div',
+            Object(l.a)(
+              Object(l.a)({ className: t }, a),
+              {},
+              {
+                children: [
+                  Object(v.jsx)(Re, {
+                    title: 'House types',
+                    subtitle:
+                      'After 3 days all of your offers will arrive and you will have another 7 days to select your new company.',
+                    'data-aos': 'fade-up',
+                  }),
+                  Object(v.jsxs)(_.a, {
+                    container: !0,
+                    spacing: c ? 4 : 2,
+                    children: [
+                      Object(v.jsx)(_.a, {
+                        item: !0,
+                        xs: 12,
+                        sm: 4,
+                        'data-aos': 'fade-up',
+                        children: Object(v.jsxs)(vt, {
+                          withShadow: !0,
+                          liftUp: !0,
+                          className: n.cardBase,
+                          children: [
+                            Object(v.jsx)('div', {
+                              children: Object(v.jsx)(E.a, {
+                                children: Object(v.jsx)('i', {
+                                  className: Object(S.a)(
+                                    n.icon,
+                                    'fas fa-door-open',
+                                    'card-icon',
+                                  ),
+                                }),
+                              }),
+                            }),
+                            Object(v.jsx)(T.a, {
+                              variant: 'h5',
+                              color: 'textPrimary',
+                              align: 'center',
+                              noWrap: !0,
+                              className: Object(S.a)(n.title, 'card-title'),
+                              children: 'Cosy house',
+                            }),
+                          ],
+                        }),
+                      }),
+                      Object(v.jsx)(_.a, {
+                        item: !0,
+                        xs: 12,
+                        sm: 4,
+                        'data-aos': 'fade-up',
+                        children: Object(v.jsxs)(vt, {
+                          withShadow: !0,
+                          liftUp: !0,
+                          className: n.cardBase,
+                          children: [
+                            Object(v.jsx)('div', {
+                              children: Object(v.jsx)(E.a, {
+                                children: Object(v.jsx)('i', {
+                                  className: Object(S.a)(
+                                    n.icon,
+                                    'fas fa-couch',
+                                    'card-icon',
+                                  ),
+                                }),
+                              }),
+                            }),
+                            Object(v.jsx)(T.a, {
+                              variant: 'h5',
+                              color: 'textPrimary',
+                              align: 'center',
+                              noWrap: !0,
+                              className: Object(S.a)(n.title, 'card-title'),
+                              children: 'Comfortable',
+                            }),
+                          ],
+                        }),
+                      }),
+                      Object(v.jsx)(_.a, {
+                        item: !0,
+                        xs: 12,
+                        sm: 4,
+                        'data-aos': 'fade-up',
+                        children: Object(v.jsxs)(vt, {
+                          withShadow: !0,
+                          liftUp: !0,
+                          className: n.cardBase,
+                          children: [
+                            Object(v.jsx)('div', {
+                              children: Object(v.jsx)(E.a, {
+                                children: Object(v.jsx)('i', {
+                                  className: Object(S.a)(
+                                    n.icon,
+                                    'fas fa-box-tissue',
+                                    'card-icon',
+                                  ),
+                                }),
+                              }),
+                            }),
+                            Object(v.jsx)(T.a, {
+                              variant: 'h5',
+                              color: 'textPrimary',
+                              align: 'center',
+                              noWrap: !0,
+                              className: Object(S.a)(n.title, 'card-title'),
+                              children: 'Modern house',
+                            }),
+                          ],
+                        }),
+                      }),
+                    ],
+                  }),
+                ],
               },
-            };
-          }),
-          ['data', 'className']),
-        ln = Object(P.a)(function(e) {
+            ),
+          );
+        },
+        yn = ['data', 'className'],
+        vn = Object(P.a)(function(e) {
+          return { promoLogo: { maxWidth: 120 } };
+        }),
+        wn = function(e) {
+          var t = e.data,
+            a = e.className,
+            n = Object(p.a)(e, yn),
+            s = vn();
+          return Object(v.jsx)(
+            'div',
+            Object(l.a)(
+              Object(l.a)({ className: a }, n),
+              {},
+              {
+                children: Object(v.jsx)(_.a, {
+                  container: !0,
+                  justify: 'space-between',
+                  children: t.map(function(e, t) {
+                    return Object(v.jsx)(
+                      _.a,
+                      {
+                        item: !0,
+                        container: !0,
+                        justify: 'center',
+                        xs: 6,
+                        sm: 2,
+                        'data-aos': 'fade-up',
+                        children: Object(v.jsx)(L, {
+                          src: e.logo,
+                          alt: e.name,
+                          className: s.promoLogo,
+                          lazy: !1,
+                        }),
+                      },
+                      t,
+                    );
+                  }),
+                }),
+              },
+            ),
+          );
+        },
+        kn = a(371),
+        Nn = a(372),
+        Sn = ['data', 'className'],
+        Pn = Object(P.a)(function(e) {
+          return {
+            image: { objectFit: 'cover', borderRadius: e.spacing(1) },
+            textWhite: { color: 'white' },
+            gridListTile: { position: 'relative' },
+            gridListSection: {
+              position: 'absolute',
+              bottom: e.spacing(2),
+              left: e.spacing(2),
+            },
+          };
+        }),
+        Cn = function(e) {
+          var t = e.data,
+            a = e.className,
+            n = Object(p.a)(e, Sn),
+            s = Pn(),
+            c = Object(C.a)(),
+            i = Object(I.a)(c.breakpoints.up('md'), { defaultMatches: !0 });
+          return Object(v.jsxs)(
+            'div',
+            Object(l.a)(
+              Object(l.a)({ className: a }, n),
+              {},
+              {
+                children: [
+                  Object(v.jsx)(Re, {
+                    title: 'Find more places',
+                    subtitle:
+                      'After 3 days all of your offers will arrive and you will have another 7 days to select your new company.',
+                    'data-aos': 'fade-up',
+                  }),
+                  Object(v.jsx)(kn.a, {
+                    cellHeight: i ? 360 : 260,
+                    cols: 4,
+                    spacing: i ? 24 : 8,
+                    children: t.map(function(e, t) {
+                      return Object(v.jsxs)(
+                        Nn.a,
+                        {
+                          cols: i ? e.cols : 4,
+                          className: s.gridListTile,
+                          children: [
+                            Object(v.jsx)(
+                              L,
+                              Object(l.a)(
+                                Object(l.a)({}, e.image),
+                                {},
+                                {
+                                  alt: e.location,
+                                  className: s.image,
+                                  lazyProps: { width: '100%', height: '100%' },
+                                },
+                              ),
+                            ),
+                            Object(v.jsx)(Re, {
+                              title: Object(v.jsx)('span', {
+                                className: s.textWhite,
+                                children: e.location,
+                              }),
+                              subtitle: Object(v.jsxs)('span', {
+                                className: s.textWhite,
+                                children: [e.properties, ' Properties'],
+                              }),
+                              disableGutter: !0,
+                              className: s.gridListSection,
+                              align: 'left',
+                            }),
+                          ],
+                        },
+                        t,
+                      );
+                    }),
+                  }),
+                ],
+              },
+            ),
+          );
+        },
+        In = ['data', 'className'],
+        Bn = Object(P.a)(function(e) {
           return {
             reviewAuthor: Object(N.a)(
               { fontWeight: 'bold', marginTop: e.spacing(3) },
@@ -6015,17 +6468,17 @@
             },
           };
         }),
-        pn = function(e) {
+        An = function(e) {
           var t = e.data,
             a = e.className,
-            n = Object(p.a)(e, on),
-            i = ln(),
-            c = Object(C.a)(),
-            r = Object(I.a)(c.breakpoints.up('md'), { defaultMatches: !0 }),
-            o = Object(I.a)(c.breakpoints.down('xs'), { defaultMatches: !0 });
+            n = Object(p.a)(e, In),
+            c = Bn(),
+            i = Object(C.a)(),
+            r = Object(I.a)(i.breakpoints.up('md'), { defaultMatches: !0 }),
+            o = Object(I.a)(i.breakpoints.down('xs'), { defaultMatches: !0 });
           return (
             s.a.useEffect(function() {
-              new Ue.a('.swiper-container', {
+              new Fe.a('.swiper-container', {
                 slidesPerView: 1,
                 spaceBetween: o ? 16 : 0,
                 pagination: {
@@ -6054,13 +6507,13 @@
                     Object(v.jsxs)('div', {
                       className: Object(S.a)(
                         'swiper-container',
-                        i.swiperContainer,
+                        c.swiperContainer,
                       ),
                       children: [
                         Object(v.jsx)('div', {
                           className: Object(S.a)(
                             'swiper-wrapper',
-                            i.swiperWrapper,
+                            c.swiperWrapper,
                           ),
                           children: t.map(function(e, t) {
                             return Object(v.jsx)(
@@ -6079,14 +6532,14 @@
                                       justify: r ? 'flex-start' : 'center',
                                       alignItems: 'center',
                                       children: Object(v.jsx)('div', {
-                                        className: i.authorPhoto,
+                                        className: c.authorPhoto,
                                         children: Object(v.jsx)(
                                           L,
                                           Object(l.a)(
                                             Object(l.a)({}, e.authorPhoto),
                                             {},
                                             {
-                                              className: i.image,
+                                              className: c.image,
                                               lazyProps: {
                                                 width: '100%',
                                                 height: '100%',
@@ -6115,7 +6568,7 @@
                                             variant: 'h6',
                                             color: 'textPrimary',
                                             gutterBottom: !0,
-                                            className: i.reviewAuthor,
+                                            className: c.reviewAuthor,
                                             align: r ? 'left' : 'center',
                                             children: e.authorName,
                                           }),
@@ -6143,7 +6596,7 @@
                         o
                           ? null
                           : Object(v.jsxs)('div', {
-                              className: i.swiperNav,
+                              className: c.swiperNav,
                               children: [
                                 Object(v.jsx)('div', {
                                   className: Object(S.a)('swiper-button-prev'),
@@ -6161,17 +6614,81 @@
             )
           );
         },
-        dn =
+        Wn =
           (Object(P.a)(function() {
             return { fontWeightBold: { fontWeight: 'bold' } };
           }),
-          Object(P.a)(function(e) {
-            return {
-              grid: { maxWidth: '100%', background: e.palette.primary.dark },
-              textWhite: { color: 'white' },
-            };
-          }),
-          Object(P.a)(function() {
+          ['className']),
+        Tn = Object(P.a)(function(e) {
+          return {
+            grid: { maxWidth: '100%', background: e.palette.primary.dark },
+            textWhite: { color: 'white' },
+          };
+        }),
+        _n = function(e) {
+          var t = e.className,
+            a = Object(p.a)(e, Wn),
+            n = Tn();
+          return Object(v.jsx)(
+            'div',
+            Object(l.a)(
+              Object(l.a)({ className: t }, a),
+              {},
+              {
+                children: Object(v.jsxs)(_.a, {
+                  container: !0,
+                  className: n.grid,
+                  children: [
+                    Object(v.jsx)(_.a, {
+                      item: !0,
+                      xs: 12,
+                      md: 6,
+                      'data-aos': 'fade-up',
+                      children: Object(v.jsx)(L, {
+                        src:
+                          'https://assets.maccarianagency.com/the-front/photos/rental/house-cover.png',
+                        lazy: !1,
+                      }),
+                    }),
+                    Object(v.jsx)(_.a, {
+                      item: !0,
+                      container: !0,
+                      alignItems: 'center',
+                      xs: 12,
+                      md: 6,
+                      children: Object(v.jsx)(lt, {
+                        children: Object(v.jsx)(Re, {
+                          title: Object(v.jsx)('span', {
+                            className: n.textWhite,
+                            children: 'Want to Sell Property?',
+                          }),
+                          titleVariant: 'h3',
+                          subtitle: Object(v.jsx)('span', {
+                            className: n.textWhite,
+                            children:
+                              'Let us create a tailored strategic marketing plan and keep track of the selling process.',
+                          }),
+                          ctaGroup: [
+                            Object(v.jsx)(oe.a, {
+                              variant: 'contained',
+                              size: 'large',
+                              children: 'Get started',
+                            }),
+                          ],
+                          align: 'left',
+                          disableGutter: !0,
+                          'data-aos': 'fade-up',
+                        }),
+                      }),
+                    }),
+                  ],
+                }),
+              },
+            ),
+          );
+        },
+        zn =
+          (Object(P.a)(function() {
             return { image: { maxWidth: 500 } };
           }),
           [
@@ -6223,7 +6740,7 @@
             {
               image: {
                 src:
-                  'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/blackbook.png',
+                  'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/blackbookai.png',
               },
               price: '$320,000.00',
               location: 'Beverly Hills, CA',
@@ -6236,7 +6753,7 @@
             {
               image: {
                 src:
-                  'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/esri.png',
+                  'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/esriAus.png',
               },
               price: '$320,000.00',
               location: 'Beverly Hills, CA',
@@ -6250,6 +6767,19 @@
               image: {
                 src:
                   'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/explorate.png',
+              },
+              price: '$320,000.00',
+              location: 'Beverly Hills, CA',
+              address: '272 S Rexford Dr, Beverly Hills, CA 90212, USA',
+              size: '2400 Sq Ft',
+              garages: 2,
+              baths: 2,
+              rooms: 3,
+            },
+            {
+              image: {
+                src:
+                  'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/keyData.png',
               },
               price: '$320,000.00',
               location: 'Beverly Hills, CA',
@@ -6286,7 +6816,53 @@
               rooms: 3,
             },
           ]),
-        mn = [
+        Mn = [
+          {
+            image: {
+              src:
+                'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/orefox.png',
+              srcSet:
+                'https://assets.maccarianagency.com/the-front/photos/rental/los-angeles@2x.jpg 2x',
+            },
+            location: 'Los Angeles',
+            properties: 24,
+            cols: 1,
+          },
+          {
+            image: {
+              src:
+                'https://assets.maccarianagency.com/the-front/photos/rental/san-francisco.jpg',
+              srcSet:
+                'https://assets.maccarianagency.com/the-front/photos/rental/san-francisco@2x.jpg 2x',
+            },
+            location: 'San Francisco',
+            properties: 19,
+            cols: 3,
+          },
+          {
+            image: {
+              src:
+                'https://assets.maccarianagency.com/the-front/photos/rental/seattle.jpg',
+              srcSet:
+                'https://assets.maccarianagency.com/the-front/photos/rental/seattle@2x.jpg 2x',
+            },
+            location: 'Seattle',
+            properties: 32,
+            cols: 3,
+          },
+          {
+            image: {
+              src:
+                'https://assets.maccarianagency.com/the-front/photos/rental/san-diego.jpg',
+              srcSet:
+                'https://assets.maccarianagency.com/the-front/photos/rental/san-diego@2x.jpg 2x',
+            },
+            location: 'San Diego',
+            properties: 15,
+            cols: 1,
+          },
+        ],
+        Dn = [
           {
             authorPhoto: {
               src:
@@ -6297,7 +6873,7 @@
             authorName: 'Veronica Adams',
             authorOccupation: 'Growth Marketer, Crealytics',
             feedback:
-              ' ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
           },
           {
             authorPhoto: {
@@ -6324,25 +6900,89 @@
               'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
           },
         ],
-        hn = Object(P.a)(function(e) {
+        Rn = [
+          {
+            name: 'Airbnb',
+            logo:
+              'https://assets.maccarianagency.com/the-front/logos/airbnb.svg',
+          },
+          {
+            name: 'Coinbase',
+            logo:
+              'https://assets.maccarianagency.com/the-front/logos/coinbase.svg',
+          },
+          {
+            name: 'Dribbble',
+            logo:
+              'https://assets.maccarianagency.com/the-front/logos/dribbble.svg',
+          },
+          {
+            name: 'Instagram',
+            logo:
+              'https://assets.maccarianagency.com/the-front/logos/instagram.svg',
+          },
+          {
+            name: 'Netflix',
+            logo:
+              'https://assets.maccarianagency.com/the-front/logos/netflix.svg',
+          },
+          {
+            name: 'Pinterest',
+            logo:
+              'https://assets.maccarianagency.com/the-front/logos/pinterest.svg',
+          },
+        ],
+        Gn = [
+          {
+            title: 'Mother Earth Hosts Our Travels',
+            subtitle:
+              'Instead of constantly worrying about when your home will be in demand, just share your availability and we will price based on popularity.',
+          },
+          {
+            title: 'Maui Hotel Or Maui Condo',
+            subtitle:
+              'Instead of constantly worrying about when your home will be in demand, just share your availability and we will price based on popularity.',
+          },
+          {
+            title: 'Wine Tours La Dolce Vita',
+            subtitle:
+              'Instead of constantly worrying about when your home will be in demand, just share your availability and we will price based on popularity.',
+          },
+          {
+            title: 'Mother Earth Hosts Our Travels',
+            subtitle:
+              'Instead of constantly worrying about when your home will be in demand, just share your availability and we will price based on popularity.',
+          },
+        ],
+        Ln = Object(P.a)(function(e) {
           return { sectionNoPaddingTop: { paddingTop: 0 } };
         }),
-        bn = function() {
-          hn();
+        En = function() {
+          Ln();
           return Object(v.jsxs)('div', {
             children: [
-              Object(v.jsx)(mt, { children: Object(v.jsx)(rn, { data: dn }) }),
-              Object(v.jsx)(lt, { children: Object(v.jsx)(pn, { data: mn }) }),
+              Object(v.jsx)(mt, { children: Object(v.jsx)(bn, { data: zn }) }),
+              Object(v.jsx)(lt, { children: Object(v.jsx)(An, { data: Dn }) }),
+              Object(v.jsx)(lt, { children: Object(v.jsx)(Cn, { data: Mn }) }),
+              Object(v.jsx)(mt, {
+                innerNarrowed: !0,
+                children: Object(v.jsx)(On, {}),
+              }),
+              Object(v.jsx)(_n, {}),
+              Object(v.jsx)(lt, { children: Object(v.jsx)(wn, { data: Rn }) }),
+              Object(v.jsx)(mt, { children: Object(v.jsx)(on, { data: Gn }) }),
+              Object(v.jsx)(lt, { children: Object(v.jsx)(dn, {}) }),
+              Object(v.jsx)(un, {}),
             ],
           });
         },
-        gn = a(255),
-        un = a.n(gn),
-        jn = ['data', 'className'],
-        fn = function(e) {
+        Hn = a(255),
+        Un = a.n(Hn),
+        Fn = ['data', 'className'],
+        Vn = function(e) {
           var t = e.data,
             a = e.className,
-            n = Object(p.a)(e, jn),
+            n = Object(p.a)(e, Fn),
             s = Object(C.a)();
           return Object(v.jsxs)(
             'div',
@@ -6380,7 +7020,7 @@
                           sm: 6,
                           md: 3,
                           'data-aos': 'fade-up',
-                          children: Object(v.jsx)(ut, {
+                          children: Object(v.jsx)(jt, {
                             title: e.title,
                             subtitle: e.subtitle,
                             icon: Object(v.jsx)(V, {
@@ -6399,10 +7039,10 @@
             ),
           );
         },
-        xn = ['className'],
-        On = function(e) {
+        qn = ['className'],
+        Jn = function(e) {
           var t = e.className,
-            a = Object(p.a)(e, xn),
+            a = Object(p.a)(e, qn),
             n = Object(C.a)(),
             s = Object(I.a)(n.breakpoints.up('md'), { defaultMatches: !0 });
           return Object(v.jsxs)(
@@ -6452,8 +7092,8 @@
             ),
           );
         },
-        yn = ['data', 'className'],
-        vn = Object(P.a)(function(e) {
+        Kn = ['data', 'className'],
+        Yn = Object(P.a)(function(e) {
           var t;
           return {
             galleryMedia:
@@ -6475,13 +7115,13 @@
               t),
           };
         }),
-        wn = function(e) {
+        Qn = function(e) {
           var t = e.data,
             a = e.className,
-            n = Object(p.a)(e, yn),
-            s = vn(),
-            i = Object(C.a)(),
-            c = Object(I.a)(i.breakpoints.up('md'), { defaultMatches: !0 });
+            n = Object(p.a)(e, Kn),
+            s = Yn(),
+            c = Object(C.a)(),
+            i = Object(I.a)(c.breakpoints.up('md'), { defaultMatches: !0 });
           return Object(v.jsxs)(
             'div',
             Object(l.a)(
@@ -6496,7 +7136,7 @@
                     ctaGroup: [
                       Object(v.jsx)(oe.a, {
                         variant: 'contained',
-                        size: c ? 'large' : 'medium',
+                        size: i ? 'large' : 'medium',
                         color: 'primary',
                         children: 'Book now',
                       }),
@@ -6522,20 +7162,20 @@
             ),
           );
         },
-        kn = ['data', 'className'],
-        Nn = Object(P.a)(function() {
+        Xn = ['data', 'className'],
+        Zn = Object(P.a)(function() {
           return {
             fontWeight700: { fontWeight: 700 },
             coverImage: { objectFit: 'cover' },
           };
         }),
-        Sn = function(e) {
+        $n = function(e) {
           var t = e.data,
             a = e.className,
-            n = Object(p.a)(e, kn),
-            s = Nn(),
-            i = Object(C.a)(),
-            c = Object(I.a)(i.breakpoints.up('md'), { defaultMatches: !0 });
+            n = Object(p.a)(e, Xn),
+            s = Zn(),
+            c = Object(C.a)(),
+            i = Object(I.a)(c.breakpoints.up('md'), { defaultMatches: !0 });
           return Object(v.jsxs)(
             'div',
             Object(l.a)(
@@ -6550,7 +7190,7 @@
                     ctaGroup: [
                       Object(v.jsx)(oe.a, {
                         variant: 'contained',
-                        size: c ? 'large' : 'medium',
+                        size: i ? 'large' : 'medium',
                         color: 'primary',
                         children: 'Explore our locations',
                       }),
@@ -6558,7 +7198,7 @@
                   }),
                   Object(v.jsx)(_.a, {
                     container: !0,
-                    spacing: c ? 4 : 2,
+                    spacing: i ? 4 : 2,
                     children: t.map(function(e, t) {
                       return Object(v.jsx)(
                         _.a,
@@ -6608,7 +7248,7 @@
                                   children: Object(v.jsx)(te, {
                                     size: 'small',
                                     fontIconClass: 'far fa-clock',
-                                    color: i.palette.primary.main,
+                                    color: c.palette.primary.main,
                                     title: e.time,
                                   }),
                                 }),
@@ -6644,8 +7284,8 @@
             ),
           );
         },
-        Pn = ['className'],
-        Cn = Object(P.a)(function(e) {
+        es = ['className'],
+        ts = Object(P.a)(function(e) {
           return {
             swiperNavButton: {
               width: ''.concat(e.spacing(3), 'px !important'),
@@ -6654,19 +7294,19 @@
             },
           };
         }),
-        In = function(e) {
+        as = function(e) {
           var t = e.className,
-            a = Object(p.a)(e, Pn),
-            n = Cn(),
+            a = Object(p.a)(e, es),
+            n = ts(),
             s = Object(C.a)(),
-            i = Object(I.a)(s.breakpoints.up('md'), { defaultMatches: !0 });
+            c = Object(I.a)(s.breakpoints.up('md'), { defaultMatches: !0 });
           return Object(v.jsx)(
             'div',
             Object(l.a)(
               Object(l.a)({ className: t }, a),
               {},
               {
-                children: Object(v.jsx)(Ut, {
+                children: Object(v.jsx)(Ft, {
                   leftSide: Object(v.jsx)(Re, {
                     title: Object(v.jsxs)('span', {
                       children: [
@@ -6686,7 +7326,7 @@
                       Object(v.jsx)(oe.a, {
                         variant: 'contained',
                         color: 'primary',
-                        size: i ? 'large' : 'medium',
+                        size: c ? 'large' : 'medium',
                         onClick: function(e) {
                           e.preventDefault(),
                             (window.location.href =
@@ -6729,8 +7369,8 @@
             ),
           );
         },
-        Bn = ['data', 'className'],
-        An = Object(P.a)(function(e) {
+        ns = ['data', 'className'],
+        ss = Object(P.a)(function(e) {
           return {
             swiperNavButton: {
               width: ''.concat(e.spacing(3), 'px !important'),
@@ -6760,13 +7400,13 @@
             image: { borderBottomLeftRadius: '40%' },
           };
         }),
-        Wn = function(e) {
+        cs = function(e) {
           var t = e.data,
             a = e.className,
-            n = Object(p.a)(e, Bn),
-            s = An(),
-            i = Object(C.a)(),
-            c = Object(I.a)(i.breakpoints.up('md'), { defaultMatches: !0 });
+            n = Object(p.a)(e, ns),
+            s = ss(),
+            c = Object(C.a)(),
+            i = Object(I.a)(c.breakpoints.up('md'), { defaultMatches: !0 });
           return Object(v.jsxs)(
             'div',
             Object(l.a)(
@@ -6792,7 +7432,7 @@
                     ctaGroup: [
                       Object(v.jsx)(oe.a, {
                         variant: 'contained',
-                        size: c ? 'large' : 'medium',
+                        size: i ? 'large' : 'medium',
                         color: 'primary',
                         children: 'Explore our locations',
                       }),
@@ -6942,8 +7582,8 @@
             ),
           );
         },
-        Tn = ['data', 'className'],
-        _n = Object(P.a)(function(e) {
+        is = ['data', 'className'],
+        rs = Object(P.a)(function(e) {
           return {
             placementGrid: { display: 'flex' },
             placementGridItemMiddle: {
@@ -6952,18 +7592,18 @@
             map: { zIndex: 9 },
           };
         }),
-        zn = function(e) {
+        os = function(e) {
           var t = e.data,
             a = e.className,
-            n = Object(p.a)(e, Tn),
-            s = _n();
+            n = Object(p.a)(e, is),
+            s = rs();
           return Object(v.jsx)(
             'div',
             Object(l.a)(
               Object(l.a)({ className: a }, n),
               {},
               {
-                children: Object(v.jsx)(Ut, {
+                children: Object(v.jsx)(Ft, {
                   leftSide: Object(v.jsxs)(_.a, {
                     container: !0,
                     spacing: 1,
@@ -7035,13 +7675,13 @@
             ),
           );
         },
-        Mn = ['data', 'className'],
-        Dn = function(e) {
+        ls = ['data', 'className'],
+        ps = function(e) {
           var t = e.data,
             a = e.className,
-            n = Object(p.a)(e, Mn),
+            n = Object(p.a)(e, ls),
             s = Object(C.a)(),
-            i = Object(I.a)(s.breakpoints.up('md'), { defaultMatches: !0 });
+            c = Object(I.a)(s.breakpoints.up('md'), { defaultMatches: !0 });
           return Object(v.jsx)(
             'div',
             Object(l.a)(
@@ -7050,8 +7690,8 @@
               {
                 children: Object(v.jsxs)(_.a, {
                   container: !0,
-                  spacing: i ? 4 : 0,
-                  alignItems: i ? 'center' : 'flex-start',
+                  spacing: c ? 4 : 0,
+                  alignItems: c ? 'center' : 'flex-start',
                   children: [
                     Object(v.jsx)(_.a, {
                       item: !0,
@@ -7064,14 +7704,14 @@
                         ctaGroup: [
                           Object(v.jsx)(oe.a, {
                             variant: 'contained',
-                            size: i ? 'large' : 'medium',
+                            size: c ? 'large' : 'medium',
                             color: 'primary',
                             children: 'Explore our locations',
                           }),
                         ],
                         fadeUp: !0,
-                        align: i ? 'left' : 'center',
-                        disableGutter: i,
+                        align: c ? 'left' : 'center',
+                        disableGutter: c,
                       }),
                     }),
                     Object(v.jsx)(_.a, {
@@ -7115,17 +7755,17 @@
             ),
           );
         },
-        Rn = ['data', 'className'],
-        Gn = Object(P.a)(function() {
+        ds = ['data', 'className'],
+        ms = Object(P.a)(function() {
           return { sectionHeadlineStars: { maxWidth: 120 } };
         }),
-        Ln = function(e) {
+        hs = function(e) {
           var t = e.data,
             a = e.className,
-            n = Object(p.a)(e, Rn),
-            s = Gn(),
-            i = Object(C.a)(),
-            c = Object(I.a)(i.breakpoints.up('md'), { defaultMatches: !0 });
+            n = Object(p.a)(e, ds),
+            s = ms(),
+            c = Object(C.a)(),
+            i = Object(I.a)(c.breakpoints.up('md'), { defaultMatches: !0 });
           return Object(v.jsxs)(
             'div',
             Object(l.a)(
@@ -7157,7 +7797,7 @@
                   }),
                   Object(v.jsx)(_.a, {
                     container: !0,
-                    spacing: c ? 4 : 2,
+                    spacing: i ? 4 : 2,
                     children: t.map(function(e, t) {
                       return Object(v.jsx)(
                         _.a,
@@ -7172,7 +7812,7 @@
                           children: Object(v.jsx)(Ct, {
                             variant: 'outlined',
                             text: e.feedback,
-                            icon: Object(v.jsx)(Fe, {
+                            icon: Object(v.jsx)(Ue, {
                               color: Wt.a.indigo,
                               fontIconClass: 'fas fa-quote-right',
                             }),
@@ -7190,13 +7830,13 @@
             ),
           );
         },
-        En = ['className'],
-        Hn = function(e) {
+        bs = ['className'],
+        gs = function(e) {
           var t = e.className,
-            a = Object(p.a)(e, En);
+            a = Object(p.a)(e, bs);
           return Object(v.jsx)('div', Object(l.a)({ className: t }, a));
         },
-        Fn = [
+        js = [
           {
             icon: 'fas fa-users',
             title: 'Networking Nights',
@@ -7222,7 +7862,7 @@
               '24/7 support. No more hidden prices. It is your workingplace, playground, relax room.',
           },
         ],
-        Un = [
+        us = [
           {
             images: [
               {
@@ -7310,7 +7950,7 @@
             reviewCount: 18,
           },
         ],
-        Vn = [
+        fs = [
           { title: '24/7 concierge', icon: 'fas fa-phone-alt' },
           { title: 'Coworking spaces', icon: 'fas fa-users' },
           { title: 'Shared spaces', icon: 'fas fa-couch' },
@@ -7320,7 +7960,7 @@
           { title: 'Washing machines & dryers', icon: 'fas fa-soap' },
           { title: 'Cultural events programme', icon: 'fas fa-calendar-week' },
         ],
-        qn = [
+        xs = [
           {
             authorPhoto: {
               src:
@@ -7393,7 +8033,7 @@
               'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
           },
         ],
-        Jn = [
+        Os = [
           {
             cover: {
               src:
@@ -7434,7 +8074,7 @@
             time: '6:15 PM - 8:00 PM',
           },
         ],
-        Kn = [
+        ys = [
           {
             image: {
               src:
@@ -7486,7 +8126,7 @@
             cols: 1,
           },
         ],
-        Yn = [
+        vs = [
           {
             location: {
               y: 45.453211,
@@ -7600,7 +8240,7 @@
             ],
           },
         ],
-        Qn = Object(P.a)(function(e) {
+        ws = Object(P.a)(function(e) {
           return {
             appBarBottom: {
               top: 'auto',
@@ -7632,31 +8272,31 @@
             },
           };
         }),
-        Xn = function() {
-          var e = Qn(),
+        ks = function() {
+          var e = ws(),
             t = s.a.useState(!1),
             a = Object(d.a)(t, 2),
             n = a[0],
-            i = a[1];
+            c = a[1];
           return Object(v.jsxs)('div', {
             children: [
-              Object(v.jsx)(In, {}),
-              Object(v.jsx)(mt, { children: Object(v.jsx)(fn, { data: Fn }) }),
-              Object(v.jsx)(lt, { children: Object(v.jsx)(Wn, { data: Un }) }),
+              Object(v.jsx)(as, {}),
+              Object(v.jsx)(mt, { children: Object(v.jsx)(Vn, { data: js }) }),
+              Object(v.jsx)(lt, { children: Object(v.jsx)(cs, { data: us }) }),
               Object(v.jsx)(B.a, {}),
-              Object(v.jsx)(lt, { children: Object(v.jsx)(Hn, {}) }),
-              Object(v.jsx)(mt, { children: Object(v.jsx)(Dn, { data: Vn }) }),
-              Object(v.jsx)(zn, { data: Yn }),
-              Object(v.jsx)(lt, { children: Object(v.jsx)(Ln, { data: qn }) }),
+              Object(v.jsx)(lt, { children: Object(v.jsx)(gs, {}) }),
+              Object(v.jsx)(mt, { children: Object(v.jsx)(ps, { data: fs }) }),
+              Object(v.jsx)(os, { data: vs }),
+              Object(v.jsx)(lt, { children: Object(v.jsx)(hs, { data: xs }) }),
               Object(v.jsx)(B.a, {}),
-              Object(v.jsx)(lt, { children: Object(v.jsx)(On, {}) }),
-              Object(v.jsx)(mt, { children: Object(v.jsx)(Sn, { data: Jn }) }),
+              Object(v.jsx)(lt, { children: Object(v.jsx)(Jn, {}) }),
+              Object(v.jsx)(mt, { children: Object(v.jsx)($n, { data: Os }) }),
               Object(v.jsx)(lt, {
                 narrow: !0,
-                children: Object(v.jsx)(wn, { data: Kn }),
+                children: Object(v.jsx)(Qn, { data: ys }),
               }),
               Object(v.jsx)(B.a, {}),
-              Object(v.jsx)(je.a, {
+              Object(v.jsx)(ue.a, {
                 position: 'fixed',
                 className: e.appBarBottom,
                 children: Object(v.jsxs)(ae.a, {
@@ -7666,15 +8306,15 @@
                     Object(v.jsx)(z.a, {
                       className: e.chatIconButton,
                       onClick: function() {
-                        i(!0);
+                        c(!0);
                       },
-                      children: Object(v.jsx)(un.a, { className: e.forumIcon }),
+                      children: Object(v.jsx)(Un.a, { className: e.forumIcon }),
                     }),
                     Object(v.jsx)(re.a, {
                       anchor: 'bottom',
                       open: n,
                       onClose: function() {
-                        i(!1);
+                        c(!1);
                       },
                       children: Object(v.jsx)('div', {
                         className: e.contactForm,
@@ -7687,8 +8327,8 @@
             ],
           });
         },
-        Zn = (a.p, ['data', 'className']),
-        $n = Object(P.a)(function(e) {
+        Ns = (a.p, ['data', 'className']),
+        Ss = Object(P.a)(function(e) {
           return {
             image: Object(N.a)({}, e.breakpoints.down('sm'), { maxWidth: 400 }),
             searchInputContainer: Object(N.a)(
@@ -7733,13 +8373,13 @@
             ),
           };
         }),
-        es = function(e) {
+        Ps = function(e) {
           e.data;
           var t = e.className,
-            a = Object(p.a)(e, Zn),
-            n = $n(),
+            a = Object(p.a)(e, Ns),
+            n = Ss(),
             s = Object(C.a)(),
-            i = Object(I.a)(s.breakpoints.up('md'), { defaultMatches: !0 });
+            c = Object(I.a)(s.breakpoints.up('md'), { defaultMatches: !0 });
           return Object(v.jsx)(
             'div',
             Object(l.a)(
@@ -7749,7 +8389,7 @@
                 children: Object(v.jsxs)(_.a, {
                   container: !0,
                   justify: 'space-between',
-                  spacing: i ? 4 : 2,
+                  spacing: c ? 4 : 2,
                   children: [
                     Object(v.jsx)(_.a, {
                       item: !0,
@@ -7769,7 +8409,7 @@
                             }),
                           ],
                         }),
-                        align: i ? 'left' : 'center',
+                        align: c ? 'left' : 'center',
                         disableGutter: !0,
                         titleVariant: 'h3',
                       }),
@@ -7793,7 +8433,7 @@
             ),
           );
         },
-        ts =
+        Cs =
           (Object(P.a)(function(e) {
             return {
               cardProduct: Object(N.a)(
@@ -7929,7 +8569,7 @@
             };
           }),
           ['data', 'className']),
-        as = Object(P.a)(function(e) {
+        Is = Object(P.a)(function(e) {
           return {
             cardProduct: Object(N.a)(
               {
@@ -7990,13 +8630,13 @@
             ),
           };
         }),
-        ns = function(e) {
+        Bs = function(e) {
           var t = e.data,
             a = e.className,
-            n = Object(p.a)(e, ts),
-            s = as(),
-            i = Object(C.a)(),
-            c = Object(I.a)(i.breakpoints.up('md'), { defaultMatches: !0 }),
+            n = Object(p.a)(e, Cs),
+            s = Is(),
+            c = Object(C.a)(),
+            i = Object(I.a)(c.breakpoints.up('md'), { defaultMatches: !0 }),
             r = function(e) {
               return Object(v.jsx)(
                 L,
@@ -8054,7 +8694,7 @@
               {
                 children: Object(v.jsx)(_.a, {
                   container: !0,
-                  spacing: c ? 4 : 2,
+                  spacing: i ? 4 : 2,
                   children: t.map(function(e, t) {
                     return Object(v.jsx)(
                       _.a,
@@ -8092,7 +8732,7 @@
             ),
           );
         },
-        ss =
+        As =
           (Object(P.a)(function(e) {
             return {
               root: Object(N.a)({}, e.breakpoints.down('sm'), {
@@ -8273,7 +8913,7 @@
               tags: ['Cover Letter', 'Resume', 'CV', 'Career Advice'],
             },
           ]),
-        is = [
+        Ws = [
           {
             cover: {
               src:
@@ -8291,7 +8931,8 @@
           {
             cover: {
               src: 'https://i.postimg.cc/Mpbrvkxp/personalbranding.jpg',
-              srcSet: 'https://i.postimg.cc/Mpbrvkxp/personalbranding.jpg',
+              srcSet:
+                'https://assets.maccarianagency.com/the-front/photos/blog/cover4.jpg 2x',
             },
             title: 'Personal Branding',
             subtitle:
@@ -8309,7 +8950,7 @@
             tags: ['Personal Growth', 'Interview Preparation', 'Communication'],
           },
         ],
-        cs = [
+        Ts = [
           {
             cover: {
               src:
@@ -8355,7 +8996,7 @@
             tags: ['Data visualisation', 'Data interpretation'],
           },
         ],
-        rs = [
+        _s = [
           {
             cover: {
               src:
@@ -8407,7 +9048,7 @@
             tags: ['Social Gathering', 'Team Building'],
           },
         ],
-        os = Object(P.a)(function(e) {
+        zs = Object(P.a)(function(e) {
           return {
             root: { height: '100%', width: '100%' },
             pagePaddingTop: Object(N.a)(
@@ -8417,30 +9058,30 @@
             ),
           };
         }),
-        ls = function() {
-          var e = os();
+        Ms = function() {
+          var e = zs();
           return Object(v.jsxs)('div', {
             className: e.root,
             children: [
               Object(v.jsx)(lt, {
                 className: e.pagePaddingTop,
-                children: Object(v.jsx)(es, {}),
+                children: Object(v.jsx)(Ps, {}),
               }),
               Object(v.jsx)(mt, {
                 children: Object(v.jsxs)(v.Fragment, {
                   children: [
-                    Object(v.jsx)(ns, { data: ss }),
-                    Object(v.jsx)(ns, { data: is }),
-                    Object(v.jsx)(ns, { data: cs }),
-                    Object(v.jsx)(ns, { data: rs }),
+                    Object(v.jsx)(Bs, { data: As }),
+                    Object(v.jsx)(Bs, { data: Ws }),
+                    Object(v.jsx)(Bs, { data: Ts }),
+                    Object(v.jsx)(Bs, { data: _s }),
                   ],
                 }),
               }),
             ],
           });
         },
-        ps = ['data', 'className'],
-        ds = Object(P.a)(function(e) {
+        Ds = ['data', 'className'],
+        Rs = Object(P.a)(function(e) {
           return {
             fontWeightBold: { fontWeight: 'bold' },
             faqTitle: Object(N.a)(
@@ -8450,13 +9091,13 @@
             ),
           };
         }),
-        ms = function(e) {
+        Gs = function(e) {
           var t = e.data,
             a = e.className,
-            n = Object(p.a)(e, ps),
-            s = ds(),
-            i = Object(C.a)(),
-            c = Object(I.a)(i.breakpoints.up('md'), { defaultMatches: !0 });
+            n = Object(p.a)(e, Ds),
+            s = Rs(),
+            c = Object(C.a)(),
+            i = Object(I.a)(c.breakpoints.up('md'), { defaultMatches: !0 });
           return Object(v.jsxs)(
             'div',
             Object(l.a)(
@@ -8470,7 +9111,7 @@
                   }),
                   Object(v.jsx)(_.a, {
                     container: !0,
-                    spacing: c ? 4 : 0,
+                    spacing: i ? 4 : 0,
                     children: t.map(function(e, t) {
                       return Object(v.jsx)(
                         _.a,
@@ -8512,10 +9153,10 @@
             ),
           );
         },
-        hs = a(383),
-        bs = a(371),
-        gs = ['data', 'className'],
-        us = Object(P.a)(function(e) {
+        Ls = a(383),
+        Es = a(373),
+        Hs = ['data', 'className'],
+        Us = Object(P.a)(function(e) {
           return {
             pagePaddingTop: Object(N.a)(
               { paddingTop: e.spacing(3) },
@@ -8557,13 +9198,13 @@
             },
           };
         }),
-        js = function(e) {
+        Fs = function(e) {
           var t = e.data,
             a = e.className,
-            n = Object(p.a)(e, gs),
-            i = us(),
-            c = Object(C.a)(),
-            r = Object(I.a)(c.breakpoints.up('md'), { defaultMatches: !0 }),
+            n = Object(p.a)(e, Hs),
+            c = Us(),
+            i = Object(C.a)(),
+            r = Object(I.a)(i.breakpoints.up('md'), { defaultMatches: !0 }),
             o = s.a.useState('annual'),
             m = Object(d.a)(o, 2),
             h = m[0],
@@ -8576,10 +9217,10 @@
               {
                 children: [
                   Object(v.jsx)('div', {
-                    className: i.sectionContainer,
+                    className: c.sectionContainer,
                     children: Object(v.jsx)(lt, {
                       narrow: !0,
-                      className: i.pagePaddingTop,
+                      className: c.pagePaddingTop,
                       children: Object(v.jsxs)(v.Fragment, {
                         children: [
                           Object(v.jsx)(Re, {
@@ -8588,56 +9229,56 @@
                               'We are founded by a leading academic and researcher in the field of Industrial Systems Engineering. ',
                             titleProps: {
                               className: Object(S.a)(
-                                i.textWhite,
-                                i.fontWeightBold,
+                                c.textWhite,
+                                c.fontWeightBold,
                               ),
                               variant: 'h2',
                             },
-                            subtitleProps: { className: i.textWhite },
+                            subtitleProps: { className: c.textWhite },
                             'data-aos': 'fade-up',
                           }),
                           Object(v.jsx)('div', {
-                            className: i.toggleContainer,
+                            className: c.toggleContainer,
                             'data-aos': 'fade-up',
-                            children: Object(v.jsxs)(hs.a, {
+                            children: Object(v.jsxs)(Ls.a, {
                               value: h,
                               exclusive: !0,
                               onChange: function(e, t) {
                                 b(t);
                               },
-                              className: i.toggleButtonGroup,
+                              className: c.toggleButtonGroup,
                               children: [
-                                Object(v.jsx)(bs.a, {
+                                Object(v.jsx)(Es.a, {
                                   value: 'annual',
                                   className: Object(S.a)(
-                                    i.toggleButton,
-                                    'annual' === h ? i.toggleButtonActive : {},
+                                    c.toggleButton,
+                                    'annual' === h ? c.toggleButtonActive : {},
                                   ),
                                   children: Object(v.jsx)(T.a, {
                                     variant: 'subtitle1',
                                     className: Object(S.a)(
-                                      i.fontWeightBold,
-                                      i.textWhite,
-                                      i.toggleTitle,
-                                      'annual' === h ? i.toggleTitleActive : {},
+                                      c.fontWeightBold,
+                                      c.textWhite,
+                                      c.toggleTitle,
+                                      'annual' === h ? c.toggleTitleActive : {},
                                     ),
                                     children: 'Annual',
                                   }),
                                 }),
-                                Object(v.jsx)(bs.a, {
+                                Object(v.jsx)(Es.a, {
                                   value: 'monthly',
                                   className: Object(S.a)(
-                                    i.toggleButton,
-                                    'monthly' === h ? i.toggleButtonActive : {},
+                                    c.toggleButton,
+                                    'monthly' === h ? c.toggleButtonActive : {},
                                   ),
                                   children: Object(v.jsx)(T.a, {
                                     variant: 'subtitle1',
                                     className: Object(S.a)(
-                                      i.fontWeightBold,
-                                      i.textWhite,
-                                      i.toggleTitle,
+                                      c.fontWeightBold,
+                                      c.textWhite,
+                                      c.toggleTitle,
                                       'monthly' === h
-                                        ? i.toggleTitleActive
+                                        ? c.toggleTitleActive
                                         : {},
                                     ),
                                     children: 'Monthly',
@@ -8651,10 +9292,10 @@
                     }),
                   }),
                   Object(v.jsx)('div', {
-                    className: i.pricingContainer,
+                    className: c.pricingContainer,
                     children: Object(v.jsx)('div', {
                       children: Object(v.jsx)(lt, {
-                        className: i.sectionNoPaddingTop,
+                        className: c.sectionNoPaddingTop,
                         children: Object(v.jsx)(_.a, {
                           container: !0,
                           spacing: r ? 4 : 2,
@@ -8683,7 +9324,7 @@
                                   features: e.features,
                                   featureCheckComponent: Object(v.jsx)(V, {
                                     fontIconClass: 'far fa-check-circle',
-                                    fontIconColor: c.palette.primary.main,
+                                    fontIconColor: i.palette.primary.main,
                                   }),
                                   cta: Object(v.jsx)(oe.a, {
                                     color: 'primary',
@@ -8695,7 +9336,7 @@
                                     children: 'Subscribe now',
                                   }),
                                   disclaimer: e.disclaimer,
-                                  className: i.cardPricing,
+                                  className: c.cardPricing,
                                 }),
                               },
                               t,
@@ -8710,13 +9351,13 @@
             ),
           );
         },
-        fs = ['data', 'className'],
-        xs = function(e) {
+        Vs = ['data', 'className'],
+        qs = function(e) {
           var t = e.data,
             a = e.className,
-            n = Object(p.a)(e, fs),
+            n = Object(p.a)(e, Vs),
             s = Object(C.a)(),
-            i = Object(I.a)(s.breakpoints.up('md'), { defaultMatches: !0 });
+            c = Object(I.a)(s.breakpoints.up('md'), { defaultMatches: !0 });
           return Object(v.jsxs)(
             'div',
             Object(l.a)(
@@ -8732,7 +9373,7 @@
                   Object(v.jsx)(_.a, {
                     container: !0,
                     justify: 'center',
-                    spacing: i ? 4 : 2,
+                    spacing: c ? 4 : 2,
                     children: t.map(function(e, t) {
                       return Object(v.jsxs)(
                         _.a,
@@ -8771,20 +9412,20 @@
             ),
           );
         },
-        Os = ['className'],
-        ys = Object(P.a)(function(e) {
+        Js = ['className'],
+        Ks = Object(P.a)(function(e) {
           return {
             gridItemBorder: Object(N.a)({}, e.breakpoints.up('md'), {
               borderRight: '1px solid '.concat(Wt.a.grey[200]),
             }),
           };
         }),
-        vs = function(e) {
+        Ys = function(e) {
           var t = e.className,
-            a = Object(p.a)(e, Os),
-            n = ys(),
+            a = Object(p.a)(e, Js),
+            n = Ks(),
             s = Object(C.a)(),
-            i = Object(I.a)(s.breakpoints.up('md'), { defaultMatches: !0 });
+            c = Object(I.a)(s.breakpoints.up('md'), { defaultMatches: !0 });
           return Object(v.jsx)(
             'div',
             Object(l.a)(
@@ -8793,7 +9434,7 @@
               {
                 children: Object(v.jsxs)(_.a, {
                   container: !0,
-                  spacing: i ? 4 : 2,
+                  spacing: c ? 4 : 2,
                   children: [
                     Object(v.jsx)(_.a, {
                       item: !0,
@@ -8834,7 +9475,7 @@
             ),
           );
         },
-        ws = [
+        Qs = [
           {
             title: 'Standard License',
             subtitle: 'A pay-once license, just for you',
@@ -8884,7 +9525,7 @@
             isHighlighted: !1,
           },
         ],
-        ks = [
+        Xs = [
           {
             id: 'faq-1',
             title: 'Flexible access to facilities.',
@@ -8934,7 +9575,7 @@
             link: 'Check it out',
           },
         ],
-        Ns = [
+        Zs = [
           {
             title: 'Move deals through your funnel \u2013 fast',
             subtitle:
@@ -8951,35 +9592,35 @@
               'Our chatbots and live chat capture more of your best leads and convert them while they\u2019re hot.',
           },
         ],
-        Ss = function() {
+        $s = function() {
           return Object(v.jsxs)('div', {
             children: [
-              Object(v.jsx)(js, { data: ws }),
-              Object(v.jsx)(mt, { children: Object(v.jsx)(vs, {}) }),
-              Object(v.jsx)(lt, { children: Object(v.jsx)(ms, { data: ks }) }),
-              Object(v.jsx)(mt, { children: Object(v.jsx)(xs, { data: Ns }) }),
+              Object(v.jsx)(Fs, { data: Qs }),
+              Object(v.jsx)(mt, { children: Object(v.jsx)(Ys, {}) }),
+              Object(v.jsx)(lt, { children: Object(v.jsx)(Gs, { data: Xs }) }),
+              Object(v.jsx)(mt, { children: Object(v.jsx)(qs, { data: Zs }) }),
             ],
           });
         },
-        Ps = ['data', 'className'],
-        Cs = Object(P.a)(function() {
+        ec = ['data', 'className'],
+        tc = Object(P.a)(function() {
           return {
             map: { zIndex: 9 },
             icon: { background: 'transparent', borderRadius: 0 },
           };
         }),
-        Is = function(e) {
+        ac = function(e) {
           var t = e.data,
             a = e.className,
-            n = Object(p.a)(e, Ps),
-            s = Cs();
+            n = Object(p.a)(e, ec),
+            s = tc();
           return Object(v.jsx)(
             'div',
             Object(l.a)(
               Object(l.a)({ className: a }, n),
               {},
               {
-                children: Object(v.jsx)(Ut, {
+                children: Object(v.jsx)(Ft, {
                   leftSide: Object(v.jsxs)('div', {
                     children: [
                       Object(v.jsx)(Re, {
@@ -9069,19 +9710,17 @@
             ),
           );
         },
-        Bs = a(372),
-        As = a(373),
-        Ws = ['data', 'className'],
-        Ts = Object(P.a)(function(e) {
+        nc = ['data', 'className'],
+        sc = Object(P.a)(function(e) {
           return { image: { objectFit: 'cover', borderRadius: e.spacing(1) } };
         }),
-        _s = function(e) {
+        cc = function(e) {
           var t = e.data,
             a = e.className,
-            n = Object(p.a)(e, Ws),
-            s = Ts(),
-            i = Object(C.a)(),
-            c = Object(I.a)(i.breakpoints.up('md'), { defaultMatches: !0 });
+            n = Object(p.a)(e, nc),
+            s = sc(),
+            c = Object(C.a)(),
+            i = Object(I.a)(c.breakpoints.up('md'), { defaultMatches: !0 });
           return Object(v.jsxs)(
             'div',
             Object(l.a)(
@@ -9093,15 +9732,15 @@
                     title: 'Checkout our gallery',
                     'data-aos': 'fade-up',
                   }),
-                  Object(v.jsx)(Bs.a, {
-                    cellHeight: c ? 360 : 260,
+                  Object(v.jsx)(kn.a, {
+                    cellHeight: i ? 360 : 260,
                     cols: 4,
-                    spacing: c ? 24 : 8,
+                    spacing: i ? 24 : 8,
                     children: t.map(function(e, t) {
                       return Object(v.jsx)(
-                        As.a,
+                        Nn.a,
                         {
-                          cols: c ? e.cols : 4,
+                          cols: i ? e.cols : 4,
                           children: Object(v.jsx)(
                             L,
                             Object(l.a)(
@@ -9124,8 +9763,8 @@
             ),
           );
         },
-        zs = ['className'],
-        Ms = Object(P.a)(function(e) {
+        ic = ['className'],
+        rc = Object(P.a)(function(e) {
           return {
             root: {
               width: '100%',
@@ -9150,16 +9789,16 @@
             },
           };
         }),
-        Ds = function(e) {
+        oc = function(e) {
           var t = e.className,
-            a = Object(p.a)(e, zs),
-            n = Ms();
+            a = Object(p.a)(e, ic),
+            n = rc();
           return Object(v.jsx)(
             'div',
             Object(l.a)({ className: Object(S.a)(n.root, t) }, a),
           );
         },
-        Rs =
+        lc =
           (Object(P.a)(function(e) {
             return {
               promoLogo: { maxWidth: 120 },
@@ -9168,15 +9807,15 @@
           }),
           a.p,
           ['className']),
-        Gs = Object(P.a)(function() {
+        pc = Object(P.a)(function() {
           return { image: { maxWidth: 590 } };
         }),
-        Ls = function(e) {
+        dc = function(e) {
           var t = e.className,
-            a = Object(p.a)(e, Rs),
-            n = Gs(),
+            a = Object(p.a)(e, lc),
+            n = pc(),
             s = Object(C.a)(),
-            i = Object(I.a)(s.breakpoints.up('md'), { defaultMatches: !0 });
+            c = Object(I.a)(s.breakpoints.up('md'), { defaultMatches: !0 });
           return Object(v.jsx)(
             'div',
             Object(l.a)(
@@ -9186,8 +9825,8 @@
                 children: Object(v.jsxs)(_.a, {
                   container: !0,
                   justify: 'space-between',
-                  spacing: i ? 4 : 2,
-                  direction: i ? 'row' : 'column-reverse',
+                  spacing: c ? 4 : 2,
+                  direction: c ? 'row' : 'column-reverse',
                   children: [
                     Object(v.jsx)(_.a, {
                       item: !0,
@@ -9214,7 +9853,7 @@
                     Object(v.jsx)(_.a, {
                       item: !0,
                       container: !0,
-                      justify: i ? 'flex-end' : 'flex-start',
+                      justify: c ? 'flex-end' : 'flex-start',
                       alignItems: 'center',
                       xs: 12,
                       md: 6,
@@ -9232,8 +9871,8 @@
             ),
           );
         },
-        Es = ['data', 'className'],
-        Hs = Object(P.a)(function(e) {
+        mc = ['data', 'className'],
+        hc = Object(P.a)(function(e) {
           return {
             cardBase: {
               boxShadow: 'none',
@@ -9270,13 +9909,13 @@
             title: { fontWeight: 'bold' },
           };
         }),
-        Fs = function(e) {
+        bc = function(e) {
           var t = e.data,
             a = e.className,
-            n = Object(p.a)(e, Es),
-            s = Hs(),
-            i = Object(C.a)(),
-            c = Object(I.a)(i.breakpoints.up('md'), { defaultMatches: !0 });
+            n = Object(p.a)(e, mc),
+            s = hc(),
+            c = Object(C.a)(),
+            i = Object(I.a)(c.breakpoints.up('md'), { defaultMatches: !0 });
           return Object(v.jsxs)(
             'div',
             Object(l.a)(
@@ -9287,7 +9926,7 @@
                   Object(v.jsx)(Re, { title: 'Meet our team' }),
                   Object(v.jsx)(_.a, {
                     container: !0,
-                    spacing: c ? 2 : 1,
+                    spacing: i ? 2 : 1,
                     children: t.map(function(e, t) {
                       return Object(v.jsx)(
                         _.a,
@@ -9322,11 +9961,11 @@
                                   primaryTypographyProps: {
                                     className: s.title,
                                     variant: 'h6',
-                                    align: c ? 'left' : 'center',
+                                    align: i ? 'left' : 'center',
                                   },
                                   secondaryTypographyProps: {
                                     color: 'textPrimary',
-                                    align: c ? 'left' : 'center',
+                                    align: i ? 'left' : 'center',
                                   },
                                 }),
                               ],
@@ -9342,10 +9981,10 @@
             ),
           );
         },
-        Us = ['className'],
-        Vs = function(e) {
+        gc = ['className'],
+        jc = function(e) {
           var t = e.className,
-            a = Object(p.a)(e, Us),
+            a = Object(p.a)(e, gc),
             n = Object(C.a)(),
             s = Object(I.a)(n.breakpoints.up('md'), { defaultMatches: !0 });
           return Object(v.jsx)(
@@ -9398,14 +10037,14 @@
             ),
           );
         },
-        qs = [
+        uc = [
           {
             title: 'President',
             authorPhoto: {
               src:
                 'https://mybands.s3.ap-southeast-2.amazonaws.com/team/Jonathan.png',
               srcSet:
-                'https://mybands.s3.ap-southeast-2.amazonaws.com/team/Jonathan.png',
+                'https://assets.maccarianagency.com/the-front/photos/people/kate-segelson@2x.jpg 2x',
             },
             authorName: 'Jonathan Ma',
           },
@@ -9415,7 +10054,7 @@
               src:
                 'https://mybands.s3.ap-southeast-2.amazonaws.com/team/Joe.png',
               srcSet:
-                'https://mybands.s3.ap-southeast-2.amazonaws.com/team/Joe.png',
+                'https://assets.maccarianagency.com/the-front/photos/people/alex-johnson@2x.jpg 2x',
             },
             authorName: 'Joe Tang',
           },
@@ -9425,7 +10064,7 @@
               src:
                 'https://mybands.s3.ap-southeast-2.amazonaws.com/team/Simi.png',
               srcSet:
-                'https://mybands.s3.ap-southeast-2.amazonaws.com/team/Simi.png',
+                'https://assets.maccarianagency.com/the-front/photos/people/valeria-kogan@2x.jpg 2x',
             },
             authorName: 'Simi Alag',
           },
@@ -9435,7 +10074,7 @@
               src:
                 'https://mybands.s3.ap-southeast-2.amazonaws.com/team/Jason.png',
               srcSet:
-                'https://mybands.s3.ap-southeast-2.amazonaws.com/team/Jason.png',
+                'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
             },
             authorName: 'Jason Shin',
           },
@@ -9445,7 +10084,7 @@
               src:
                 'https://mybands.s3.ap-southeast-2.amazonaws.com/team/Wilson.png',
               srcSet:
-                'https://mybands.s3.ap-southeast-2.amazonaws.com/team/Wilson.png',
+                'https://assets.maccarianagency.com/the-front/photos/people/jack-smith@2x.jpg 2x',
             },
             authorName: 'Wilson Hung',
           },
@@ -9455,7 +10094,7 @@
               src:
                 'https://mybands.s3.ap-southeast-2.amazonaws.com/team/Aparna.png',
               srcSet:
-                'https://mybands.s3.ap-southeast-2.amazonaws.com/team/Aparna.png',
+                'https://assets.maccarianagency.com/the-front/photos/people/jack-smith@2x.jpg 2x',
             },
             authorName: 'Aparna Sahu',
           },
@@ -9465,7 +10104,7 @@
               src:
                 'https://mybands.s3.ap-southeast-2.amazonaws.com/team/Nikita.png',
               srcSet:
-                'https://mybands.s3.ap-southeast-2.amazonaws.com/team/Nikita.png',
+                'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams@2x.jpg 2x',
             },
             authorName: 'Nikita Soni',
           },
@@ -9475,7 +10114,7 @@
               src:
                 'https://mybands.s3.ap-southeast-2.amazonaws.com/team/Stephen.png',
               srcSet:
-                'https://mybands.s3.ap-southeast-2.amazonaws.com/team/Stephen.png',
+                'https://assets.maccarianagency.com/the-front/photos/people/jack-smith@2x.jpg 2x',
             },
             authorName: 'Stephen Kim',
           },
@@ -9485,12 +10124,12 @@
               src:
                 'https://mybands.s3.ap-southeast-2.amazonaws.com/team/Niloo.png',
               srcSet:
-                'https://mybands.s3.ap-southeast-2.amazonaws.com/team/Niloo.png',
+                'https://assets.maccarianagency.com/the-front/photos/people/jack-smith@2x.jpg 2x',
             },
             authorName: 'Niloo Gorjinejad',
           },
         ],
-        Js = [
+        fc = [
           {
             location: {
               y: 45.453211,
@@ -9548,13 +10187,13 @@
             },
           },
         ],
-        Ks = [
+        xc = [
           {
             image: {
               src:
                 'https://mybands.s3.ap-southeast-2.amazonaws.com/gallery/adam.jpeg',
               srcSet:
-                'https://mybands.s3.ap-southeast-2.amazonaws.com/gallery/adam.jpeg',
+                'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery1@2x.jpg 2x',
             },
             title: 'gallery',
             cols: 1,
@@ -9564,7 +10203,7 @@
               src:
                 'https://mybands.s3.ap-southeast-2.amazonaws.com/gallery/welcome.jpg',
               srcSet:
-                'https://mybands.s3.ap-southeast-2.amazonaws.com/gallery/welcome.jpg',
+                'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery3@2x.jpg 2x',
             },
             title: 'gallery',
             cols: 3,
@@ -9574,7 +10213,7 @@
               src:
                 'https://mybands.s3.ap-southeast-2.amazonaws.com/gallery/rivercity.jpeg',
               srcSet:
-                'https://mybands.s3.ap-southeast-2.amazonaws.com/gallery/rivercity.jpeg',
+                'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery2@2x.jpg 2x',
             },
             title: 'gallery',
             cols: 3,
@@ -9584,13 +10223,13 @@
               src:
                 'https://mybands.s3.ap-southeast-2.amazonaws.com/gallery/oweek.jpg',
               srcSet:
-                'https://mybands.s3.ap-southeast-2.amazonaws.com/gallery/oweek.jpg',
+                'https://assets.maccarianagency.com/the-front/photos/coworking/place3@2x.jpg 2x',
             },
             title: 'gallery',
             cols: 1,
           },
         ],
-        Ys = Object(P.a)(function(e) {
+        Oc = Object(P.a)(function(e) {
           return {
             root: { height: '100%', width: '100%' },
             sectionNoPaddingTop: { paddingTop: 0 },
@@ -9603,28 +10242,28 @@
             },
           };
         }),
-        Qs = function() {
-          var e = Ys();
+        yc = function() {
+          var e = Oc();
           return Object(v.jsxs)('div', {
             className: e.root,
             children: [
-              Object(v.jsx)(Ds, {}),
-              Object(v.jsx)(lt, { children: Object(v.jsx)(Ls, {}) }),
+              Object(v.jsx)(oc, {}),
+              Object(v.jsx)(lt, { children: Object(v.jsx)(dc, {}) }),
               Object(v.jsx)(lt, {
                 className: e.sectionNoPaddingTop,
-                children: Object(v.jsx)(Vs, {}),
+                children: Object(v.jsx)(jc, {}),
               }),
               Object(v.jsx)(lt, {
                 className: e.sectionNoPaddingTop,
-                children: Object(v.jsx)(Fs, { data: qs }),
+                children: Object(v.jsx)(bc, { data: uc }),
               }),
-              Object(v.jsx)(Is, { data: Js }),
-              Object(v.jsx)(mt, { children: Object(v.jsx)(_s, { data: Ks }) }),
+              Object(v.jsx)(ac, { data: fc }),
+              Object(v.jsx)(mt, { children: Object(v.jsx)(cc, { data: xc }) }),
             ],
           });
         },
-        Xs = ['className'],
-        Zs = Object(P.a)(function(e) {
+        vc = ['className'],
+        wc = Object(P.a)(function(e) {
           return {
             list: Object(N.a)(
               { display: 'flex', flexDirection: 'column' },
@@ -9653,12 +10292,12 @@
             icon: { background: 'transparent', borderRadius: 0 },
           };
         }),
-        $s = function(e) {
+        kc = function(e) {
           var t = e.className,
-            a = Object(p.a)(e, Xs),
-            n = Zs(),
+            a = Object(p.a)(e, vc),
+            n = wc(),
             s = Object(C.a)(),
-            i = Object(I.a)(s.breakpoints.up('md'), { defaultMatches: !0 });
+            c = Object(I.a)(s.breakpoints.up('md'), { defaultMatches: !0 });
           return Object(v.jsxs)(
             'div',
             Object(l.a)(
@@ -9672,7 +10311,7 @@
                       "Keep track of what's happening with your data, change permissions, and run reports against your data anywhere in the world. Keep track of what's happening with your data, change permissions.",
                     subtitleProps: { variant: 'body1', color: 'textPrimary' },
                     'data-aos': 'fade-up',
-                    align: i ? 'center' : 'left',
+                    align: c ? 'center' : 'left',
                   }),
                   Object(v.jsxs)(A.a, {
                     disablePadding: !0,
@@ -9730,8 +10369,8 @@
             ),
           );
         },
-        ei = ['className'],
-        ti = Object(P.a)(function(e) {
+        Nc = ['className'],
+        Sc = Object(P.a)(function(e) {
           return {
             placementGrid: Object(N.a)(
               { display: 'flex', justifyContent: 'flex-start' },
@@ -9743,12 +10382,12 @@
             },
           };
         }),
-        ai = function(e) {
+        Pc = function(e) {
           var t = e.className,
-            a = Object(p.a)(e, ei),
-            n = ti(),
+            a = Object(p.a)(e, Nc),
+            n = Sc(),
             s = Object(C.a)(),
-            i = Object(I.a)(s.breakpoints.up('md'), { defaultMatches: !0 });
+            c = Object(I.a)(s.breakpoints.up('md'), { defaultMatches: !0 });
           return Object(v.jsx)(
             'div',
             Object(l.a)(
@@ -9780,7 +10419,7 @@
                           'We picked our office locations to maximize our availability to you! We try to keep locations in every major city, as well as common vacatino destinations in case you need to sneak work in on the side.',
                         fadeUp: !0,
                         disableGutter: !0,
-                        align: i ? 'center' : 'left',
+                        align: c ? 'center' : 'left',
                       }),
                     }),
                     Object(v.jsx)(_.a, {
@@ -9820,10 +10459,10 @@
             ),
           );
         },
-        ni = ['className'],
-        si = function(e) {
+        Cc = ['className'],
+        Ic = function(e) {
           var t = e.className,
-            a = Object(p.a)(e, ni),
+            a = Object(p.a)(e, Cc),
             n = Object(C.a)(),
             s = Object(I.a)(n.breakpoints.up('md'), { defaultMatches: !0 });
           return Object(v.jsx)(
@@ -9844,8 +10483,8 @@
             ),
           );
         },
-        ii = ['data', 'className'],
-        ci = Object(P.a)(function(e) {
+        Bc = ['data', 'className'],
+        Ac = Object(P.a)(function(e) {
           return {
             cardBase: {
               boxShadow: 'none',
@@ -9882,13 +10521,13 @@
             title: { fontWeight: 'bold' },
           };
         }),
-        ri = function(e) {
+        Wc = function(e) {
           var t = e.data,
             a = e.className,
-            n = Object(p.a)(e, ii),
-            s = ci(),
-            i = Object(C.a)(),
-            c = Object(I.a)(i.breakpoints.up('md'), { defaultMatches: !0 });
+            n = Object(p.a)(e, Bc),
+            s = Ac(),
+            c = Object(C.a)(),
+            i = Object(I.a)(c.breakpoints.up('md'), { defaultMatches: !0 });
           return Object(v.jsxs)(
             'div',
             Object(l.a)(
@@ -9900,11 +10539,11 @@
                     title: 'Meet our team',
                     subtitle:
                       'After 3 days all of your offers will arrive and you will have another 7 days to select your new company.',
-                    align: c ? 'center' : 'left',
+                    align: i ? 'center' : 'left',
                   }),
                   Object(v.jsx)(_.a, {
                     container: !0,
-                    spacing: c ? 2 : 1,
+                    spacing: i ? 2 : 1,
                     children: t.map(function(e, t) {
                       return Object(v.jsx)(
                         _.a,
@@ -9937,11 +10576,11 @@
                                   primaryTypographyProps: {
                                     className: s.title,
                                     variant: 'h6',
-                                    align: c ? 'left' : 'center',
+                                    align: i ? 'left' : 'center',
                                   },
                                   secondaryTypographyProps: {
                                     color: 'textPrimary',
-                                    align: c ? 'left' : 'center',
+                                    align: i ? 'left' : 'center',
                                   },
                                 }),
                               ],
@@ -9957,7 +10596,7 @@
             ),
           );
         },
-        oi = [
+        Tc = [
           {
             title: 'UI/UX Designer',
             authorPhoto: {
@@ -10019,7 +10658,7 @@
             authorName: 'Veronica Adams',
           },
         ],
-        li = Object(P.a)(function(e) {
+        _c = Object(P.a)(function(e) {
           var t;
           return {
             root: { height: '100%', width: '100%', position: 'relative' },
@@ -10092,8 +10731,8 @@
             ),
           };
         }),
-        pi = function() {
-          var e = li();
+        zc = function() {
+          var e = _c();
           return Object(v.jsxs)('div', {
             className: e.root,
             children: [
@@ -10129,13 +10768,13 @@
                     Object(v.jsxs)('div', {
                       className: e.content,
                       children: [
-                        Object(v.jsx)(si, { className: e.contentSection }),
-                        Object(v.jsx)(ri, {
-                          data: oi,
+                        Object(v.jsx)(Ic, { className: e.contentSection }),
+                        Object(v.jsx)(Wc, {
+                          data: Tc,
                           className: e.contentSection,
                         }),
-                        Object(v.jsx)(ai, { className: e.contentSection }),
-                        Object(v.jsx)($s, {}),
+                        Object(v.jsx)(Pc, { className: e.contentSection }),
+                        Object(v.jsx)(kc, {}),
                       ],
                     }),
                   ],
@@ -10145,7 +10784,7 @@
             ],
           });
         },
-        di = function() {
+        Mc = function() {
           return Object(v.jsxs)(r.d, {
             children: [
               Object(v.jsx)(r.b, {
@@ -10157,7 +10796,7 @@
                     Object(l.a)(
                       Object(l.a)({}, e),
                       {},
-                      { component: nn, layout: _e },
+                      { component: sn, layout: _e },
                     ),
                   );
                 },
@@ -10185,21 +10824,21 @@
                     Object(l.a)(
                       Object(l.a)({}, e),
                       {},
-                      { component: Xn, layout: _e },
+                      { component: ks, layout: _e },
                     ),
                   );
                 },
               }),
               Object(v.jsx)(r.b, {
                 exact: !0,
-                path: '/blog-reach-view',
+                path: '/events',
                 render: function(e) {
                   return Object(v.jsx)(
                     k,
                     Object(l.a)(
                       Object(l.a)({}, e),
                       {},
-                      { component: ls, layout: _e },
+                      { component: Ms, layout: _e },
                     ),
                   );
                 },
@@ -10213,7 +10852,7 @@
                     Object(l.a)(
                       Object(l.a)({}, e),
                       {},
-                      { component: nn, layout: _e },
+                      { component: sn, layout: _e },
                     ),
                   );
                 },
@@ -10227,7 +10866,7 @@
                     Object(l.a)(
                       Object(l.a)({}, e),
                       {},
-                      { component: bn, layout: _e },
+                      { component: En, layout: _e },
                     ),
                   );
                 },
@@ -10242,7 +10881,7 @@
                     Object(l.a)(
                       Object(l.a)({}, e),
                       {},
-                      { component: Ss, layout: _e },
+                      { component: $s, layout: _e },
                     ),
                   );
                 },
@@ -10256,7 +10895,7 @@
                     Object(l.a)(
                       Object(l.a)({}, e),
                       {},
-                      { component: Qs, layout: _e },
+                      { component: yc, layout: _e },
                     ),
                   );
                 },
@@ -10271,7 +10910,7 @@
                     Object(l.a)(
                       Object(l.a)({}, e),
                       {},
-                      { component: pi, layout: _e },
+                      { component: zc, layout: _e },
                     ),
                   );
                 },
@@ -10280,14 +10919,14 @@
             ],
           });
         },
-        mi = (a(304), a(305), a(306), a(307), a(308), Object(o.a)()),
-        hi = function() {
+        Dc = (a(304), a(305), a(306), a(307), a(308), Object(o.a)()),
+        Rc = function() {
           return Object(v.jsx)(r.c, {
-            history: mi,
-            children: Object(v.jsx)(di, {}),
+            history: Dc,
+            children: Object(v.jsx)(Mc, {}),
           });
         };
-      c.a.render(Object(v.jsx)(hi, {}), document.getElementById('root')),
+      i.a.render(Object(v.jsx)(Rc, {}), document.getElementById('root')),
         'serviceWorker' in navigator &&
           navigator.serviceWorker.ready.then(function(e) {
             e.unregister();

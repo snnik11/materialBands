@@ -33,7 +33,7 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-const Rental = () => {
+const IndustryPartners = () => {
   const classes = useStyles();
 
   return (
@@ -76,4 +76,4 @@ const Rental = () => {
   );
 };
 
-export default Rental;
+export default IndustryPartners;

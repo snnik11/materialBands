@@ -79,7 +79,7 @@ export const featuredProperties = [
   {
     image: {
       src:
-        'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/blackbookai.png',
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/blackbook.png',
       // 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/blackbookai.png',
       // 'https://assets.maccarianagency.com/the-front/photos/rental/5.jpg',
     },
@@ -93,8 +93,8 @@ export const featuredProperties = [
   },
   {
     image: {
-      src:
-        'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/esriAus.png',
+      src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/esri.png',
+      //  'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/esriAus.png',
       // 'https://assets.maccarianagency.com/the-front/photos/rental/6.jpg',
     },
     price: '$320,000.00',
@@ -109,6 +109,8 @@ export const featuredProperties = [
     image: {
       src:
         'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/explorate.png',
+      //    'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/explorate.png',
+      //  'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/explorate.png',
       //'https://assets.maccarianagency.com/the-front/photos/rental/6.jpg',
     },
     price: '$320,000.00',
@@ -119,23 +121,26 @@ export const featuredProperties = [
     baths: 2,
     rooms: 3,
   },
-  {
-    image: {
-      src:
-        'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/keyData.png',
-      // 'https://assets.maccarianagency.com/the-front/photos/rental/6.jpg',
-    },
-    price: '$320,000.00',
-    location: 'Beverly Hills, CA',
-    address: '272 S Rexford Dr, Beverly Hills, CA 90212, USA',
-    size: '2400 Sq Ft',
-    garages: 2,
-    baths: 2,
-    rooms: 3,
-  },
+  // {
+  //   image: {
+  //     src:
+  //       'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/keyData.png',
+  //     //  'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/keyData.png',
+  //     // 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/keyData.png',
+  //     // 'https://assets.maccarianagency.com/the-front/photos/rental/6.jpg',
+  //   },
+  //   price: '$320,000.00',
+  //   location: 'Beverly Hills, CA',
+  //   address: '272 S Rexford Dr, Beverly Hills, CA 90212, USA',
+  //   size: '2400 Sq Ft',
+  //   garages: 2,
+  //   baths: 2,
+  //   rooms: 3,
+  // },
   {
     image: {
       src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/kjr.png',
+      // 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/kjr.png',
       //'https://assets.maccarianagency.com/the-front/photos/rental/6.jpg',
     },
     price: '$320,000.00',

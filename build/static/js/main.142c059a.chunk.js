@@ -5957,7 +5957,7 @@
               {
                 children: [
                   Object(v.jsx)(Re, {
-                    title: 'Industry Partners for Semester 1, 2021',
+                    title: 'Industry Partners Semester 1, 2021',
                     'data-aos': 'fade-up',
                   }),
                   Object(v.jsxs)(_.a, {

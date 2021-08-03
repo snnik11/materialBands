@@ -6,7 +6,7 @@ import { Image } from 'components/atoms';
 import { SectionHeader } from 'components/molecules';
 import { Section } from 'components/organisms';
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(theme => ({
   grid: {
     maxWidth: '100%',
     background: theme.palette.primary.dark,
@@ -22,7 +22,7 @@ const SellProperty = props => {
 
   return (
     <div className={className} {...rest}>
-      <Grid container className={classes.grid}>
+      {/* <Grid container className={classes.grid}>
         <Grid item xs={12} md={6} data-aos="fade-up">
           <Image src="https://assets.maccarianagency.com/the-front/photos/rental/house-cover.png" lazy={false} />
         </Grid>
@@ -52,7 +52,7 @@ const SellProperty = props => {
             />
           </Section>
         </Grid>
-      </Grid>
+      </Grid> */}
     </div>
   );
 };

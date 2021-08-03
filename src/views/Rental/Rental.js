@@ -9,7 +9,7 @@ import {
   FeaturedProperties,
   FooterHero,
   Hero,
-  Partners,
+  //  Partners,
   Places,
   Reviews,
   Search,
@@ -23,7 +23,7 @@ import {
   featuredProperties,
   places,
   reviews,
-  partners,
+  // partners,
   advantages,
 } from './data';
 
@@ -54,24 +54,24 @@ const Rental = () => {
       <Section>
         <Reviews data={reviews} />
       </Section>
-      <Section>
+      {/* <Section>
         <Places data={places} />
       </Section>
       <SectionAlternate innerNarrowed>
         <HouseTypes />
-      </SectionAlternate>
+      </SectionAlternate> */}
 
-      <SellProperty />
-      <Section>
+      {/* <SellProperty /> */}
+      {/* <Section>
         <Partners data={partners} />
-      </Section>
-      <SectionAlternate>
+      </Section> */}
+      {/* <SectionAlternate>
         <Advantages data={advantages} />
       </SectionAlternate>
       <Section>
         <AskExpert />
-      </Section>
-      <FooterHero />
+      </Section> */}
+      {/* <FooterHero /> */}
     </div>
   );
 };

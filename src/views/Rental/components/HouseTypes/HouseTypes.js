@@ -41,7 +41,7 @@ const HouseTypes = props => {
 
   return (
     <div className={className} {...rest}>
-      <SectionHeader
+      {/* <SectionHeader
         title="House types"
         subtitle="After 3 days all of your offers will arrive and you will have another 7 days to select your new company."
         data-aos="fade-up"
@@ -115,7 +115,7 @@ const HouseTypes = props => {
             </Typography>
           </CardBase>
         </Grid>
-      </Grid>
+      </Grid> */}
     </div>
   );
 };

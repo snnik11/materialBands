@@ -67,10 +67,10 @@ export const services = [
 ];
 
 export const partners = [
-  {
-    name: 'Airbnb',
-    logo: 'https://assets.maccarianagency.com/the-front/logos/airbnb.svg',
-  },
+  // {
+  //   name: 'Airbnb',
+  //   logo: 'https://assets.maccarianagency.com/the-front/logos/airbnb.svg',
+  // },
   {
     name: 'Coinbase',
     logo: 'https://assets.maccarianagency.com/the-front/logos/coinbase.svg',

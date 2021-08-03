@@ -19,92 +19,7 @@ export const aricles = [
 export const featuredProperties = [
   {
     image: {
-      //   src:
-      // 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/aginic.png',
-      // 'https://assets.maccarianagency.com/the-front/photos/rental/2.jpg',
-    },
-    price: '$320,000.00',
-    location: 'Beverly Hills, CA',
-    address: '272 S Rexford Dr, Beverly Hills, CA 90212, USA',
-    size: '2400 Sq Ft',
-    garages: 2,
-    baths: 2,
-    rooms: 3,
-  },
-  {
-    image: {
-      //   src:
-      // 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/aginic.png',
-      // 'https://assets.maccarianagency.com/the-front/photos/rental/2.jpg',
-    },
-    price: '$320,000.00',
-    location: 'Beverly Hills, CA',
-    address: '272 S Rexford Dr, Beverly Hills, CA 90212, USA',
-    size: '2400 Sq Ft',
-    garages: 2,
-    baths: 2,
-    rooms: 3,
-  },
-  {
-    image: {
-      //   src:
-      // 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/aginic.png',
-      // 'https://assets.maccarianagency.com/the-front/photos/rental/2.jpg',
-    },
-    price: '$320,000.00',
-    location: 'Beverly Hills, CA',
-    address: '272 S Rexford Dr, Beverly Hills, CA 90212, USA',
-    size: '2400 Sq Ft',
-    garages: 2,
-    baths: 2,
-    rooms: 3,
-  },
-  {
-    image: {
-      //   src:
-      // 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/aginic.png',
-      // 'https://assets.maccarianagency.com/the-front/photos/rental/2.jpg',
-    },
-    price: '$320,000.00',
-    location: 'Beverly Hills, CA',
-    address: '272 S Rexford Dr, Beverly Hills, CA 90212, USA',
-    size: '2400 Sq Ft',
-    garages: 2,
-    baths: 2,
-    rooms: 3,
-  },
-  {
-    image: {
-      //   src:
-      // 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/aginic.png',
-      // 'https://assets.maccarianagency.com/the-front/photos/rental/2.jpg',
-    },
-    price: '$320,000.00',
-    location: 'Beverly Hills, CA',
-    address: '272 S Rexford Dr, Beverly Hills, CA 90212, USA',
-    size: '2400 Sq Ft',
-    garages: 2,
-    baths: 2,
-    rooms: 3,
-  },
-  {
-    image: {
-      //   src:
-      // 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/aginic.png',
-      // 'https://assets.maccarianagency.com/the-front/photos/rental/2.jpg',
-    },
-    price: '$320,000.00',
-    location: 'Beverly Hills, CA',
-    address: '272 S Rexford Dr, Beverly Hills, CA 90212, USA',
-    size: '2400 Sq Ft',
-    garages: 2,
-    baths: 2,
-    rooms: 3,
-  },
-
-  {
-    image: {
-      src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/MV.png',
+      src: //'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/MV.png',
       //  'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/acs.png.png',
       // 'https://mybands.s3.ap-southeast-2.amazonaws.com/logos/esri.png',
       //'https://i.postimg.cc/W3RkLNb1/logo.png',
@@ -306,17 +221,28 @@ export const reviews = [
     authorPhoto: {
       src:
         'https://mybands.s3.ap-southeast-2.amazonaws.com/testimonials/utkarsh.jpg',
-      // 'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams.jpg',
+      //  'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams.jpg',
       srcSet:
         'https://mybands.s3.ap-southeast-2.amazonaws.com/testimonials/utkarsh.jpg',
-      //  'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams@2x.jpg 2x',
+      // 'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams@2x.jpg 2x',
     },
-    authorName: 'Utkarsh Sharma ',
-
-    authorOccupation: 'UQ | Junior Data Engineer, OreFox',
+    authorName: 'Veronica Adams',
+    authorOccupation: 'Growth Marketer, Crealytics',
     feedback:
-      'Speed Networking gave me a valuable opportunity to interact with companies whose interests align with my own and practise delivering content in an ‘elevator pitch’ format. Through participating in the event, I was able to land my first internship at Orefox!',
-    //  ' ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      ' dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+  },
+
+  {
+    authorPhoto: {
+      src:
+        'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
+      srcSet:
+        'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
+    },
+    authorName: 'Akachi Luccini',
+    authorOccupation: 'Lead Generation, Alternative Capital',
+    feedback:
+      'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
   },
   {
     authorPhoto: {

@@ -10,7 +10,7 @@ const navlinkStyle = {
   color: '#3f51b5',
   backgroundColor: '#e8eaf6',
   marginHorizontal: '10px',
-  paddingHorizontal: '25px',
+  paddingHorizontal: '23px',
 };
 
 const navbarStyle = {
@@ -65,19 +65,21 @@ function Navb() {
             </NavDropdown> */}
           <Nav className="mr-auto" style={navbarStyle}>
             <span>
-              <img
-                className="bands-logo"
-                src="https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/bands.png"
-                //"https://mybands.s3.ap-southeast-2.amazonaws.com/logos/bands.png"
-                //"https://mybands.s3.ap-southeast-2.amazonaws.com/events/bandslogo.png"
-                alt="BANDS"
-                style={{
-                  width: 'auto',
-                  height: '5rem',
-                  padding: '10px 15px',
-                  fontFamily: 'Lato',
-                }}
-              ></img>
+              <a href="/">
+                <img
+                  className="bands-logo"
+                  src="https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/bands.png"
+                  //"https://mybands.s3.ap-southeast-2.amazonaws.com/logos/bands.png"
+                  //"https://mybands.s3.ap-southeast-2.amazonaws.com/events/bandslogo.png"
+                  alt="BANDS"
+                  style={{
+                    width: 'auto',
+                    height: '6.9rem',
+                    padding: '10px 15px',
+                    fontFamily: 'Lato',
+                  }}
+                ></img>
+              </a>
             </span>
 
             {/* QUTBANDS */}
@@ -86,20 +88,14 @@ function Navb() {
                 Home
               </Nav.Link>
             </div>
-            <div style={navlinkStyle}>
-              <Nav.Link
-                // className="nav-links"
-                href="/about"
-              >
+            <div style={{ navlinkStyle }}>
+              <Nav.Link className="nav-links" href="/about">
                 About Us
               </Nav.Link>
             </div>
             {/* <Nav.Link className = "nav-links"  href="/team">Team</Nav.Link> */}
-            <div style={navlinkStyle}>
-              <Nav.Link
-                // className="nav-links"
-                href="/blog-reach-view"
-              >
+            <div style={{ navlinkStyle }}>
+              <Nav.Link className="nav-links" href="/blog-reach-view">
                 Events
               </Nav.Link>
             </div>
@@ -108,11 +104,8 @@ function Navb() {
               </Nav.Link> */}
             {/* <Nav.Link href="/faqs">FAQs</Nav.Link> */}
             {/* <Nav.Link className = "nav-links" href="/blog">Blog</Nav.Link> */}
-            <div style={navlinkStyle}>
-              <Nav.Link
-                // className="nav-links"
-                href="/industry_partners"
-              >
+            <div style={{ navlinkStyle }}>
+              <Nav.Link className="nav-links" href="/industry_partners">
                 Industry Partners
               </Nav.Link>
             </div>

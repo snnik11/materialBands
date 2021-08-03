@@ -231,7 +231,8 @@ export const reviews = [
   {
     //  authorPhoto: {
     // src:
-    //   'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
+    // // "https://mybands.s3.ap-southeast-2.amazonaws.com/testimonials/holly.jpg",
+    //  // 'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
     // srcSet:
     //   'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
     //  },
@@ -254,7 +255,10 @@ export const reviews = [
     //'Akachi Luccini',
     authorOccupation: 'Occupation',
     //'Lead Generation, Alternative Capital',
-    feedback: 'Your experience with BANDS',
+    feedback:
+      ' dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+
+    // 'Your experience with BANDS',
     //      'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
   },
   {

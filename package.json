@@ -9,7 +9,7 @@
     "build": "cross-env GENERATE_SOURCEMAP=false react-scripts build",
     "prettier": "prettier --write '**/*.{js,css,html}'",
     "clear-all": "rimraf ./build ./node_modules",
-    "deploy": "aws s3 sync build/ s3://bandssem2"
+    "deploy": "aws s3 sync build/ s3://www.qutbands.com.au"
   },
   "eslintConfig": {
     "extends": [

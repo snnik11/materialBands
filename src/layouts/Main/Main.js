@@ -202,7 +202,7 @@ const Main = ({ children, themeToggler, themeMode }) => {
             {
               title: 'Events',
               //title: 'Reach View',
-              href: '/blog-reach-view',
+              href: '/ourevents',
             },
             // {
             //   title: 'Search',

@@ -75,9 +75,9 @@ const Reviews = props => {
             <Grid container spacing={0}>
               <Grid item xs={12}>
                 <ListItem disableGutters key={index}>
-                  <ListItemAvatar>
+                  {/* <ListItemAvatar>
                     <Avatar {...item.authorPhoto} />
-                  </ListItemAvatar>
+                  </ListItemAvatar> */}
                   <ListItemText
                     primary={item.authorName}
                     secondary={item.authorOccupation}

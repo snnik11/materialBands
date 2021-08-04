@@ -37,9 +37,12 @@ ml-auto:hover {
   border-bottom: 4px solid #fff;
   transition: all 0.2s ease-out;
 }
+@media screen and (max-width: 960px) {
+  .NavbarItems {
+    position: relative;
+  }
 
-
-/* .navbar-logo-image {
+  /* .navbar-logo-image {
   width: 100px;
   height: 100px;
 }
@@ -48,7 +51,7 @@ ml-auto:hover {
   list-style-type: none;
 } */
 
-/* .bands-logo {
+  /* .bands-logo {
   width: 5%;
   height: 4%;
   padding: 4px;
@@ -115,10 +118,6 @@ ml-auto:hover {
   display: none;
 }
 
-@media screen and (max-width: 960px) {
-  .NavbarItems {
-    position: relative;
-  }
 
   .nav-menu {
     display: flex;
@@ -196,3 +195,4 @@ ml-auto:hover {
     transition: 250ms;
   }
 } */
+}

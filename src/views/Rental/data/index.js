@@ -19,7 +19,7 @@ export const aricles = [
 export const featuredProperties = [
   {
     image: {
-      src: //'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/MV.png',
+      src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/MV.png',
       //  'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/acs.png.png',
       // 'https://mybands.s3.ap-southeast-2.amazonaws.com/logos/esri.png',
       //'https://i.postimg.cc/W3RkLNb1/logo.png',
@@ -232,18 +232,18 @@ export const reviews = [
       ' dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   },
 
-  {
-    authorPhoto: {
-      src:
-        'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
-      srcSet:
-        'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
-    },
-    authorName: 'Akachi Luccini',
-    authorOccupation: 'Lead Generation, Alternative Capital',
-    feedback:
-      'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-  },
+  // {
+  //   authorPhoto: {
+  //     src:
+  //       'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
+  //     srcSet:
+  //       'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
+  //   },
+  //   authorName: 'Akachi Luccini',
+  //   authorOccupation: 'Lead Generation, Alternative Capital',
+  //   feedback:
+  //     'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  // },
   {
     authorPhoto: {
       src:

@@ -319,11 +319,11 @@ export const pages = [
   },
   {
     title: 'Blog Reach View',
-    href: '/blog-reach-view',
+    href: '/ourevents',
     cover:
-      'https://assets.maccarianagency.com/the-front/web-screens/pages/blog-reach-view-min.png',
+      'https://assets.maccarianagency.com/the-front/web-screens/pages/ourevents-min.png',
     coverDark:
-      'https://assets.maccarianagency.com/the-front/web-screens/pages/blog-reach-view--dark-min.png',
+      'https://assets.maccarianagency.com/the-front/web-screens/pages/ourevents--dark-min.png',
   },
   {
     title: 'Blog Search',

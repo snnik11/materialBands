@@ -13,7 +13,7 @@ import {
 } from './components';
 
 import { articles1, articles2, articles3, articles4 } from './data';
-//import { BlogReachView } from 'views/Coworking/components';
+//import { OurEventsView } from 'views/Coworking/components';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -30,7 +30,7 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-const BlogReachView = () => {
+const OurEventsView = () => {
   const classes = useStyles();
 
   return (
@@ -70,4 +70,4 @@ const BlogReachView = () => {
   );
 };
 
-export default BlogReachView;
+export default OurEventsView;

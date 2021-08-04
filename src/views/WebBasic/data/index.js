@@ -229,13 +229,13 @@ export const faq = [
 
 export const reviews = [
   {
-    //  authorPhoto: {
-    // src:
-    // // "https://mybands.s3.ap-southeast-2.amazonaws.com/testimonials/holly.jpg",
-    //  // 'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
-    // srcSet:
-    //   'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
-    //  },
+    authorPhoto: {
+      src:
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/testimonials/holly.jpg',
+      //  // 'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
+      // srcSet:
+      //   'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
+    },
     authorName: 'Name',
     //'Akachi Luccini',
     authorOccupation: 'Occupation',

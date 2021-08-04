@@ -14,7 +14,7 @@ const navlinkStyle = {
 };
 
 const navbarStyle = {
-  fontSize: '28px',
+  fontSize: '25px',
   color: 'black',
   display: 'flex',
   textAlign: 'justify',
@@ -37,32 +37,8 @@ function Navb() {
           className="header"
           style={{ fontWeight: 'bolder', fontSize: '40px' }}
         > */}
-        {/* <img
-            className="bands-logo"
-            src="https://mybands.s3.ap-southeast-2.amazonaws.com/events/bandslogo.png"
-            alt="BANDS"
-            style={{
-              width: 140,
-              height: 140,
 
-              fontFamily: 'Lato',
-            }}
-          ></img> */}
-        {/* QUTBANDS */}
-        {/* </Navbar.Brand> */}
-        {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" /> */}
         <Navbar.Collapse id="responsive-navbar-nav">
-          {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown> */}
           <Nav className="mr-auto" style={navbarStyle}>
             <span>
               <a href="/">
@@ -77,6 +53,7 @@ function Navb() {
                     height: '6.9rem',
                     padding: '10px 15px',
                     fontFamily: 'Lato',
+                    display: 'flex',
                   }}
                 ></img>
               </a>
@@ -95,7 +72,7 @@ function Navb() {
             </div>
             {/* <Nav.Link className = "nav-links"  href="/team">Team</Nav.Link> */}
             <div style={{ navlinkStyle }}>
-              <Nav.Link className="nav-links" href="/blog-reach-view">
+              <Nav.Link className="nav-links" href="/ourevents">
                 Events
               </Nav.Link>
             </div>

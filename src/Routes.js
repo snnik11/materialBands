@@ -20,7 +20,7 @@ import {
   Pricing as PricingView,
   About as AboutView,
   AboutSideCover as AboutSideCoverView,
-  BlogReachView,
+  OurEventsView,
   Coworking,
 } from './views';
 
@@ -64,11 +64,11 @@ const Routes = () => {
       />
       <Route
         exact
-        path="/blog-reach-view"
+        path="/ourevents"
         render={matchProps => (
           <WithLayout
             {...matchProps}
-            component={BlogReachView}
+            component={OurEventsView}
             layout={MainLayout}
           />
         )}

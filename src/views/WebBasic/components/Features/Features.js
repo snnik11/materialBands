@@ -118,7 +118,8 @@ const Features = props => {
           data-aos="fade-up"
         >
           <Image
-            src="https://assets.maccarianagency.com/the-front/illustrations/dashboard-extended.svg"
+            src="https://mybands.s3.ap-southeast-2.amazonaws.com/design/bandsisgrowing.jpg"
+            //"https://assets.maccarianagency.com/the-front/illustrations/dashboard-extended.svg"
             alt="..."
             className={classes.coverImage}
           />

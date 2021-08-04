@@ -10191,9 +10191,11 @@
           {
             image: {
               src:
-                'https://mybands.s3.ap-southeast-2.amazonaws.com/gallery/adam.jpeg',
+                'https://mybands.s3.ap-southeast-2.amazonaws.com/gallery/alice.jpg',
+              // 'https://mybands.s3.ap-southeast-2.amazonaws.com/gallery/adam.jpeg',
               srcSet:
-                'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery1@2x.jpg 2x',
+                'https://mybands.s3.ap-southeast-2.amazonaws.com/gallery/alice.jpg',
+              //  'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery1@2x.jpg 2x',
             },
             title: 'gallery',
             cols: 1,
@@ -10211,9 +10213,11 @@
           {
             image: {
               src:
-                'https://mybands.s3.ap-southeast-2.amazonaws.com/gallery/rivercity.jpeg',
+                'https://mybands.s3.ap-southeast-2.amazonaws.com/gallery/tent.jpg',
+              //  'https://mybands.s3.ap-southeast-2.amazonaws.com/gallery/rivercity.jpeg',
               srcSet:
-                'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery2@2x.jpg 2x',
+                'https://mybands.s3.ap-southeast-2.amazonaws.com/gallery/tent.jpg',
+              //  'https://assets.maccarianagency.com/the-front/photos/expo-gallery/gallery2@2x.jpg 2x',
             },
             title: 'gallery',
             cols: 3,

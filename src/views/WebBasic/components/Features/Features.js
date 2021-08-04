@@ -123,6 +123,9 @@ const Features = props => {
             alt="..."
             className={classes.coverImage}
           />
+          <a href="http://www.freepik.com" style={{ color: 'white' }}>
+            Designed by iconicbestiary / Freepik
+          </a>
         </Grid>
       </Grid>
     </div>

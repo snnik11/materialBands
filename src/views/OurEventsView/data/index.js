@@ -118,11 +118,13 @@ export const articles3 = [
   {
     cover: {
       src:
-        'https://mybands.s3.ap-southeast-2.amazonaws.com/events/hackathon.png',
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/events/pitchday.jpg',
+      // 'https://mybands.s3.ap-southeast-2.amazonaws.com/events/hackathon.png',
       //'https://i.postimg.cc/PpQZxWCb/hackathon.png',
       // 'https://assets.maccarianagency.com/the-front/photos/blog/cover2.jpg',
       srcSet:
-        'https://mybands.s3.ap-southeast-2.amazonaws.com/events/hackathon.png',
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/events/pitchday.jpg',
+      //  'https://mybands.s3.ap-southeast-2.amazonaws.com/events/hackathon.png',
       // 'https://assets.maccarianagency.com/the-front/photos/blog/cover2.jpg 2x',
     },
     title: 'Hackathon',

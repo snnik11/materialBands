@@ -127,6 +127,23 @@ const Features = props => {
             Designed by iconicbestiary / Freepik
           </a>
         </Grid>
+        {/* <button>
+          {' '}
+          <a
+            href="https://qutbandsmember.getqpay.com/"
+            style={{
+              display: 'flex',
+              background: '#3f51b5',
+              color: 'white',
+              borderColor: 'inherit',
+              fontSize: '30px',
+              outline: 'none',
+              padding: '6px',
+            }}
+          >
+            Become a member
+          </a>
+        </button> */}
       </Grid>
     </div>
   );

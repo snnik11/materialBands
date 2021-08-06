@@ -16,12 +16,14 @@ export const aricles = [
   },
 ];
 
-export const featuredProperties = [
+export const featuredProperties1 = [
   {
     image: {
-      //   src:
-      // 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/aginic.png',
-      // 'https://assets.maccarianagency.com/the-front/photos/rental/2.jpg',
+      src:
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/acsbands.png',
+      // 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/acs.png',
+      //  'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/blackbook.png',
+      //'https://assets.maccarianagency.com/the-front/photos/rental/4.jpg',
     },
     price: '$320,000.00',
     location: 'Beverly Hills, CA',
@@ -30,99 +32,14 @@ export const featuredProperties = [
     garages: 2,
     baths: 2,
     rooms: 3,
-  },
-  {
-    image: {
-      //   src:
-      // 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/aginic.png',
-      // 'https://assets.maccarianagency.com/the-front/photos/rental/2.jpg',
-    },
-    price: '$320,000.00',
-    location: 'Beverly Hills, CA',
-    address: '272 S Rexford Dr, Beverly Hills, CA 90212, USA',
-    size: '2400 Sq Ft',
-    garages: 2,
-    baths: 2,
-    rooms: 3,
-  },
-  {
-    image: {
-      //   src:
-      // 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/aginic.png',
-      // 'https://assets.maccarianagency.com/the-front/photos/rental/2.jpg',
-    },
-    price: '$320,000.00',
-    location: 'Beverly Hills, CA',
-    address: '272 S Rexford Dr, Beverly Hills, CA 90212, USA',
-    size: '2400 Sq Ft',
-    garages: 2,
-    baths: 2,
-    rooms: 3,
-  },
-  {
-    image: {
-      //   src:
-      // 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/aginic.png',
-      // 'https://assets.maccarianagency.com/the-front/photos/rental/2.jpg',
-    },
-    price: '$320,000.00',
-    location: 'Beverly Hills, CA',
-    address: '272 S Rexford Dr, Beverly Hills, CA 90212, USA',
-    size: '2400 Sq Ft',
-    garages: 2,
-    baths: 2,
-    rooms: 3,
-  },
-  {
-    image: {
-      //   src:
-      // 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/aginic.png',
-      // 'https://assets.maccarianagency.com/the-front/photos/rental/2.jpg',
-    },
-    price: '$320,000.00',
-    location: 'Beverly Hills, CA',
-    address: '272 S Rexford Dr, Beverly Hills, CA 90212, USA',
-    size: '2400 Sq Ft',
-    garages: 2,
-    baths: 2,
-    rooms: 3,
-  },
-  {
-    image: {
-      //   src:
-      // 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/aginic.png',
-      // 'https://assets.maccarianagency.com/the-front/photos/rental/2.jpg',
-    },
-    price: '$320,000.00',
-    location: 'Beverly Hills, CA',
-    address: '272 S Rexford Dr, Beverly Hills, CA 90212, USA',
-    size: '2400 Sq Ft',
-    garages: 2,
-    baths: 2,
-    rooms: 3,
-  },
-
-  {
-    image: {
-      src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/MV.png',
-      //  'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/acs.png.png',
-      // 'https://mybands.s3.ap-southeast-2.amazonaws.com/logos/esri.png',
-      //'https://i.postimg.cc/W3RkLNb1/logo.png',
-      //'https://assets.maccarianagency.com/the-front/photos/rental/1.jpg',
-    },
-    //  price: '$320,000.00',
-    //  location: 'Beverly Hills, CA',
-    //  address: '272 S Rexford Dr, Beverly Hills, CA 90212, USA',
-    //   size: '2400 Sq Ft',
-    //    garages: 2,
-    //   baths: 2,
-    //   rooms: 3,
   },
   {
     image: {
       src:
-        'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/aginic.png',
-      // 'https://assets.maccarianagency.com/the-front/photos/rental/2.jpg',
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/acsbands.png',
+      // 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/acs.png',
+      //  'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/blackbook.png',
+      //'https://assets.maccarianagency.com/the-front/photos/rental/4.jpg',
     },
     price: '$320,000.00',
     location: 'Beverly Hills, CA',
@@ -132,26 +49,30 @@ export const featuredProperties = [
     baths: 2,
     rooms: 3,
   },
+  {
+    image: {
+      src:
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/acsbands.png',
+      // 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/acs.png',
+      //  'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/blackbook.png',
+      //'https://assets.maccarianagency.com/the-front/photos/rental/4.jpg',
+    },
+    price: '$320,000.00',
+    location: 'Beverly Hills, CA',
+    address: '272 S Rexford Dr, Beverly Hills, CA 90212, USA',
+    size: '2400 Sq Ft',
+    garages: 2,
+    baths: 2,
+    rooms: 3,
+  },
+];
+export const featuredProperties = [
   {
     image: {
       src:
         'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/buisnessAnalysis.png',
       //  'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/aginic.png',
       // 'https://assets.maccarianagency.com/the-front/photos/rental/3.jpg',
-    },
-    price: '$320,000.00',
-    location: 'Beverly Hills, CA',
-    address: '272 S Rexford Dr, Beverly Hills, CA 90212, USA',
-    size: '2400 Sq Ft',
-    garages: 2,
-    baths: 2,
-    rooms: 3,
-  },
-  {
-    image: {
-      src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/acs.png',
-      //  'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/blackbook.png',
-      //'https://assets.maccarianagency.com/the-front/photos/rental/4.jpg',
     },
     price: '$320,000.00',
     location: 'Beverly Hills, CA',
@@ -176,11 +97,12 @@ export const featuredProperties = [
     baths: 2,
     rooms: 3,
   },
+
   {
     image: {
-      src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/esri.png',
-      //  'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/esriAus.png',
-      // 'https://assets.maccarianagency.com/the-front/photos/rental/6.jpg',
+      src:
+        '  https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/suncorp.png',
+      // 'https://assets.maccarianagency.com/the-front/photos/rental/2.jpg',
     },
     price: '$320,000.00',
     location: 'Beverly Hills, CA',
@@ -206,6 +128,22 @@ export const featuredProperties = [
     baths: 2,
     rooms: 3,
   },
+
+  {
+    image: {
+      src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/esri.png',
+      //  'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/esriAus.png',
+      // 'https://assets.maccarianagency.com/the-front/photos/rental/6.jpg',
+    },
+    price: '$320,000.00',
+    location: 'Beverly Hills, CA',
+    address: '272 S Rexford Dr, Beverly Hills, CA 90212, USA',
+    size: '2400 Sq Ft',
+    garages: 2,
+    baths: 2,
+    rooms: 3,
+  },
+
   // {
   //   image: {
   //     src:
@@ -242,6 +180,36 @@ export const featuredProperties = [
         'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/orefox.png',
       // 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/kjr.png',
       //'https://assets.maccarianagency.com/the-front/photos/rental/6.jpg',
+    },
+    price: '$320,000.00',
+    location: 'Beverly Hills, CA',
+    address: '272 S Rexford Dr, Beverly Hills, CA 90212, USA',
+    size: '2400 Sq Ft',
+    garages: 2,
+    baths: 2,
+    rooms: 3,
+  },
+  {
+    image: {
+      src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/MV.png',
+      //  'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/acs.png.png',
+      // 'https://mybands.s3.ap-southeast-2.amazonaws.com/logos/esri.png',
+      //'https://i.postimg.cc/W3RkLNb1/logo.png',
+      //'https://assets.maccarianagency.com/the-front/photos/rental/1.jpg',
+    },
+    //  price: '$320,000.00',
+    //  location: 'Beverly Hills, CA',
+    //  address: '272 S Rexford Dr, Beverly Hills, CA 90212, USA',
+    //   size: '2400 Sq Ft',
+    //    garages: 2,
+    //   baths: 2,
+    //   rooms: 3,
+  },
+  {
+    image: {
+      src:
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/aginic.png',
+      // 'https://assets.maccarianagency.com/the-front/photos/rental/2.jpg',
     },
     price: '$320,000.00',
     location: 'Beverly Hills, CA',
@@ -305,6 +273,22 @@ export const reviews = [
   {
     authorPhoto: {
       src:
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/testimonials/dhanush.jpg',
+      //'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
+      srcSet:
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/testimonials/dhanush.jpg',
+      //  'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
+    },
+    authorName: 'Dhanush Kumaraswamy',
+    authorOccupation: 'QUT | Associate Business Analyst , Suncorp',
+    //'Lead Generation, Alternative Capital',
+    feedback:
+      'I happened to come across the Speed Networking Event on LinkedIn and it turned out to be truly rewarding. I was given five minutes to talk to a company representative, which eventually got me an associate business analyst role. The event had great organisations taking part which proves the networks that QUT BANDS possesses!',
+    // 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  },
+  {
+    authorPhoto: {
+      src:
         'https://mybands.s3.ap-southeast-2.amazonaws.com/testimonials/utkarsh.jpg',
       // 'https://assets.maccarianagency.com/the-front/photos/people/veronica-adams.jpg',
       srcSet:
@@ -318,30 +302,19 @@ export const reviews = [
       'Speed Networking gave me a valuable opportunity to interact with companies whose interests align with my own and practise delivering content in an ‘elevator pitch’ format. Through participating in the event, I was able to land my first internship at Orefox!',
     //  ' ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   },
-  {
-    authorPhoto: {
-      src:
-        'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
-      srcSet:
-        'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
-    },
-    authorName: 'Akachi Luccini',
-    authorOccupation: 'Lead Generation, Alternative Capital',
-    feedback:
-      'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-  },
-  {
-    authorPhoto: {
-      src:
-        'https://assets.maccarianagency.com/the-front/photos/people/jack-smith.jpg',
-      srcSet:
-        'https://assets.maccarianagency.com/the-front/photos/people/jack-smith@2x.jpg 2x',
-    },
-    authorName: 'Jack Smith',
-    authorOccupation: 'Head of Operations, Parkfield Commerce',
-    feedback:
-      'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-  },
+
+  // {
+  //   authorPhoto: {
+  //     src:
+  //       'https://assets.maccarianagency.com/the-front/photos/people/jack-smith.jpg',
+  //     srcSet:
+  //       'https://assets.maccarianagency.com/the-front/photos/people/jack-smith@2x.jpg 2x',
+  //   },
+  //   authorName: 'Jack Smith',
+  //   authorOccupation: 'Head of Operations, Parkfield Commerce',
+  //   feedback:
+  //     'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+  // },
 ];
 
 //export const partners = [

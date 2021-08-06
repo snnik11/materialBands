@@ -2,6 +2,9 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { colors, Divider } from '@material-ui/core';
 import { Section, SectionAlternate } from 'components/organisms';
+import Slider from './components/ImageSlider/Slider';
+import EventSlider from './components/ImageSlider/EventSlider';
+import HeroMain from './components/Hero/HeroMain';
 import {
   About,
   Contact,
@@ -48,12 +51,23 @@ const WebBasic = () => {
 
   return (
     <div>
+      {/* <SectionAlternate>
+        <EventSlider data={reviews} />
+      </SectionAlternate> */}
+
       <Section className={classes.pagePaddingTop}>
+        {' '}
+        <HeroMain />
+        <br />
+        <br />
+        <br />
         <Hero />
       </Section>
+
       <Section className={classes.sectionNoPaddingTop}>
         <Services data={services} />
       </Section>
+
       <Divider />
       <div className={classes.shape}>
         <Section className={classes.sectionNoPaddingTop}>
@@ -67,8 +81,10 @@ const WebBasic = () => {
 
       <Divider />
       <SectionAlternate>
-        <Reviews data={reviews} />
+        <Slider data={reviews} />
+        {/* <Reviews data={reviews} /> */}
       </SectionAlternate>
+
       {/* <Section>
         <Partners data={partners} />
       </Section>

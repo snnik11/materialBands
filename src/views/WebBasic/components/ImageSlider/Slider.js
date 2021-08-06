@@ -80,10 +80,11 @@ const Reviews = props => {
   return (
     <div className={className} {...rest}>
       <SectionHeader
-        title="Success stories"
-        //"What Our Clients Say"
-        subtitle="Our platform has created opportunities for students in these many years. We continue to help other fellow mates write their success stories"
-        //"After 3 days all of your offers will arrive and you will have another 7 days to select your new company."
+      //  title="Industry Partners"
+      //"What Our Clients Say"
+      //subtitle=
+      //"Our platform has created opportunities for students in these years. We continue to help other fellow mates write their success stories"
+      //"After 3 days all of your offers will arrive and you will have another 7 days to select your new company."
       />
       <div className={clsx('swiper-container', classes.swiperContainer)}>
         <div className={clsx('swiper-wrapper', classes.swiperWrapper)}>

@@ -236,87 +236,98 @@ export const reviews = [
       // srcSet:
       //   'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
     },
-    authorName: 'Name',
+    authorName: 'Holly Bretherton',
     //'Akachi Luccini',
-    authorOccupation: 'Occupation',
+    authorOccupation: 'QLD State Manager , ACS  ',
     //'Lead Generation, Alternative Capital',
-    feedback: 'Your experience with BANDS',
+    feedback:
+      '"ACS Queensland highly values our relationship with QUT Bands. ACS Queensland seeks to support students in gaining information, resources and knowledge on available careers in the burgeoning area of data science, and our synergistic partnership with QUT Bands supports this objective."',
+
+    //'Your experience with BANDS',
     //      'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
   },
 
   {
-    //  authorPhoto: {
-    // src:
-    //   'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
-    // srcSet:
-    //   'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
-    //  },
-    authorName: 'Name',
+    authorPhoto: {
+      src:
+        //  'https://mybands.s3.ap-southeast-2.amazonaws.com/testimonials/phoebebands.jpg',
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/testimonials/Phoebekeck.jpg',
+      // 'https://mybands.s3.ap-southeast-2.amazonaws.com/testimonials/Phoebe.jpg',
+      //   'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
+      srcSet:
+        //  'https://mybands.s3.ap-southeast-2.amazonaws.com/testimonials/phoebebands.jpg',
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/testimonials/Phoebekeck.jpg',
+      //  'https://mybands.s3.ap-southeast-2.amazonaws.com/testimonials/Phoebe.jpg',
+      //   'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
+    },
+    authorName: 'Phoebe Keck',
     //'Akachi Luccini',
-    authorOccupation: 'Occupation',
+    authorOccupation:
+      'Operations Consulting & Transformation Analyst ,  Accenture',
     //'Lead Generation, Alternative Capital',
     feedback:
-      ' dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      ' "My involvement in QUT BANDS during my studies exposed me to a variety of new skills and opportunities. I had the chance to both network with experts across a range of fields, and hone my skills through coordinating several events and collaborating with the wider team to share our knowledge and create a community of likeminded students."',
+    // ' dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 
     // 'Your experience with BANDS',
     //      'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
   },
-  {
-    //  authorPhoto: {
-    // src:
-    //   'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
-    // srcSet:
-    //   'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
-    //  },
-    authorName: 'Name',
-    //'Akachi Luccini',
-    authorOccupation: 'Occupation',
-    //'Lead Generation, Alternative Capital',
-    feedback: 'Your experience with BANDS',
-    //  'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-  },
-  {
-    //  authorPhoto: {
-    // src:
-    //   'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
-    // srcSet:
-    //   'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
-    //  },
-    authorName: 'Name',
-    //'Akachi Luccini',
-    authorOccupation: 'Occupation',
-    //'Lead Generation, Alternative Capital',
-    feedback: 'Your experience with BANDS',
-    // 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-  },
-  {
-    //  authorPhoto: {
-    // src:
-    //   'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
-    // srcSet:
-    //   'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
-    //  },
-    authorName: 'Name',
-    //'Akachi Luccini',
-    authorOccupation: 'Occupation',
-    //'Lead Generation, Alternative Capital',
-    feedback: 'Your experience with BANDS',
-    // 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-  },
-  {
-    //  authorPhoto: {
-    // src:
-    //   'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
-    // srcSet:
-    //   'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
-    //  },
-    authorName: 'Name',
-    //'Akachi Luccini',
-    authorOccupation: 'Occupation',
-    //'Lead Generation, Alternative Capital',
-    feedback: 'Your experience with BANDS',
-    // 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-  },
+  // {
+  //   //  authorPhoto: {
+  //   // src:
+  //   //   'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
+  //   // srcSet:
+  //   //   'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
+  //   //  },
+  //   authorName: 'Ankita Sareen',
+  //   //'Akachi Luccini',
+  //   authorOccupation: 'Occupation',
+  //   //'Lead Generation, Alternative Capital',
+  //   feedback: 'Your experience with BANDS',
+  //   //  'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  // },
+  // {
+  //   //  authorPhoto: {
+  //   // src:
+  //   //   'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
+  //   // srcSet:
+  //   //   'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
+  //   //  },
+  //   authorName: 'Vishanth Bala',
+  //   //'Akachi Luccini',
+  //   authorOccupation: 'Occupation',
+  //   //'Lead Generation, Alternative Capital',
+  //   feedback: 'Your experience with BANDS',
+  //   // 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  // },
+  // {
+  //   //  authorPhoto: {
+  //   // src:
+  //   //   'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
+  //   // srcSet:
+  //   //   'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
+  //   //  },
+  //   authorName: 'Amanda Khoo',
+  //   //'Akachi Luccini',
+  //   authorOccupation: 'Occupation',
+  //   //'Lead Generation, Alternative Capital',
+  //   feedback: 'Your experience with BANDS',
+  //   // 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  // },
+  // {
+  //   //  authorPhoto: {
+  //   // src:
+  //   //   'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
+  //   // srcSet:
+  //   //   'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
+  //   //  },
+  //   authorName: 'Kate Norris',
+  //   //'Akachi Luccini',
+  //   authorOccupation: 'Occupation',
+  //   //'Lead Generation, Alternative Capital',
+  //   feedback: 'Your experience with BANDS',
+  //   // 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  // },
   // {
   //   authorPhoto: {
   //     src:

@@ -7,6 +7,7 @@ import {
   Articles,
   AskExpert,
   FeaturedProperties,
+  FeaturedProperties1,
   FooterHero,
   Hero,
   //  Partners,
@@ -21,6 +22,7 @@ import {
 import {
   aricles,
   featuredProperties,
+  featuredProperties1,
   places,
   reviews,
   // partners,
@@ -51,6 +53,9 @@ const IndustryPartners = () => {
       <SectionAlternate>
         <FeaturedProperties data={featuredProperties} />
       </SectionAlternate>
+      <Section>
+        <FeaturedProperties1 data={featuredProperties1} />
+      </Section>
       <Section>
         <Reviews data={reviews} />
       </Section>

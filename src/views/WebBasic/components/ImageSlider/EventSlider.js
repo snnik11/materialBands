@@ -17,8 +17,8 @@ const useStyles = makeStyles(theme => ({
   },
   authorPhoto: {
     width: '100%',
-    height: 300,
-    maxWidth: 400,
+    height: 200,
+    maxWidth: 300,
   },
   image: {
     objectFit: 'cover',
@@ -78,35 +78,32 @@ const Reviews = props => {
   });
 
   return (
-    <div className={className} {...rest}>
-      <SectionHeader
-        title="Success stories"
-        //"What Our Clients Say"
-        subtitle="Our platform has created opportunities for students in these many years. We continue to help other fellow mates write their success stories"
-        //"After 3 days all of your offers will arrive and you will have another 7 days to select your new company."
-      />
-      <div className={clsx('swiper-container', classes.swiperContainer)}>
-        <div className={clsx('swiper-wrapper', classes.swiperWrapper)}>
-          {data.map((item, index) => (
-            <div className="swiper-slide" key={index}>
-              <Grid container spacing={isMd ? 4 : 2}>
-                <Grid
-                  item
-                  xs={12}
-                  md={6}
-                  container
-                  justify={!isMd ? 'center' : 'flex-start'}
-                  alignItems="center"
-                >
-                  <div className={classes.authorPhoto}>
-                    <Image
-                      {...item.authorPhoto}
-                      className={classes.image}
-                      lazyProps={{ width: '100%', height: '100%' }}
-                    />
-                  </div>
-                </Grid>
-                <Grid
+    <div className={{ fontSize: '400px' }}>
+      <a href="/ourevents">What's happening at BANDS currently?</a>
+      {/* <div className={className} {...rest}>
+        <div className={clsx('swiper-container', classes.swiperContainer)}>
+          <div className={clsx('swiper-wrapper', classes.swiperWrapper)}>
+            {data.map((item, index) => (
+              <div className="swiper-slide" key={index}>
+                <Grid container spacing={isMd ? 4 : 2}>
+                  <Grid
+                    item
+                    xs={12}
+                    md={6}
+                    container
+                    justify={!isMd ? 'center' : 'flex-start'}
+                    alignItems="center"
+                  >
+                    <div className={classes.authorPhoto}>
+                      <Image
+                        {...item.authorPhoto}
+                        className={classes.image}
+                        lazyProps={{ width: '100%', height: '100%' }}
+                      />
+                    </div>
+                  </Grid> */}
+
+      {/* <Grid
                   item
                   container
                   justify={!isMd ? 'center' : 'flex-start'}
@@ -139,19 +136,20 @@ const Reviews = props => {
                       {item.authorOccupation}
                     </Typography>
                   </div>
-                </Grid>
-              </Grid>
-            </div>
-          ))}
-        </div>
-        {!isXs ? null : <div className="swiper-pagination" />}
+                </Grid> */}
+      {/* </Grid>
+              </div>
+            ))}
+          </div> */}
+      {/* {!isXs ? null : <div className="swiper-pagination" />}
         {isXs ? null : (
           <div className={classes.swiperNav}>
             <div className={clsx('swiper-button-prev')} />
             <div className={clsx('swiper-button-next')} />
           </div>
-        )}
-      </div>
+        )} */}
+      {/* </div>
+      </div> */}
     </div>
   );
 };

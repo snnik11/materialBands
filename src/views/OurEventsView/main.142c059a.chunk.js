@@ -6502,7 +6502,7 @@
                     Object(v.jsx)(Re, {
                       title: 'Success stories',
                       subtitle:
-                        'Our platform has created opportunities for students in these years. We continue to help other fellow mates write their success stories',
+                        'Our platform has created opportunities for students in these many years. We continue to help other fellow mates write their success stories',
                     }),
                     Object(v.jsxs)('div', {
                       className: Object(S.a)(

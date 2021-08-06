@@ -63,6 +63,20 @@ export default function Footer() {
               alt="fb"
             />{' '}
           </a>
+          <a href="https://twitter.com/qutbands">
+            {' '}
+            <img
+              src="https://mybands.s3.ap-southeast-2.amazonaws.com/icons/tweet.png"
+              // {fb}
+              style={{
+                width: '80px',
+                height: '80px',
+                padding: '10px',
+                pointerEvents: 'all',
+              }}
+              alt="fb"
+            />{' '}
+          </a>
         </ul>
       </div>
     </div>

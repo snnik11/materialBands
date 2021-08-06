@@ -25,6 +25,7 @@ import {
   featuredProperties1,
   places,
   reviews,
+
   // partners,
   advantages,
 } from './data';
@@ -59,6 +60,7 @@ const IndustryPartners = () => {
       <Section>
         <Reviews data={reviews} />
       </Section>
+
       {/* <Section>
         <Places data={places} />
       </Section>

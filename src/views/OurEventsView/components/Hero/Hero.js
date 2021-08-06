@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
+import { Divider } from '@material-ui/core';
 import {
   useMediaQuery,
   colors,
@@ -83,6 +84,11 @@ const Hero = props => {
 
   return (
     <div className={className} {...rest}>
+      <br />
+      <br />
+      <br />
+      <br />
+
       <Grid container justify="space-between" spacing={isMd ? 4 : 2}>
         <Grid item xs={12} md={6} data-aos={'fade-up'}>
           <SectionHeader

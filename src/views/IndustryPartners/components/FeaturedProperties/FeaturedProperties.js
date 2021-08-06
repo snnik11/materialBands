@@ -76,6 +76,7 @@ const FeaturedProperties = props => {
 
   return (
     <div className={className} {...rest}>
+      <br />
       <SectionHeader
         title="Industry Partners for Speed Networking Semester 1, 2021"
         //"Featured properties"

@@ -1,96 +1,195 @@
-import React from 'react';
-import './Navbar.css';
-import { Navbar, Nav } from 'react-bootstrap';
-//import logo from '../images/logo.png';
+import {
+  AppBar,
+  Toolbar,
+  Typography,
+  makeStyles,
+  Button,
+  IconButton,
+  Drawer,
+  Link,
+  MenuItem,
+} from '@material-ui/core';
+import MenuIcon from '@material-ui/icons/Menu';
+import React, { useState, useEffect } from 'react';
+import { Link as RouterLink } from 'react-router-dom';
 
-const navlinkStyle = {
-  textDecoration: 'none',
-  fontWeight: 'bold',
-  fontSize: '26px',
-  color: '#3f51b5',
-  backgroundColor: '#e8eaf6',
-  marginHorizontal: '10px',
-  paddingHorizontal: '23px',
-};
+const navlinks = [
+  {
+    label: 'Home',
+    href: '/',
+  },
+  {
+    label: 'About',
+    href: '/about',
+  },
+  {
+    label: 'Events',
+    href: '/ourevents',
+  },
+  {
+    label: 'Industry Partners',
+    href: '/industry_partners',
+  },
+];
 
-const navbarStyle = {
-  fontSize: '25px',
-  color: 'black',
-  display: 'flex',
-  textAlign: 'justify',
-  alignItems: 'center',
-  justifyContent: 'space-evenly',
-  backgroundColor: '#e8eaf6',
-};
-function Navb() {
+const useStyles = makeStyles(() => ({
+  header: {
+    backgroundColor: '#3f51b5',
+    paddingRight: '40px',
+    paddingLeft: '118px',
+    '@media (max-width: 900px)': {
+      paddingLeft: 0,
+    },
+  },
+  logo: {
+    fontFamily: 'Lato',
+    fontWeight: 600,
+    color: '#FFFEFE',
+    textAlign: 'left',
+  },
+  menuButton: {
+    fontFamily: 'Serif',
+    fontWeight: 700,
+    size: '18px',
+    marginLeft: '68px',
+  },
+  toolbar: {
+    display: 'flex',
+    justifyContent: 'space-between',
+  },
+  drawerContainer: {
+    padding: '20px 30px',
+  },
+}));
+
+export default function Header() {
+  const { header, logo, menuButton, toolbar, drawerContainer } = useStyles();
+
+  const [state, setState] = useState({
+    mobileView: false,
+    drawerOpen: false,
+  });
+
+  const { mobileView, drawerOpen } = state;
+
+  useEffect(() => {
+    const setResponsiveness = () => {
+      return window.innerWidth < 900
+        ? setState(prevState => ({ ...prevState, mobileView: true }))
+        : setState(prevState => ({ ...prevState, mobileView: false }));
+    };
+
+    setResponsiveness();
+
+    window.addEventListener('resize', () => setResponsiveness());
+
+    return () => {
+      window.removeEventListener('resize', () => setResponsiveness());
+    };
+  }, []);
+
+  const displayDesktop = () => {
+    return (
+      <Toolbar className={toolbar}>
+        {Bandslogo}
+        <div>{getMenuButtons()}</div>
+      </Toolbar>
+    );
+  };
+
+  const displayMobile = () => {
+    const handleDrawerOpen = () =>
+      setState(prevState => ({ ...prevState, drawerOpen: true }));
+    const handleDrawerClose = () =>
+      setState(prevState => ({ ...prevState, drawerOpen: false }));
+
+    return (
+      <Toolbar>
+        <IconButton
+          {...{
+            edge: 'start',
+            color: 'inherit',
+            'aria-label': 'menu',
+            'aria-haspopup': 'true',
+            onClick: handleDrawerOpen,
+          }}
+        >
+          <MenuIcon />
+        </IconButton>
+
+        <Drawer
+          {...{
+            anchor: 'left',
+            open: drawerOpen,
+            onClose: handleDrawerClose,
+          }}
+        >
+          <div className={drawerContainer}>{getDrawerChoices()}</div>
+        </Drawer>
+
+        <div>{Bandslogo}</div>
+      </Toolbar>
+    );
+  };
+
+  const getDrawerChoices = () => {
+    return navlinks.map(({ label, href }) => {
+      return (
+        <Link
+          {...{
+            component: RouterLink,
+            to: href,
+            color: 'inherit',
+            style: { textDecoration: 'none' },
+            key: label,
+          }}
+        >
+          <MenuItem>{label}</MenuItem>
+        </Link>
+      );
+    });
+  };
+
+  const Bandslogo = (
+    <a href="/">
+      <img
+        src="https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/bandslogo.png"
+        //"https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/bands.png"
+        alt="BANDS"
+        style={{
+          width: 'auto',
+          height: '7rem',
+          padding: '10px 15px',
+          fontFamily: 'Lato',
+          display: 'flex',
+        }}
+      ></img>
+    </a>
+  );
+
+  const getMenuButtons = () => {
+    return navlinks.map(({ label, href }) => {
+      return (
+        <Button
+          {...{
+            key: label,
+            color: 'inherit',
+            to: href,
+            component: RouterLink,
+            className: menuButton,
+          }}
+        >
+          {label}
+        </Button>
+      );
+    });
+  };
+
   return (
-    <div>
-      <Navbar
-        collapseOnSelect
-        expand="lg"
-        bg="white"
-        variant="light"
-        //style={{ background: 'grey' }}
-      >
-        {/* <Navbar.Brand
-          href="/"
-          className="header"
-          style={{ fontWeight: 'bolder', fontSize: '40px' }}
-        > */}
-
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto" style={navbarStyle}>
-            <span>
-              <a href="/">
-                <img
-                  className="bands-logo"
-                  src="https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/bands.png"
-                  //"https://mybands.s3.ap-southeast-2.amazonaws.com/logos/bands.png"
-                  //"https://mybands.s3.ap-southeast-2.amazonaws.com/events/bandslogo.png"
-                  alt="BANDS"
-                  style={{
-                    width: 'auto',
-                    height: '6.9rem',
-                    padding: '10px 15px',
-                    fontFamily: 'Lato',
-                    display: 'flex',
-                  }}
-                ></img>
-              </a>
-            </span>
-
-            {/* QUTBANDS */}
-            <div style={{ navlinkStyle }}>
-              <Nav.Link className="nav-links" href="/">
-                Home
-              </Nav.Link>
-            </div>
-            <div style={{ navlinkStyle }}>
-              <Nav.Link className="nav-links" href="/about">
-                About Us
-              </Nav.Link>
-            </div>
-            {/* <Nav.Link className = "nav-links"  href="/team">Team</Nav.Link> */}
-            <div style={{ navlinkStyle }}>
-              <Nav.Link className="nav-links" href="/ourevents">
-                Events
-              </Nav.Link>
-            </div>
-            {/* <Nav.Link className="nav-links" href="/IndustryPartners">
-              ind
-              </Nav.Link> */}
-            {/* <Nav.Link href="/faqs">FAQs</Nav.Link> */}
-            {/* <Nav.Link className = "nav-links" href="/blog">Blog</Nav.Link> */}
-            <div style={{ navlinkStyle }}>
-              <Nav.Link className="nav-links" href="/industry_partners">
-                Industry Partners
-              </Nav.Link>
-            </div>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
-    </div>
+    <header>
+      <AppBar className={header}>
+        {mobileView ? displayMobile() : displayDesktop()}
+      </AppBar>
+    </header>
   );
 }
-
-export default Navb;

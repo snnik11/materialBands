@@ -269,6 +269,24 @@ export const places = [
   },
 ];
 
+export const reviews1 = [
+  {
+    authorPhoto: {
+      src:
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/testimonials/dhanush.jpg',
+      //'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
+      srcSet:
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/testimonials/dhanush.jpg',
+      //  'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
+    },
+    authorName: 'Dhanush Kumaraswamy',
+    authorOccupation: 'QUT | Associate Business Analyst , Suncorp',
+    //'Lead Generation, Alternative Capital',
+    feedback:
+      'I happened to come across the Speed Networking Event on LinkedIn and it turned out to be truly rewarding. I was given five minutes to talk to a company representative, which eventually got me an associate business analyst role. The event had great organisations taking part which proves the networks that QUT BANDS possesses!',
+    // 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  },
+];
 export const reviews = [
   {
     authorPhoto: {

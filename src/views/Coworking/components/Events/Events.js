@@ -1,10 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
-import { useMediaQuery, Grid, Typography, Button } from '@material-ui/core';
+import {
+  useMediaQuery,
+  Grid,
+  Typography,
+  Button,
+  Divider,
+} from '@material-ui/core';
 import { Image, IconText, LearnMoreLink } from 'components/atoms';
 import { SectionHeader } from 'components/molecules';
-import { CardProduct } from 'components/organisms';
+import { CardProduct, Section } from 'components/organisms';
 
 const useStyles = makeStyles(() => ({
   fontWeight700: {
@@ -26,6 +32,7 @@ const Events = props => {
 
   return (
     <div className={className} {...rest}>
+      <Divider />
       <SectionHeader
         title="Events in Milan"
         subtitle="Events in our locations and featured events to meet people, share your passions, exchange with your knowledge, learn and grow your network."

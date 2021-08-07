@@ -35,6 +35,8 @@ const OurEventsView = () => {
 
   return (
     <div className={classes.root}>
+      <br />
+      <br />
       <Section className={classes.pagePaddingTop}>
         <Hero />
       </Section>

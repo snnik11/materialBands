@@ -48,10 +48,12 @@ const useStyles = makeStyles(() => ({
     textAlign: 'left',
   },
   menuButton: {
-    fontFamily: 'Serif',
+    fontFamily: 'Lato',
     fontWeight: 700,
     size: '18px',
     marginLeft: '68px',
+    fontSize: '20px',
+    fontStyle: 'normal',
   },
   toolbar: {
     display: 'flex',

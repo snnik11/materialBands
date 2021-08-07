@@ -41,6 +41,9 @@ const IndustryPartners = () => {
 
   return (
     <div>
+      <br />
+      <br />
+      <br />
       {/* <Hero /> */}
       {/* <SectionAlternate>
         <Search />
@@ -54,9 +57,9 @@ const IndustryPartners = () => {
       <SectionAlternate>
         <FeaturedProperties data={featuredProperties} />
       </SectionAlternate>
-      <Section>
+      {/* <Section>
         <FeaturedProperties1 data={featuredProperties1} />
-      </Section>
+      </Section> */}
       <Section>
         <Reviews data={reviews} />
       </Section>

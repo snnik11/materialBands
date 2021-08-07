@@ -291,10 +291,12 @@ export const reviews = [
   {
     authorPhoto: {
       src:
-        'https://mybands.s3.ap-southeast-2.amazonaws.com/testimonials/dhanush.jpg',
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/testimonials/dhanushk.jpg',
+      //  'https://mybands.s3.ap-southeast-2.amazonaws.com/testimonials/dhanush.jpg',
       //'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini.jpg',
       srcSet:
-        'https://mybands.s3.ap-southeast-2.amazonaws.com/testimonials/dhanush.jpg',
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/testimonials/dhanushk.jpg',
+      //  'https://mybands.s3.ap-southeast-2.amazonaws.com/testimonials/dhanush.jpg',
       //  'https://assets.maccarianagency.com/the-front/photos/people/akachi-luccini@2x.jpg 2x',
     },
     authorName: 'Dhanush Kumaraswamy',

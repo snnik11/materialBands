@@ -14,7 +14,7 @@ export const articles1 = [
     },
     title: 'Flagship event- Speed Networking',
     subtitle:
-      'Skills, knowledge and resume in place. What next? An invitation to the most desirable job in town. Meet your potential employers, network, pitch, Rest is assured. Connect with the companies and organization on the lookout for budding Business analysis and Data Scientist. It gives the opportunity to students to score an internship, score or a job in industry.',
+      "Skills, knowledge and resume in place. What's next? An invitation to the most desirable job in town. Meet your potential employers, network, pitch, Rest is assured. Connect with the companies and organizations on the lookout for budding Business analysis and Data Scientists. It gives the opportunity to students to score an internship or a job in the industry.",
     // 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec condimentum quam. Fusce pellentesque faucibus lorem at viverra. Integer at feugiat odio. In placerat euismod risus proin erat purus.',
     author: {
       photo: {
@@ -42,7 +42,7 @@ export const articles1 = [
     },
     title: 'Career Development',
     subtitle:
-      'How to make your resumes and cover letter more approachable? GIve the touch of magic to it needs!',
+      'How to make your resumes and cover letter more approachable? Give the touch of magic to it needs!',
     //  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec condimentum quam. Fusce pellentesque faucibus lorem at viverra. Integer at feugiat odio. In placerat euismod risus proin erat purus.',
     author: {
       photo: {
@@ -72,7 +72,8 @@ export const articles2 = [
     },
     title: 'Industry-Catch Up',
     subtitle:
-      'Connecting and continuing BANDS members get together for a casual meetup',
+      "Listen to the delegates from the Industries to get exposed to the knowhow's of the current job market",
+    //   'Connecting and continuing BANDS members get together for a casual meetup',
     //  'Skills, knowledge and resume in place. What next? An invitation to the most desirable job in town. Meet your potential employers, network, pitch, Rest is assured.Connect with the companies and organization on the lookout for budding Business analysis and Data Scientist. It gives the opportunity to students to score an internship, score or a job in industry.',
     // 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec condimentum quam. Fusce pellentesque faucibus lorem at viverra. Integer at feugiat odio. In placerat euismod risus proin erat purus.',
     author: {
@@ -98,7 +99,7 @@ export const articles2 = [
     title: 'Personal Branding',
     //  title: "LARQ | World's First Self-cleaning Water Bottle‎",
     subtitle:
-      'Listen to experts from the industry about recent trends in emerging technologies and exhange your ideas',
+      'Listen to experts from the industry about recent trends in emerging technologies and exchange your ideas',
     //  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec condimentum quam. Fusce pellentesque faucibus lorem at viverra. Integer at feugiat odio. In placerat euismod risus proin erat purus.',
     author: {
       photo: {
@@ -129,7 +130,7 @@ export const articles3 = [
     },
     title: 'Hackathon',
     subtitle:
-      'Great minds come together to submit their final submission for Hackathon and to present the best pitch to clain the reward',
+      'Great minds come together to submit their final submission for Hackathon and to present the best pitch to claim the reward',
     // 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec condimentum quam. Fusce pellentesque faucibus lorem at viverra. Integer at feugiat odio. In placerat euismod risus proin erat purus.',
     author: {
       photo: {
@@ -153,7 +154,7 @@ export const articles3 = [
     },
     title: 'Data Viz and Story Telling by Kate Norris',
     subtitle:
-      'Gerat opportunity for all data lvoers to learn the art of narrating stories and to create magic with visualization',
+      'Great opportunity for all data lovers to learn the art of narrating stories and to create magic with visualization',
     author: {
       photo: {
         src:
@@ -182,7 +183,7 @@ export const articles4 = [
     },
     title: 'Tableau Workshop by KeyData',
     subtitle:
-      'Hands-on workshop facilitated by industry leads on Tableau. One stop workshop for getting started with Data Viz. Also supported by technical workshop by experts to assist qit queries on Hackathon.',
+      'Hands-on workshop facilitated by industry leads on Tableau. One-stop workshop for getting started with Data Viz. Also supported by a technical workshop by experts to assist with queries on Hackathon.',
     // 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec condimentum quam. Fusce pellentesque faucibus lorem at viverra. Integer at feugiat odio. In placerat euismod risus proin erat purus.',
     author: {
       // photo: {
@@ -210,7 +211,7 @@ export const articles4 = [
     },
     title: 'Panel Discussion',
     subtitle:
-      'Listen to experts from the industry about recent trends in emerging technologies and exhange your ideas',
+      'Listen to experts from the industry about recent trends in emerging technologies and exchange your ideas',
     // 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec condimentum quam. Fusce pellentesque faucibus lorem at viverra. Integer at feugiat odio. In placerat euismod risus proin erat purus.',
     author: {
       // photo: {

@@ -35,6 +35,9 @@ const About = () => {
 
   return (
     <div className={classes.root}>
+      <br />
+      <br /> <br />
+      <br />
       <Hero />
       <Section>
         <Story />

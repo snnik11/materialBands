@@ -20,6 +20,7 @@ import {
   Pricing as PricingView,
   About as AboutView,
   AboutSideCover as AboutSideCoverView,
+  NotFoundCover as NotFoundCoverView,
   OurEventsView,
   Coworking,
 } from './views';
@@ -127,9 +128,20 @@ const Routes = () => {
             layout={MainLayout}
           />
         )}
+      />{' '}
+      <Route
+        exact
+        path="/not-found-cover"
+        render={matchProps => (
+          <WithLayout
+            // {...matchProps}
+            component={NotFoundCoverView}
+            layout={MinimalLayout}
+          />
+        )}
       />
-      <Redirect to="/home" />
-      {/* <Redirect to="/not-found-cover" /> */}
+      {/* <Redirect to="/home" /> */}
+      <Redirect to="/not-found-cover" />
     </Switch>
   );
 };

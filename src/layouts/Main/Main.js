@@ -302,16 +302,16 @@ const Main = ({ children, themeToggler, themeMode }) => {
           ],
         },
         error: {
-          //  groupTitle: 'Error',
+          groupTitle: 'Error',
           pages: [
-            // {
-            //   title: 'Simple',
-            //   href: '/not-found',
-            // },
-            // {
-            //   title: 'Cover',
-            //   href: '/not-found-cover',
-            // },
+            {
+              title: 'Simple',
+              href: '/not-found',
+            },
+            {
+              title: 'Cover',
+              href: '/not-found-cover',
+            },
           ],
         },
       },

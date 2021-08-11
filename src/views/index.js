@@ -7,3 +7,4 @@ export { default as OurEventsView } from './OurEventsView';
 export { default as Pricing } from './Pricing';
 export { default as About } from './About';
 export { default as AboutSideCover } from './AboutSideCover';
+export { default as NotFoundCover } from './NotFoundCover';

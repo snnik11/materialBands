@@ -4714,17 +4714,21 @@
             title: 'Error Simple',
             href: '/not-found',
             cover:
-              'https://assets.maccarianagency.com/the-front/web-screens/account/error-simple-min.png',
+              'https://mybands.s3.ap-southeast-2.amazonaws.com/design/404+Page+not+found.png',
+            //   'https://assets.maccarianagency.com/the-front/web-screens/account/error-simple-min.png',
             coverDark:
-              'https://assets.maccarianagency.com/the-front/web-screens/account/error-simple--dark-min.png',
+              'https://mybands.s3.ap-southeast-2.amazonaws.com/design/404+Page+not+found.png',
+            //  'https://assets.maccarianagency.com/the-front/web-screens/account/error-simple--dark-min.png',
           },
           {
             title: 'Error Cover',
             href: '/not-found-cover',
             cover:
-              'https://assets.maccarianagency.com/the-front/web-screens/account/error-cover-min.png',
+              'https://mybands.s3.ap-southeast-2.amazonaws.com/design/404+Page+not+found.png',
+            //  'https://assets.maccarianagency.com/the-front/web-screens/account/error-cover-min.png',
             coverDark:
-              'https://assets.maccarianagency.com/the-front/web-screens/account/error-cover--dark-min.png',
+              'https://mybands.s3.ap-southeast-2.amazonaws.com/design/404+Page+not+found.png',
+            //   'https://assets.maccarianagency.com/the-front/web-screens/account/error-cover--dark-min.png',
           },
         ],
         _a = [

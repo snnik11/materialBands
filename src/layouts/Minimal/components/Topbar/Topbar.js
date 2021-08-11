@@ -33,22 +33,7 @@ const Topbar = ({ themeMode, className, ...rest }) => {
   const classes = useStyles();
 
   return (
-    <Toolbar className={clsx(classes.toolbar, className)} {...rest}>
-      <div className={classes.logoContainer}>
-        <a href="/" title="thefront">
-          <Image
-            className={classes.logoImage}
-            src={
-              themeMode === 'light'
-                ? 'https://assets.maccarianagency.com/the-front/logos/logo.svg'
-                : 'https://assets.maccarianagency.com/the-front/logos/logo-negative.svg'
-            }
-            alt="thefront"
-            lazy={false}
-          />
-        </a>
-      </div>
-    </Toolbar>
+    <Toolbar className={clsx(classes.toolbar, className)} {...rest}></Toolbar>
   );
 };
 

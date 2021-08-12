@@ -87,7 +87,8 @@ const NotFoundCover = () => {
       {/* rightSide= */}
       {
         <Image
-          src="https://mybands.s3.ap-southeast-2.amazonaws.com/design/404+Page+not+found.png"
+          src="https://mybands.s3.ap-southeast-2.amazonaws.com/design/404.png"
+          //"https://mybands.s3.ap-southeast-2.amazonaws.com/design/404+Page+not+found.png"
           //"https://assets.maccarianagency.com/the-front/photos/account/cover-3.png"
 
           //   lazy={false}

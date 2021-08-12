@@ -4714,20 +4714,24 @@
             title: 'Error Simple',
             href: '/not-found',
             cover:
-              'https://mybands.s3.ap-southeast-2.amazonaws.com/design/404+Page+not+found.png',
+              'https://mybands.s3.ap-southeast-2.amazonaws.com/design/404.png',
+            //  'https://mybands.s3.ap-southeast-2.amazonaws.com/design/404+Page+not+found.png',
             //   'https://assets.maccarianagency.com/the-front/web-screens/account/error-simple-min.png',
             coverDark:
-              'https://mybands.s3.ap-southeast-2.amazonaws.com/design/404+Page+not+found.png',
+              'https://mybands.s3.ap-southeast-2.amazonaws.com/design/404.png',
+            //'https://mybands.s3.ap-southeast-2.amazonaws.com/design/404+Page+not+found.png',
             //  'https://assets.maccarianagency.com/the-front/web-screens/account/error-simple--dark-min.png',
           },
           {
             title: 'Error Cover',
             href: '/not-found-cover',
             cover:
-              'https://mybands.s3.ap-southeast-2.amazonaws.com/design/404+Page+not+found.png',
+              'https://mybands.s3.ap-southeast-2.amazonaws.com/design/404.png',
+            //  'https://mybands.s3.ap-southeast-2.amazonaws.com/design/404+Page+not+found.png',
             //  'https://assets.maccarianagency.com/the-front/web-screens/account/error-cover-min.png',
             coverDark:
-              'https://mybands.s3.ap-southeast-2.amazonaws.com/design/404+Page+not+found.png',
+              'https://mybands.s3.ap-southeast-2.amazonaws.com/design/404.png',
+            // 'https://mybands.s3.ap-southeast-2.amazonaws.com/design/404+Page+not+found.png',
             //   'https://assets.maccarianagency.com/the-front/web-screens/account/error-cover--dark-min.png',
           },
         ],
@@ -8409,7 +8413,7 @@
                               component: 'span',
                               variant: 'inherit',
                               color: 'primary',
-                              children: 'exciting events here at BANDS',
+                              children: 'exciting events  here at BANDS',
                             }),
                           ],
                         }),
@@ -8903,7 +8907,7 @@
               },
               title: 'Career Development',
               subtitle:
-                'How to make your resumes and cover letter more approachable? GIve the touch of magic to it needs!',
+                'How to make your resumes and cover letter more approachable? Give the touch of magic to it needs!',
               author: {
                 photo: {
                   src:
@@ -9628,7 +9632,7 @@
                   leftSide: Object(v.jsxs)('div', {
                     children: [
                       Object(v.jsx)(Re, {
-                        title: 'Dont be a stranger?',
+                        title: "Don't be a stranger?",
                         subtitle:
                           "Keep track of what's happening in BANDS and make the most of it!",
                         subtitleProps: {
@@ -9733,7 +9737,7 @@
               {
                 children: [
                   Object(v.jsx)(Re, {
-                    title: 'Checkout our gallery',
+                    title: 'Check out our gallery',
                     'data-aos': 'fade-up',
                   }),
                   Object(v.jsx)(kn.a, {

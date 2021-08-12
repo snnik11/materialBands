@@ -44,8 +44,7 @@ const Hero = props => {
             // }}
           >
             <img
-              src="https://mybands.s3.ap-southeast-2.amazonaws.com/design/QUT+BANDS.png"
-              //{logo}
+              src={logo}
               //"https://mybands.s3.ap-southeast-2.amazonaws.com/design/1.png"
               alt="hero"
               style={{ width: 'auto', height: '390px' }}

@@ -39,7 +39,7 @@ const Contact = props => {
           <div>
             <SectionHeader
               // title="Contact us"
-              title="Dont be a stranger?"
+              title="Don't be a stranger?"
               subtitle="Keep track of what's happening in BANDS and make the most of it!"
               //subtitle="Keep track of what's happening with your data, change permissions, and run reports against your data anywhere in the world. Keep track of what's happening with your data, change permissions."
               subtitleProps={{

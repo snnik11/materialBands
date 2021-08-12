@@ -96,7 +96,9 @@ export const featuredProperties = [
   },
   {
     image: {
-      src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/esri.png',
+      src:
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/esriAus.png',
+      //'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/esri.png',
       //  'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/esriAus.png',
       // 'https://assets.maccarianagency.com/the-front/photos/rental/6.jpg',
     },

@@ -14,10 +14,22 @@ export const aboutServices = [
     icon: 'fas fa-calendar-alt',
     //'fas fa-users',
     //'fas fa-layer-group',
+    title: 'Social Picnic QUT BANDS x 180 DC QUT',
+    // title: 'Built for developers',
+    subtitle: 'Come and have a chat with us ',
+    //   'Hackathon is an amazing opportunity for those who love to play with data and visualisation. Participate by forming a team and pitch to win a prize',
+    //'Introducing new team for Semester 2. Meet the executive team and get to know each other ',
+    //  'We bring incredible people from different industries together. Learn from their experiences and get a chance to connect with them',
+    // 'TheFront is built to make your life easier. Variables, build tooling, documentation, and reusable components.',
+  },
+  {
+    icon: 'fas fa-calendar-alt',
+    //'fas fa-users',
+    //'fas fa-layer-group',
     title: 'Hackathon BANDS x OREFOX',
     // title: 'Built for developers',
     subtitle:
-      'Hackathon is an amazing opportunity for those who love to play with data and visualisation. Participate by forming a team and pitch to win the prize',
+      'Hackathon is an amazing opportunity for those who love to play with data and visualisation. Participate by forming a team and pitch to win a prize',
     //'Introducing new team for Semester 2. Meet the executive team and get to know each other ',
     //  'We bring incredible people from different industries together. Learn from their experiences and get a chance to connect with them',
     // 'TheFront is built to make your life easier. Variables, build tooling, documentation, and reusable components.',
@@ -42,7 +54,7 @@ export const services = [
     title: 'Networking Nights',
     // title: 'Built for developers',
     subtitle:
-      'We bring incredible people from different industries together. Learn from their experiences and get a chance to connect with them',
+      'We bring incredible people from different industries,clubs and backgrounds together. Learn from their experiences and get a chance to connect with them',
     // 'TheFront is built to make your life easier. Variables, build tooling, documentation, and reusable components.',
   },
   {
@@ -61,7 +73,7 @@ export const services = [
     // title: 'Documentation for everything',
     title: 'Social Gatherings',
     subtitle:
-      'Engage yourself into technical conversations, share ideas and make new connections. All inclusive in membership!',
+      'Immerse yourself in technical conversations, share ideas and make new connections. All inclusive in membership!',
     // "We've written extensive documentation for components and tools, so you never have to reverse engineer anything.",
   },
 ];
@@ -241,7 +253,7 @@ export const reviews = [
     authorOccupation: 'QLD State Manager , ACS  ',
     //'Lead Generation, Alternative Capital',
     feedback:
-      '"ACS Queensland highly values our relationship with QUT Bands. ACS Queensland seeks to support students in gaining information, resources and knowledge on available careers in the burgeoning area of data science, and our synergistic partnership with QUT Bands supports this objective."',
+      '"ACS Queensland highly values our relationship with QUT BANDS. ACS Queensland seeks to support students in gaining information, resources and knowledge on available careers in the burgeoning area of data science, and our synergistic partnership with QUT BANDS supports this objective."',
 
     //'Your experience with BANDS',
     //      'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',

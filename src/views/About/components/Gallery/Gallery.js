@@ -24,7 +24,7 @@ const Gallery = props => {
   return (
     <div className={className} {...rest}>
       <SectionHeader
-        title="Checkout our gallery"
+        title="Check out our gallery"
         // subtitle="After 3 days all of your offers will arrive and you will have another 7 days to select your new company."
         data-aos="fade-up"
       />

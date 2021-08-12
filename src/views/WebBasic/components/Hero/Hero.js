@@ -38,7 +38,8 @@ const Hero = props => {
                 {/* <span>Develop anything your business needs.</span> */}
               </span>
             }
-            subtitle="For Business Analysis and Data Science enthusiasts providing a platform to bridge the gap between industry and academia. QUT Business Analysis and Data Science club[community] engaging both students and professionals, striving to bridge the gap between these groups for mutual benefits."
+            subtitle="QUT Business Analysis and Data Science Club (QUT BANDS) is a student run club for budding Business Analysis and Data Science enthusiasts. Our mission is to bridge the gap between QUT academia and the industry professions in the IT, Business and Data Science fields and provide mutual benefits for both sides"
+            //"For Business Analysis and Data Science enthusiasts providing a platform to bridge the gap between industry and academia. QUT Business Analysis and Data Science club[community] engaging both students and professionals, striving to bridge the gap between these groups for mutual benefits."
             // subtitle="Build a beautiful, modern website with flexible, fully customizable, atomic Material UI components."
             ctaGroup={[
               <Button
@@ -73,17 +74,22 @@ const Hero = props => {
           md={6}
           data-aos={'fade-up'}
         >
-          <Image
-            src=
-            //"https://mybands.s3.ap-southeast-2.amazonaws.com/design/2.png"
-          //  "https://mybands.s3.ap-southeast-2.amazonaws.com/design/3.png"
-            "https://mybands.s3.ap-southeast-2.amazonaws.com/design/1.png"
-            //{bandsgif}
-            style={{ height: '380px', width: '550px', borderRadius: '18px' }}
-            //"https://assets.maccarianagency.com/the-front/illustrations/mind-map.svg"
-            alt="TheFront Company"
-            className={classes.image}
-          />
+          <a href="https://qutbandsmember.getqpay.com/">
+            <Image
+              src=
+              //"https://mybands.s3.ap-southeast-2.amazonaws.com/design/QUT+BANDS.png"
+              //"https://mybands.s3.ap-southeast-2.amazonaws.com/design/member.png"
+              //"https://mybands.s3.ap-southeast-2.amazonaws.com/design/Become+a+BANDS+member.png"
+              //"https://mybands.s3.ap-southeast-2.amazonaws.com/design/2.png"
+              //  "https://mybands.s3.ap-southeast-2.amazonaws.com/design/3.png"
+               "https://mybands.s3.ap-southeast-2.amazonaws.com/design/1.png"
+              //{bandsgif}
+              style={{ height: '350px', width: '390px', borderRadius: '10px' }}
+              //"https://assets.maccarianagency.com/the-front/illustrations/mind-map.svg"
+              alt="TheFront Company"
+              className={classes.image}
+            />{' '}
+          </a>
         </Grid>
       </Grid>
     </div>

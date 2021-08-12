@@ -56,8 +56,11 @@ const WebBasic = () => {
       </SectionAlternate> */}
 
       <Section className={classes.pagePaddingTop}>
-        {' '}
-        <HeroMain />
+        <br />
+        <br />
+        <br />
+        <br />
+        {/* <HeroMain /> */}
         <br />
         <br />
         <br />

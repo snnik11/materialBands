@@ -50,7 +50,7 @@ const Features = props => {
                     </Typography>
                   </span>
                 }
-                subtitle="Inter-University Hackathons to being the community partner of United Nations Environment Program - Hackmaker, we have reached many milestones. Many more to come."
+                subtitle="From Inter-University Hackathons to being the community partner of United Nations Environment Program - Hackmaker, we have reached many milestones. Many more to come."
                 //"You have a business to run. Stop worring about cross-browser bugs, designing new pages, keeping your components up to date. Let us do that for you."
                 align="left"
                 fadeUp

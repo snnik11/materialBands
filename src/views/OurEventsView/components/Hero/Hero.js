@@ -94,9 +94,9 @@ const Hero = props => {
           <SectionHeader
             title={
               <span>
-                Bringing you all the{' '}
+                Bringing you all the exciting{' '}
                 <Typography component="span" variant="inherit" color="primary">
-                  exciting events here at BANDS
+                  events from Semester 1, 2021 here at BANDS
                 </Typography>
               </span>
             }

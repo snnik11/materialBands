@@ -36,9 +36,10 @@ const Hero = props => {
                 </Typography>
               </span>
             }
-            subtitle="For Business Analysis and Data Science enthusiasts providing a platform to bridge the gap between industry and academia. 
-            QUT Business Analysis and Data Science club[community] engaging both students and professionals,
-             striving to bridge the gap between these groups for mutual benefits. "
+            subtitle="QUT Business Analysis and Data Science Club (QUT BANDS) is a student run club for budding Business Analysis and Data Science enthusiasts. Our mission is to bridge the gap between QUT academia and the industry professions in the IT, Business and Data Science fields and provide mutual benefits for both sides"
+            // "For Business Analysis and Data Science enthusiasts providing a platform to bridge the gap between industry and academia.
+            // QUT Business Analysis and Data Science club[community] engaging both students and professionals,
+            //  striving to bridge the gap between these groups for mutual benefits. "
             // subtitle="For entrepreneurs, startups and freelancers. Discover coworking spaces designed to inspire and to connect you to a community of motivated people."
             ctaGroup={[
               // <button

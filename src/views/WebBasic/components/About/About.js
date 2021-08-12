@@ -55,7 +55,7 @@ const About = props => {
                 </span>
               </span>
             }
-            subtitle="Know what's coming up? Find it out here in this space"
+            subtitle="Know what's coming up? Find out here in this space"
             // subtitle="Build a beautiful, modern website with flexible, fully customizable, atomic Material UI components."
             align="left"
             disableGutter

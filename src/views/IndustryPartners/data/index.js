@@ -70,21 +70,6 @@ export const featuredProperties = [
   {
     image: {
       src:
-        'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/buisnessAnalysis.png',
-      //  'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/aginic.png',
-      // 'https://assets.maccarianagency.com/the-front/photos/rental/3.jpg',
-    },
-    price: '$320,000.00',
-    location: 'Beverly Hills, CA',
-    address: '272 S Rexford Dr, Beverly Hills, CA 90212, USA',
-    size: '2400 Sq Ft',
-    garages: 2,
-    baths: 2,
-    rooms: 3,
-  },
-  {
-    image: {
-      src:
         'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/blackbook.png',
       // 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/blackbookai.png',
       // 'https://assets.maccarianagency.com/the-front/photos/rental/5.jpg',
@@ -97,7 +82,21 @@ export const featuredProperties = [
     baths: 2,
     rooms: 3,
   },
-
+  {
+    image: {
+      src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/BAPL.png',
+      // 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/buisnessAnalysis.png',
+      //  'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/aginic.png',
+      // 'https://assets.maccarianagency.com/the-front/photos/rental/3.jpg',
+    },
+    price: '$320,000.00',
+    location: 'Beverly Hills, CA',
+    address: '272 S Rexford Dr, Beverly Hills, CA 90212, USA',
+    size: '2400 Sq Ft',
+    garages: 2,
+    baths: 2,
+    rooms: 3,
+  },
   {
     image: {
       src:
@@ -131,7 +130,9 @@ export const featuredProperties = [
 
   {
     image: {
-      src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/esri.png',
+      src:
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/esriAus.png',
+      //'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/esri.png',
       //  'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/esriAus.png',
       // 'https://assets.maccarianagency.com/the-front/photos/rental/6.jpg',
     },
@@ -319,7 +320,7 @@ export const reviews = [
 
     authorOccupation: 'UQ | Junior Data Engineer, OreFox',
     feedback:
-      'Speed Networking gave me a valuable opportunity to interact with companies whose interests align with my own and practise delivering content in an ‘elevator pitch’ format. Through participating in the event, I was able to land my first internship at Orefox!',
+      'Speed Networking gave me a valuable opportunity to interact with companies whose interests align with my own and practise delivering content in an ‘elevator pitch’ format. Through participating in the event, I was able to land my first internship at OreFox!',
     //  ' ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   },
 

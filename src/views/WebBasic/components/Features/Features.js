@@ -95,7 +95,7 @@ const Features = props => {
                 <br />
                 <div>
                   <CountUpNumber
-                    end={875}
+                    end={892}
                     //{24}
                     label="Facebook Followers"
                     //"Support"

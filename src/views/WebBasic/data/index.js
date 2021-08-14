@@ -16,7 +16,10 @@ export const aboutServices = [
     //'fas fa-layer-group',
     title: 'Social Picnic QUT BANDS x 180 DC QUT',
     // title: 'Built for developers',
-    subtitle: 'Come and have a chat with us ',
+    subtitle:
+      'Come and have a chat with members of both clubs over food. Exchange your stories, university experiences and shared interests.',
+    //  'Come and have a chat with members of both the clubs. Exchange stories, university experiences and shared interests with others.',
+    //'Come and have a chat with us ',
     //   'Hackathon is an amazing opportunity for those who love to play with data and visualisation. Participate by forming a team and pitch to win a prize',
     //'Introducing new team for Semester 2. Meet the executive team and get to know each other ',
     //  'We bring incredible people from different industries together. Learn from their experiences and get a chance to connect with them',
@@ -26,7 +29,7 @@ export const aboutServices = [
     icon: 'fas fa-calendar-alt',
     //'fas fa-users',
     //'fas fa-layer-group',
-    title: 'Hackathon BANDS x OREFOX',
+    title: 'Hackathon QUT BANDS x OREFOX',
     // title: 'Built for developers',
     subtitle:
       'Hackathon is an amazing opportunity for those who love to play with data and visualisation. Participate by forming a team and pitch to win a prize',

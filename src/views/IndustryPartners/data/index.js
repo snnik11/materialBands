@@ -84,7 +84,9 @@ export const featuredProperties = [
   },
   {
     image: {
-      src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/BAPL.png',
+      src:
+        //'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/baplUpdated.png',
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/BAPL.png',
       // 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/buisnessAnalysis.png',
       //  'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/aginic.png',
       // 'https://assets.maccarianagency.com/the-front/photos/rental/3.jpg',

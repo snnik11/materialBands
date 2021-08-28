@@ -78,7 +78,7 @@ const FeaturedProperties = props => {
   return (
     <div className={className} {...rest}>
       <SectionHeader
-        title="Industry Partners for Speed Networking Semester 1, 2021"
+        title="The Industry Partners for Speed Networking Semester 1, 2021"
         //"Featured properties"
         // subtitle="After 3 days all of your offers will arrive and you will have another 7 days to select your new company."
         data-aos="fade-up"

@@ -102,7 +102,7 @@ export const featuredProperties = [
   {
     image: {
       src:
-        '  https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/suncorp.png',
+        'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/mycelium.png',
       // 'https://assets.maccarianagency.com/the-front/photos/rental/2.jpg',
     },
     price: '$320,000.00',
@@ -165,7 +165,8 @@ export const featuredProperties = [
   // },
   {
     image: {
-      src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/kjr.png',
+      src:
+        '  https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/suncorp.png',
       // 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/kjr.png',
       //'https://assets.maccarianagency.com/the-front/photos/rental/6.jpg',
     },
@@ -194,7 +195,9 @@ export const featuredProperties = [
   },
   {
     image: {
-      src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/MV.png',
+      src: 'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/kjr.png',
+
+      //'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/MV.png',
       //  'https://mybands.s3.ap-southeast-2.amazonaws.com/logosem2/acs.png.png',
       // 'https://mybands.s3.ap-southeast-2.amazonaws.com/logos/esri.png',
       //'https://i.postimg.cc/W3RkLNb1/logo.png',

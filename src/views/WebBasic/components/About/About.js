@@ -86,7 +86,8 @@ const About = props => {
         >
           <Image
             style={{ width: '500px' }}
-            src="https://mybands.s3.ap-southeast-2.amazonaws.com/upcomingevents/socialpicnic.jpg"
+            src="https://mybands.s3.ap-southeast-2.amazonaws.com/upcomingevents/pd.jpg"
+            //"https://mybands.s3.ap-southeast-2.amazonaws.com/upcomingevents/socialpicnic.jpg"
             //"https://mybands.s3.ap-southeast-2.amazonaws.com/upcomingevents/welcomeparty.png"
             //"https://i.postimg.cc/MKJnp1XY/cd.jpg"
             //src="https://assets.maccarianagency.com/the-front/illustrations/dashboard-drawing.svg"

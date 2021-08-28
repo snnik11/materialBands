@@ -10,8 +10,38 @@ export const aboutServices = [
   //   //  'We bring incredible people from different industries together. Learn from their experiences and get a chance to connect with them',
   //   // 'TheFront is built to make your life easier. Variables, build tooling, documentation, and reusable components.',
   // },
+
   {
     icon: 'fas fa-calendar-alt',
+    //'fas fa-users',
+    //'fas fa-layer-group',
+    title: 'Panel Discussion',
+    // title: 'Built for developers',
+    subtitle:
+      'QUT BANDS Panel discussion is back on campus where you can interact with our industry experts who will guide the students as to what are the most trending topics in the industry at the moment and what the students need to prepare for the real world. Here’s your chance to gain the edge against your colleagues!',
+    //'Come and have a chat with members of both clubs over food. Exchange your stories, university experiences and shared interests.',
+    //  'Come and have a chat with members of both the clubs. Exchange stories, university experiences and shared interests with others.',
+    //'Come and have a chat with us ',
+    //   'Hackathon is an amazing opportunity for those who love to play with data and visualisation. Participate by forming a team and pitch to win a prize',
+    //'Introducing new team for Semester 2. Meet the executive team and get to know each other ',
+    //  'We bring incredible people from different industries together. Learn from their experiences and get a chance to connect with them',
+    // 'TheFront is built to make your life easier. Variables, build tooling, documentation, and reusable components.',
+  },
+  {
+    icon: 'far fa-calendar-check',
+    //'fas fa-users',
+    //'fas fa-layer-group',
+    title: 'Leadership Development Workshop',
+    // title: 'Built for developers',
+    subtitle:
+      'Introducing the Leadership Development Workshop where Kylie Denton from Performance Advisory Group would help us develop those “soft skills” and make us ready for the REAL WORLD and Nicola Steel from JJP talent Solutions will be sharing her ideas on how you can use the newly learned skills to your advantage in resume building and interviews.',
+    // 'Hackathon is an amazing opportunity for those who love to play with data and visualisation. Participate by forming a team and pitch to win a prize',
+    //'Introducing new team for Semester 2. Meet the executive team and get to know each other ',
+    //  'We bring incredible people from different industries together. Learn from their experiences and get a chance to connect with them',
+    // 'TheFront is built to make your life easier. Variables, build tooling, documentation, and reusable components.',
+  },
+  {
+    icon: 'far fa-calendar-check',
     //'fas fa-users',
     //'fas fa-layer-group',
     title: 'Social Picnic QUT BANDS x 180 DC QUT',
@@ -25,29 +55,18 @@ export const aboutServices = [
     //  'We bring incredible people from different industries together. Learn from their experiences and get a chance to connect with them',
     // 'TheFront is built to make your life easier. Variables, build tooling, documentation, and reusable components.',
   },
-  {
-    icon: 'fas fa-calendar-alt',
-    //'fas fa-users',
-    //'fas fa-layer-group',
-    title: 'Hackathon QUT BANDS x OREFOX',
-    // title: 'Built for developers',
-    subtitle:
-      'Hackathon is an amazing opportunity for those who love to play with data and visualisation. Participate by forming a team and pitch to win a prize',
-    //'Introducing new team for Semester 2. Meet the executive team and get to know each other ',
-    //  'We bring incredible people from different industries together. Learn from their experiences and get a chance to connect with them',
-    // 'TheFront is built to make your life easier. Variables, build tooling, documentation, and reusable components.',
-  },
-  {
-    icon: 'far fa-calendar-check',
-    //'fas fa-users',
-    //'fas fa-layer-group',
-    title: 'Welcome Party',
-    // title: 'Built for developers',
-    subtitle:
-      'Introducing new team for Semester 2. Meet the executive team and get to know each other ',
-    //  'We bring incredible people from different industries together. Learn from their experiences and get a chance to connect with them',
-    // 'TheFront is built to make your life easier. Variables, build tooling, documentation, and reusable components.',
-  },
+
+  // {
+  //   icon: 'far fa-calendar-check',
+  //   //'fas fa-users',
+  //   //'fas fa-layer-group',
+  //   title: 'Welcome Party',
+  //   // title: 'Built for developers',
+  //   subtitle:
+  //     'Introducing new team for Semester 2. Meet the executive team and get to know each other ',
+  //   //  'We bring incredible people from different industries together. Learn from their experiences and get a chance to connect with them',
+  //   // 'TheFront is built to make your life easier. Variables, build tooling, documentation, and reusable components.',
+  // },
 ];
 
 export const services = [
